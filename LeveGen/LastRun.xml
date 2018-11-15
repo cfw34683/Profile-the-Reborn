@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile>
+	<Name>Levequests</Name>
+	<KillRadius>50</KillRadius>
+	<Order>
+
+        <If Condition="ItemCount(2816) &lt; 3">
+            
+        <Lisbeth Json="[
+            {'Item': 2816,
+               'Group': 0,
+               'Amount': 45,
+               'Collectable': false,
+               'QuickSynth': false,
+               'SuborderQuickSynth': false,
+               'Hq': false,
+               'Food': 0,
+               'Primary': true,
+               'Type': 'Weaver',
+               'Enabled': true,
+               'Manual': 0,
+               'Medicine': 0},]" />
+        </If>
+        
+        <LgSwitchGearset Job="Weaver" />
+        <While Condition="ExBuddy.Windows.GuildLeve.Allowances &gt; 0 and ItemCount(2816) &gt; 2 and Core.Me.Levels[ClassJobType.Weaver] &gt;= 40">
+            <If Condition="not IsOnMap(130)">
+                <GetTo ZoneId="130" XYZ="42.0224,8.00998,-107.562" />
+            </If>
+            <ExPickupGuildLeve LeveIds="431" LeveType="Tradecraft" NpcId="1001794" NpcLocation="42.0224,8.00998,-107.562" Timeout="5" />
+            <If Condition="not IsOnMap(130)">
+                <GetTo ZoneId="130" XYZ="-33.605,9.11306,-84.2591" />
+            </If>
+            <ExTurnInGuildLeve NpcId="1004417" NpcLocation="-33.605,9.11306,-84.2591"   />
+        </While>
+        
+	</Order>
+</Profile>

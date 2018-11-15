@@ -1,0 +1,315 @@
+<!--
+Author: QueenLilith
+
+REQUIRED:
+- ExMatt's ExBuddy :: https://github.com/MGramolini/ExBuddy/trunk/ExBuddy
+
+IMPORTANT:
+- Ensure you change your Gear Set Number in the CodeChunks section
+- This profile is endless and requires a manual stop
+- Due to being endless, watch your bag space and ensure it is as empty as possible
+- Due to their rarity and scarcity these are highly populated nodes. Always keep and eye on your character just in case of whispers or other unforeseen issues.
+-->
+
+<!-- User Configuration -->
+<!DOCTYPE Profile [
+
+<!ENTITY DiscoverUnknowns "True">
+<!ENTITY CordialGrade "Cordial"> <!-- None, Cordial, HiCordial or Auto -->
+<!ENTITY CordialTime "BeforeGather"> <!-- None, BeforeGather, AfterGather, IfNeeded, IfNeededOrAfter, or Auto -->
+
+<!ENTITY WaitZoneID "635">
+<!ENTITY WaitTeleportName "Rhalgr's Reach">
+<!ENTITY WaitTeleportID "104">
+
+<!ENTITY LogColor "#66FF66">
+]>
+
+<!-- Start Routine -->
+<Profile>
+	
+	<Name>[MIN] Red Gatherers' Scrip</Name>
+	<KillRadius>25</KillRadius>
+	
+	<CodeChunks>
+		<CodeChunk Name="Miner">
+		<![CDATA[ 
+			ff14bot.Managers.ChatManager.SendChat("/gs change 5");
+		]]>
+		</CodeChunk>
+	</CodeChunks>
+
+	<Order>
+
+	<While condition="True">
+
+		<!-- Switch Gear Set to Miner -->
+		<If Condition="ClassName != ClassJobType.Miner">
+			<RunCode Name="Miner" />
+			<WaitTimer WaitTime="2" />
+		</If>
+
+		<!-- Raw Star Spinel -->
+		<If Condition="IsTimeBetween(0,2)">
+				
+			<If Condition="not IsOnMap(613)">
+				<TeleportTo name="Onokoro" aetheryteId="106" />
+			</If>
+
+			<NoCombatMoveTo Name="Farm Area" XYZ="-325.3954, 60.90504, -806.37" />
+	
+			<GatherCollectable while="True" DiscoverUnknowns="&DiscoverUnknowns;" CordialType="&CordialGrade;" CordialTime="&CordialTime;" Loops="1" SpellDelay="1000">
+
+				<GatherObject>Unspoiled Mineral Deposit</GatherObject>
+		
+				<HotSpots>
+					<HotSpot Radius="100" XYZ="-325.3954, 60.90504, -806.37" name="Raw Star Spinel" />
+				</HotSpots>
+		
+				<Collectables>
+					<Collectable Name="Raw Star Spinel" Value="450" />
+				</Collectables>
+
+				<GatherRotation>Collect450</GatherRotation>
+			
+			</GatherCollectable>
+
+		</If>
+
+
+		<If Condition="IsTimeBetween(0,2)">
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Moving to Wait Location" />
+
+			<If Condition="not IsOnMap(&WaitZoneID;)">
+				<TeleportTo name="&WaitTeleportName;" aetheryteId="&WaitTeleportID;" />
+			</If>
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Waiting for next node spawn" />
+
+			<WaitWhile Condition="IsTimeBetween(0,2)" />
+			
+		</If>
+
+		<!-- Raw Triphane -->
+		<If Condition="IsTimeBetween(2,4)">
+				
+			<If Condition="not IsOnMap(612)">
+				<TeleportTo name="Castrum Oriens" aetheryteId="98" />
+			</If>
+
+			<NoCombatMoveTo Name="Farm Area" XYZ="-629.0375, 152.2415, -509.1203" />
+			<NoCombatMoveTo Name="Farm Area" XYZ="162.5724, 83.72106, -655.4832" />
+	
+			<GatherCollectable while="True" DiscoverUnknowns="&DiscoverUnknowns;" CordialType="&CordialGrade;" CordialTime="&CordialTime;" Loops="1" SpellDelay="1000">
+
+				<GatherObject>Unspoiled Mineral Deposit</GatherObject>
+		
+				<HotSpots>
+					<HotSpot Radius="100" XYZ="162.5724, 83.72106, -655.4832" name="Raw Triphane" />
+				</HotSpots>
+		
+				<Collectables>
+					<Collectable Name="Raw Triphane" Value="450" />
+				</Collectables>
+
+				<GatherRotation>Collect450</GatherRotation>
+			
+			</GatherCollectable>
+
+		</If>
+
+
+		<If Condition="IsTimeBetween(2,4)">
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Moving to Wait Location" />
+
+			<If Condition="not IsOnMap(&WaitZoneID;)">
+				<TeleportTo name="&WaitTeleportName;" aetheryteId="&WaitTeleportID;" />
+			</If>
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Waiting for next node spawn" />
+
+			<WaitWhile Condition="IsTimeBetween(2,4)" />
+			
+		</If>
+
+		<!-- Raw Azurite -->
+		<If Condition="IsTimeBetween(4,6)">
+				
+			<If Condition="not IsOnMap(622)">
+				<TeleportTo name="The Dawn Throne" aetheryteId="110" />
+			</If>
+
+			<NoCombatMoveTo Name="Farm Area" XYZ="78.12397, 167.0607, 36.27269" />
+			<NoCombatMoveTo Name="Farm Area" XYZ="-804.9413, 141.9625, 225.1124" />
+	
+			<GatherCollectable while="True" DiscoverUnknowns="&DiscoverUnknowns;" CordialType="&CordialGrade;" CordialTime="&CordialTime;" Loops="1" SpellDelay="1000">
+
+				<GatherObject>Unspoiled Mineral Deposit</GatherObject>
+		
+				<HotSpots>
+					<HotSpot Radius="100" XYZ="-813.3021, 142.205, 190.9483" name="Raw Azurite" />
+					<HotSpot Radius="100" XYZ="-802.1894, 114.0348, 424.4543" name="Raw Azurite" />
+				</HotSpots>
+		
+				<Collectables>
+					<Collectable Name="Raw Azurite" Value="450" />
+				</Collectables>
+
+				<GatherRotation>Collect450</GatherRotation>
+			
+			</GatherCollectable>
+
+		</If>
+
+
+		<If Condition="IsTimeBetween(4,12)">
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Moving to Wait Location" />
+
+			<If Condition="not IsOnMap(&WaitZoneID;)">
+				<TeleportTo name="&WaitTeleportName;" aetheryteId="&WaitTeleportID;" />
+			</If>
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Waiting for next node spawn" />
+
+			<WaitWhile Condition="IsTimeBetween(4,12)" />
+			
+		</If>
+
+		<!-- Raw Star Spinel -->
+		<If Condition="IsTimeBetween(12,14)">
+				
+			<If Condition="not IsOnMap(613)">
+				<TeleportTo name="Onokoro" aetheryteId="106" />
+			</If>
+
+			<NoCombatMoveTo Name="Farm Area" XYZ="-325.3954, 60.90504, -806.37" />
+	
+			<GatherCollectable while="True" DiscoverUnknowns="&DiscoverUnknowns;" CordialType="&CordialGrade;" CordialTime="&CordialTime;" Loops="1" SpellDelay="1000">
+
+				<GatherObject>Unspoiled Mineral Deposit</GatherObject>
+		
+				<HotSpots>
+					<HotSpot Radius="100" XYZ="-325.3954, 60.90504, -806.37" name="Raw Star Spinel" />
+				</HotSpots>
+		
+				<Collectables>
+					<Collectable Name="Raw Star Spinel" Value="450" />
+				</Collectables>
+
+				<GatherRotation>Collect450</GatherRotation>
+			
+			</GatherCollectable>
+
+		</If>
+
+
+		<If Condition="IsTimeBetween(12,14)">
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Moving to Wait Location" />
+
+			<If Condition="not IsOnMap(&WaitZoneID;)">
+				<TeleportTo name="&WaitTeleportName;" aetheryteId="&WaitTeleportID;" />
+			</If>
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Waiting for next node spawn" />
+
+			<WaitWhile Condition="IsTimeBetween(12,14)" />
+			
+		</If>
+
+		<!-- Raw Triphane -->
+		<If Condition="IsTimeBetween(14,16)">
+				
+			<If Condition="not IsOnMap(612)">
+				<TeleportTo name="Castrum Oriens" aetheryteId="98" />
+			</If>
+
+			<NoCombatMoveTo Name="Farm Area" XYZ="-629.0375, 152.2415, -509.1203" />
+			<NoCombatMoveTo Name="Farm Area" XYZ="162.5724, 83.72106, -655.4832" />
+	
+			<GatherCollectable while="True" DiscoverUnknowns="&DiscoverUnknowns;" CordialType="&CordialGrade;" CordialTime="&CordialTime;" Loops="1" SpellDelay="1000">
+
+				<GatherObject>Unspoiled Mineral Deposit</GatherObject>
+		
+				<HotSpots>
+					<HotSpot Radius="100" XYZ="162.5724, 83.72106, -655.4832" name="Raw Triphane" />
+				</HotSpots>
+		
+				<Collectables>
+					<Collectable Name="Raw Triphane" Value="450" />
+				</Collectables>
+
+				<GatherRotation>Collect450</GatherRotation>
+			
+			</GatherCollectable>
+
+		</If>
+
+
+		<If Condition="IsTimeBetween(14,16)">
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Moving to Wait Location" />
+
+			<If Condition="not IsOnMap(&WaitZoneID;)">
+				<TeleportTo name="&WaitTeleportName;" aetheryteId="&WaitTeleportID;" />
+			</If>
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Waiting for next node spawn" />
+
+			<WaitWhile Condition="IsTimeBetween(14,16)" />
+			
+		</If>
+
+		<!-- Raw Azurite -->
+		<If Condition="IsTimeBetween(16,18)">
+				
+			<If Condition="not IsOnMap(622)">
+				<TeleportTo name="The Dawn Throne" aetheryteId="110" />
+			</If>
+
+			<NoCombatMoveTo Name="Farm Area" XYZ="78.12397, 167.0607, 36.27269" />
+			<NoCombatMoveTo Name="Farm Area" XYZ="-804.9413, 141.9625, 225.1124" />
+	
+			<GatherCollectable while="True" DiscoverUnknowns="&DiscoverUnknowns;" CordialType="&CordialGrade;" CordialTime="&CordialTime;" Loops="1" SpellDelay="1000">
+
+				<GatherObject>Unspoiled Mineral Deposit</GatherObject>
+		
+				<HotSpots>
+					<HotSpot Radius="100" XYZ="-813.3021, 142.205, 190.9483" name="Raw Azurite" />
+					<HotSpot Radius="100" XYZ="-802.1894, 114.0348, 424.4543" name="Raw Azurite" />
+				</HotSpots>
+		
+				<Collectables>
+					<Collectable Name="Raw Azurite" Value="450" />
+				</Collectables>
+
+				<GatherRotation>Collect450</GatherRotation>
+			
+			</GatherCollectable>
+
+		</If>
+
+
+		<If Condition="IsTimeBetween(16,24)">
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Moving to Wait Location" />
+
+			<If Condition="not IsOnMap(&WaitZoneID;)">
+				<TeleportTo name="&WaitTeleportName;" aetheryteId="&WaitTeleportID;" />
+			</If>
+
+			<ExLog Color="&LogColor;" Name="Wait" Message="Waiting for next node spawn" />
+
+			<WaitWhile Condition="IsTimeBetween(16,24)" />
+			
+		</If>
+
+
+	</While>
+
+	</Order>
+
+</Profile>
