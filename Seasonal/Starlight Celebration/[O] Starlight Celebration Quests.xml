@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#############################################
+# Profile: [O] Starlight Celebration Quests #
+#############################################
+# Author: y2krazy                           #
+#############################################
+# Version: 3.0.1a                           #
+#############################################
+# Required Level: 15                        #
+#############################################
+# Required User Interaction:                #
+#  None                                     #
+#############################################
+# Required Setup:                           #
+#  None                                     #
+#############################################
+-->
+<!-- User Configuration -->
+<!DOCTYPE Profile [
+
+  <!-- Log Colors -->
+
+  <!ENTITY LogColor "#66FF66"> <!-- Normal -->
+]>
+<Profile>
+	<Name>[O] Starlight Celebration Quests (v3.0.1a)</Name>
+	<BehaviorDirectory>../../Quest Behaviors</BehaviorDirectory>
+	<KillRadius>90</KillRadius>
+	<Order>
+
+		<Log Color="&LogColor;" Name="Starlight Celebration" Message="Checking for completed quests..."/>
+
+		<!-- Stars and Explosions and Bears, Oh My -->
+
+		<If Condition="not IsQuestCompleted(68545)">
+			<If Condition="not HasQuest(68545)">
+				<Log Color="&LogColor;" Name="Starlight Celebration" Message="Picking up the Stars and Explosions and Bears, Oh My quest!"/>
+                <GetTo ZoneId="133" XYZ="-50.12598, 5.960527, -102.7086" /> <!-- Amh Garanjy -->
+                <If Condition="IsQuestAcceptQualified(68545)">
+                    <PickupQuest NpcId="1024169" QuestId="68545" XYZ="-50.12598, 5.960527, -102.7086" />
+                </If>
+			</If>
+			<If Condition="HasQuest(68545)">
+				<If Condition="GetQuestStep(68545) == 1">
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Baenfaeld..."/>
+                    <GetTo ZoneId="148" XYZ="2.945007, -8.000669, 5.386414" /> <!-- Baenfaeld -->
+                    <TalkTo NpcId="1024170" XYZ="2.945007, -8.000669, 5.386414" QuestId="68545" StepId="1" />
+				</If>
+				<While Condition="GetQuestStep(68545) == 2">
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Kochab..."/>
+					<GetTo ZoneId="148" XYZ="7.156433, -8.007142, 10.51343" /> <!-- Kochab -->
+					<TalkTo NpcId="1024446" XYZ="7.156433, -8.007142, 10.51343" QuestId="68545" StepId="2" />
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Pferkad..."/>
+					<TalkTo NpcId="1024447" XYZ="9.414734, -8, 8.712891" QuestId="68545" StepId="2" />
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Polaris..."/>
+					<TalkTo NpcId="1024445" XYZ="3.738403, -8.011992, 10.66602" QuestId="68545" StepId="2" />
+				</While>
+				<While Condition="GetQuestStep(68545) == 3">
+                    <If Condition="not Core.Player.IsMounted">
+						<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Starlight Bear Handler..." />
+						<GetTo ZoneId="148" XYZ="11.73413, -8.000001, 8.346619" /> <!-- Starlight Bear Handler -->
+						<TalkTo NpcId="1024454" XYZ="11.73413, -8.000001, 8.346619" QuestId="68545" StepId="3" />
+                    </If>
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Throwing a Starburst on the designated location..." />
+					<NoCombatMoveTo Name="Destination" XYZ="-21.22534, -0.01531982, -11.39856" />
+					<RunCode Name="Stars_and_Explosions_and_Bears_Oh_My" />
+				</While>
+				<While Condition="GetQuestStep(68545) == 4">
+                    <If Condition="not Core.Player.IsMounted">
+						<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Starlight Bear Handler..." />
+						<GetTo ZoneId="148" XYZ="11.73413, -8.000001, 8.346619" /> <!-- Starlight Bear Handler -->
+						<TalkTo NpcId="1024454" XYZ="11.73413, -8.000001, 8.346619" QuestId="68545" StepId="4" />
+                    </If>
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Throwing a Starburst on the designated location..." />
+					<NoCombatMoveTo Name="Destination" XYZ="18.32605, -8.011047, 77.83618" />
+					<RunCode Name="Stars_and_Explosions_and_Bears_Oh_My2" />
+				</While>
+				<If Condition="GetQuestStep(68545) == 255">
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Turning in the Stars and Explosions and Bears, Oh My quest!"/>
+                    <GetTo ZoneId="148" XYZ="18.32605, -8, 75.66943" /> <!-- Taff -->
+                    <TurnIn QuestId="68545" NpcId="1024451" XYZ="18.32605, -8, 75.66943" />
+				</If>
+			</If>
+		</If>
+
+		<!-- Starlight Stakeout -->
+
+		<If Condition="not IsQuestCompleted(68546)">
+			<If Condition="not HasQuest(68546)">
+				<Log Color="&LogColor;" Name="Starlight Celebration" Message="Picking up the Starlight Stakeout quest!"/>
+                <GetTo ZoneId="148" XYZ="18.32605, -8, 75.66943" /> <!-- Taff -->
+                <If Condition="IsQuestAcceptQualified(68546)">
+                    <PickupQuest NpcId="1024451" QuestId="68546" XYZ="18.32605, -8, 75.66943" />
+                </If>
+			</If>
+			<If Condition="HasQuest(68546)">
+				<If Condition="GetQuestStep(68546) == 1">
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Baenfaeld..."/>
+                    <GetTo ZoneId="148" XYZ="48.53894, -23.92205, 215.4115" /> <!-- Baenfaeld -->
+                    <TalkTo NpcId="1024518" XYZ="48.53894, -23.92205, 215.4115" QuestId="68546" StepId="1" />
+				</If>
+				<If Condition="GetQuestStep(68546) == 2">
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Starlight Bear Handler..."/>
+                    <GetTo ZoneId="148" XYZ="178.3932, -32.11507, 352.1323" /> <!-- Starlight Bear Handler -->
+                    <TalkTo NpcId="1024516" XYZ="178.3932, -32.11507, 352.1323" QuestId="68546" StepId="2" />
+				</If>
+				<If Condition="GetQuestStep(68546) == 3">
+                    <If Condition="not Core.Player.IsMounted">
+						<Log Color="&LogColor;" Name="Starlight Celebration" Message="Talking to Starlight Bear Handler..." />
+						<GetTo ZoneId="148" XYZ="178.3932, -32.11507, 352.1323" /> <!-- Starlight Bear Handler -->
+						<TalkTo NpcId="1024516" XYZ="178.3932, -32.11507, 352.1323" QuestId="68546" StepId="3" />
+                    </If>
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Completing the Bad Luck Comes in Trees FATE..." />
+					<NoCombatMoveTo Name="FATE: Bad Luck Comes in Trees" XYZ="192.9954, -32.75785, 397.9171" />
+					<RunCode Name="Starlight_Stakeout" />
+				</If>
+				<If Condition="GetQuestStep(68546) == 255">
+
+					<!-- Rewards
+
+					Starlight Bear Horn
+
+					-->
+
+					<Log Color="&LogColor;" Name="Starlight Celebration" Message="Turning in the Starlight Stakeout quest!"/>
+                    <GetTo ZoneId="148" XYZ="18.32605, -8, 75.66943" /> <!-- Taff -->
+                    <TurnIn QuestId="68546" NpcId="1024451" XYZ="18.32605, -8, 75.66943" />
+				</If>
+			</If>
+		</If>
+
+		<Log Color="&LogColor;" Name="Starlight Celebration" Message="You've completed the Starlight Celebration seasonal event quests!"/>
+
+	</Order>
+	<CodeChunks>
+        <CodeChunk Name="Stars_and_Explosions_and_Bears_Oh_My">
+			<![CDATA[ 
+				await Coroutine.Sleep(1000);
+				GameObjectManager.GetObjectByNPCId(2008623).Target();
+				await Coroutine.Sleep(1000);
+				ActionManager.DoActionLocation(10019,new Vector3(-21.22534f, -0.01531982f, -11.39856f));
+				await Coroutine.Sleep(10000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(2000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(1000);
+			]]>
+        </CodeChunk>
+        <CodeChunk Name="Stars_and_Explosions_and_Bears_Oh_My2">
+			<![CDATA[ 
+				await Coroutine.Sleep(1000);
+				GameObjectManager.GetObjectByNPCId(2008624).Target();
+				await Coroutine.Sleep(1000);
+				ActionManager.DoActionLocation(10019,new Vector3(18.32605f, -8.011047f, 77.83618f));
+				await Coroutine.Sleep(10000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(4000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(2000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(1000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(1000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(1000);
+			]]>
+        </CodeChunk>
+        <CodeChunk Name="Starlight_Stakeout">
+			<![CDATA[ 
+                while (ConditionParser.GetQuestStep(68546) == 3)
+                {
+                    System.Windows.Media.Color textColor = System.Windows.Media.Color.FromRgb(29,213,226);
+                    System.Windows.Media.Color shadowColor = System.Windows.Media.Color.FromRgb(13,106,175);
+                    Core.OverlayManager.AddToast(() => "[Starlight Celebration]\nPlease manually complete the\nBad Luck Comes in Trees FATE!", TimeSpan.FromMilliseconds(25000), textColor, shadowColor, new System.Windows.Media.FontFamily("Gautami"));
+                    await Coroutine.Sleep(1000);
+					if (!Core.Me.IsLevelSynced)
+					{
+						ToDoList.LevelSync();
+						await Coroutine.Sleep(1000);
+					}
+					while (Core.Me.IsLevelSynced)
+					{
+						ActionManager.DoActionLocation(10019,new Vector3(201.0158f, -32.75785f, 402.789f));
+						await Coroutine.Sleep(5000);
+						if(!Core.Me.IsLevelSynced)
+						{
+							ToDoList.LevelSync();
+							await Coroutine.Sleep(1000);
+						}
+						ActionManager.DoActionLocation(10019,new Vector3(189.3112f, -32.42972f, 413.7464f));
+						await Coroutine.Sleep(5000);
+						if(!Core.Me.IsLevelSynced)
+						{
+							ToDoList.LevelSync();
+							await Coroutine.Sleep(1000);
+						}
+						ActionManager.DoActionLocation(10019,new Vector3(187.7738f, -32.91975f, 391.7484f));
+						await Coroutine.Sleep(5000);
+					}
+                }
+			]]>
+        </CodeChunk>
+	</CodeChunks>
+	<GrindAreas>
+	</GrindAreas>
+</Profile>

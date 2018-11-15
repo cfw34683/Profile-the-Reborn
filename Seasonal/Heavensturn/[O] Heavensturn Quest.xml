@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+##################################
+# Profile: [O] Heavensturn Quest #
+##################################
+# Author: y2krazy                #
+##################################
+# Version: 3.0.0                 #
+##################################
+# Required Level: 15             #
+##################################
+# Required User Interaction:     #
+#  FATE: Who Let the Hounds Out  #
+##################################
+# Required Setup:                #
+#  None                          #
+##################################
+-->
+<!-- User Configuration -->
+<!DOCTYPE Profile [
+
+  <!-- Log Colors -->
+
+  <!ENTITY LogColor "#66FF66"> <!-- Normal -->
+]>
+<!-- End User Configuration -->
+<Profile>
+	<Name>[O] Heavensturn Quest (v3.0.0)</Name>
+	<BehaviorDirectory>../../Quest Behaviors</BehaviorDirectory>
+	<KillRadius>90</KillRadius>
+	<Order>
+
+		<Log Color="&LogColor;" Name="Heavensturn" Message="Checking for completed quests..."/>
+
+		<!-- More Bark and Mochi Bite -->
+
+		<If Condition="not IsQuestCompleted(67961)">
+			<If Condition="not HasQuest(67961)">
+				<Log Color="&LogColor;" Name="Heavensturn" Message="Picking up the More Bark and Mochi Bite quest!"/>
+                <GetTo ZoneId="128" XYZ="16.28131, 45.656, 133.9285" /> <!-- Inu Bugyo -->
+                <If Condition="IsQuestAcceptQualified(67961)">
+                    <PickupQuest NpcId="1019661" QuestId="67961" XYZ="16.28131, 45.656, 133.9285" />
+                </If>
+			</If>
+			<If Condition="HasQuest(67961)">
+                <If Condition="GetQuestStep(67961) == 1">
+					<Log Color="&LogColor;" Name="Heavensturn" Message="Finding Taro..."/>
+                    <GetTo ZoneId="129" XYZ="-98.1308, 18.00033, -17.86841" /> <!-- Taro -->
+                    <TalkTo NpcId="1019674" XYZ="-98.1308, 18.00033, -17.86841" QuestId="67961" StepId="1" />
+                </If>
+                <If Condition="GetQuestStep(67961) == 2">
+					<Log Color="&LogColor;" Name="Heavensturn" Message="Finding Taro..."/>
+                    <GetTo ZoneId="129" XYZ="-197.7722, 15.99999, 33.46301" /> <!-- Taro -->
+                    <TalkTo NpcId="1019676" XYZ="-197.7722, 15.99999, 33.46301" QuestId="67961" StepId="2" />
+                </If>
+                <If Condition="GetQuestStep(67961) == 3">
+					<Log Color="&LogColor;" Name="Heavensturn" Message="Finding Taro..."/>
+                    <GetTo ZoneId="129" XYZ="-171.6793, 20, 132.2499" /> <!-- Taro -->
+                    <TalkTo NpcId="1019677" XYZ="-171.6793, 20, 132.2499" QuestId="67961" StepId="3" />
+                </If>
+                <If Condition="GetQuestStep(67961) == 4">
+					<Log Color="&LogColor;" Name="Heavensturn" Message="Reporting to the Inu Bugyo..."/>
+                    <GetTo ZoneId="128" XYZ="16.28131, 45.656, 133.9285" /> <!-- Inu Bugyo -->
+                    <TalkTo NpcId="1019661" XYZ="16.28131, 45.656, 133.9285" QuestId="67961" StepId="4" />
+                </If>
+				<If Condition="GetQuestStep(67961) == 5">
+					<Log Color="&LogColor;" Name="Heavensturn" Message="FATE: Who Let the Hounds Out..."/>
+                    <GetTo ZoneId="135" XYZ="-93.22091, 3.484981, 705.783" /> <!-- FATE: Who Let the Hounds Out -->
+					<Dismount />
+					<RunCode Name="More_Bark_and_Mochi_Bite" />
+				</If>
+				<If Condition="GetQuestStep(67961) == 255">
+					<Log Color="&LogColor;" Name="Heavensturn" Message="Turning in the More Bark and Mochi Bite quest!"/>
+                	<GetTo ZoneId="128" XYZ="16.28131, 45.656, 133.9285" /> <!-- Inu Bugyo -->
+
+					<!-- Rewards
+
+					White Inu Kabuto
+					Black Inu Kabuto
+
+					-->
+
+					<TurnIn QuestId="67961" NpcId="1019661" XYZ="16.28131, 45.656, 133.9285"/>
+				</If>
+			</If>
+		</If>
+
+		<Log Color="&LogColor;" Name="Heavensturn" Message="You've completed the Heavensturn seasonal event quest!"/>
+
+	</Order>
+	<CodeChunks>
+        <CodeChunk Name="More_Bark_and_Mochi_Bite">
+			<![CDATA[ 
+                while (ConditionParser.GetQuestStep(67961) == 5)
+                {
+                    System.Windows.Media.Color textColor = System.Windows.Media.Color.FromRgb(29,213,226);
+                    System.Windows.Media.Color shadowColor = System.Windows.Media.Color.FromRgb(13,106,175);
+                    Core.OverlayManager.AddToast(() => "[Heavensturn]\nPlease manually complete the\nWho Let the Hounds Out FATE!", TimeSpan.FromMilliseconds(25000), textColor, shadowColor, new System.Windows.Media.FontFamily("Gautami"));
+                    await Coroutine.Sleep(25000);
+					if (!Core.Me.IsLevelSynced)
+					{
+						ToDoList.LevelSync();
+						await Coroutine.Sleep(1000);
+					}
+                }
+			]]>
+        </CodeChunk>
+	</CodeChunks>
+	<GrindAreas>
+	</GrindAreas>
+</Profile>

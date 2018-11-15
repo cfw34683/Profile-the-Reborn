@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+######################################
+# Profile: [O] Moonfire Faire Quests #
+######################################
+# Author: y2krazy                    #
+######################################
+# Version: 3.0.0                     #
+######################################
+# Required Level: 15                 #
+######################################
+# Required User Interaction:         #
+#  1 "Cutscene" Objective            #
+######################################
+-->
+<!-- User Configuration -->
+<!DOCTYPE Profile [
+
+  <!-- Log Colors -->
+
+  <!ENTITY LogColor "#66FF66"> <!-- Normal -->
+]>
+<!-- End User Configuration -->
+<Profile>
+	<Name>[O] Moonfire Faire Quests (v3.0.0)</Name>
+	<BehaviorDirectory>../../Quest Behaviors</BehaviorDirectory>
+	<KillRadius>90</KillRadius>
+	<Order>
+
+		<Log Color="&LogColor;" Name="Moonfire Faire" Message="Checking for completed quest..."/>
+
+		<!-- The Isle and the Faire -->
+
+		<If Condition="not IsQuestCompleted(68492)">
+			<If Condition="not HasQuest(68492)">
+				<Log Color="&LogColor;" Name="Moonfire Faire" Message="Picking up The Isle and the Faire quest!"/>
+                <GetTo ZoneId="128" XYZ="14.32819, 45.66599, 131.3649" /> <!-- Mayaru Moyaru -->
+                <If Condition="IsQuestAcceptQualified(68492)">
+                    <PickupQuest NpcId="1023793" QuestId="68492" XYZ="14.32819, 45.66599, 131.3649" />
+                </If>
+			</If>
+			<If Condition="HasQuest(68492)">
+                <If Condition="GetQuestStep(68492) == 1">
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Talking to Haermaga..."/>
+                    <GetTo ZoneId="137" XYZ="763.8518, 11.07654, 478.8833" /> <!-- Haermaga -->
+                    <TalkTo NpcId="1023788" XYZ="765.8044, 11.00171, 478.9348" QuestId="68492" StepId="1" />
+                </If>
+                <If Condition="GetQuestStep(68492) == 2">
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Talking to P'obyano..."/>
+                    <GetTo ZoneId="137" XYZ="768.4159, 11.07654, 474.5369" /> <!-- P'obyano -->
+                    <TalkTo NpcId="1023789" XYZ="768.307, 11.00171, 476.2491" QuestId="68492" StepId="2" />
+                </If>
+                <If Condition="GetQuestStep(68492) == 3">
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Talking to Jiriri..."/>
+                    <GetTo ZoneId="137" XYZ="761.9896, 9.809009, 494.9873" /> <!-- Jiriri -->
+                    <TalkTo NpcId="1023792" XYZ="761.9896, 9.809009, 494.9873" QuestId="68492" StepId="3" />
+                </If>
+                <If Condition="GetQuestStep(68492) == 4">
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Using Firework Mortar..."/>
+                    <GetTo ZoneId="137" XYZ="798.062, 9.353699, 399.1912" /> <!-- Firework Mortar -->
+                    <UseItem NpcId="2009014" ItemId="2002394" XYZ="798.062, 9.353699, 399.1912" Radius="10" QuestId="68492" StepId="4" />
+                </If>
+				<If Condition="GetQuestStep(68492) == 255">
+
+					<!-- Rewards
+
+					Faire Voucher XVII
+
+					-->
+
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Turning in the Golden Rain quest!"/>
+                    <GetTo ZoneId="137" XYZ="768.4146, 11.07654, 474.5158" /> <!-- P'obyano -->
+                    <TurnIn QuestId="68492" NpcId="1023789" XYZ="768.307, 11.00171, 476.2491" />
+				</If>
+			</If>
+		</If>
+
+		<!-- The True Meaning of Summer -->
+
+		<If Condition="not IsQuestCompleted(68496)">
+			<If Condition="not HasQuest(68496)">
+				<Log Color="&LogColor;" Name="Moonfire Faire" Message="Picking up The True Meaning of Summer quest!"/>
+                <GetTo ZoneId="137" XYZ="763.8458, 11.07654, 478.9243" /> <!-- Haermaga -->
+                <If Condition="IsQuestAcceptQualified(68496)">
+                    <PickupQuestPlus NpcId="1023788" QuestId="68496" XYZ="765.8044, 11.00171, 478.9348" />
+                </If>
+			</If>
+		</If>
+
+        <While Condition="not HasAtLeast(20304,7) and GetQuestStep(68496) &lt; 2">
+
+			<!-- These Fireworks Won't Light Themselves -->
+
+			<If Condition="not HasQuest(68493)">
+				<Log Color="&LogColor;" Name="Moonfire Faire" Message="Picking up the These Fireworks Won't Light Themselves quest!"/>
+				<GetTo ZoneId="137" XYZ="768.3526, 11.07654, 474.5328" /> <!-- P'obyano -->
+				<If Condition="IsQuestAcceptQualified(68493)">
+					<RunCode Name="Pickup68493" />
+				</If>
+			</If>
+			<If Condition="HasQuest(68493)">
+				<If Condition="GetQuestStep(68493) == 1">
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Using Firework Mortars..."/>
+					<GetTo ZoneId="137" XYZ="631.7997, 9.323181, 346.7001" /> <!-- Firework Mortar -->
+					<UseItem NpcIds="2009015,2009016,2009017,2009018,2009019,2009020" ItemId="2002395" QuestId="68493" StepId="1">
+						<HotSpots>
+							<HotSpot XYZ="631.7997, 9.323181, 346.7001" Radius="10" />
+							<HotSpot XYZ="580.2548, 9.353699, 316.4263" Radius="10" />
+							<HotSpot XYZ="581.8112, 9.628418, 254.0168" Radius="10" />
+							<HotSpot XYZ="601.6479, 9.323181, 187.4875" Radius="10" />
+							<HotSpot XYZ="691.2489, 9.323181, 133.2875" Radius="10" />
+							<HotSpot XYZ="829.4041, 9.323181, 191.76" Radius="10" />
+						</HotSpots>
+					</UseItem>
+				</If>
+				<If Condition="GetQuestStep(68493) == 255">
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Turning in the These Fireworks Won't Light Themselves quest!" />
+
+					<!-- Rewards
+
+					Faire voucher XVII
+
+					-->
+
+					<GetTo ZoneId="137" XYZ="768.0164, 11.07654, 474.5641" /> <!-- P'obyano -->
+					<RunCode Name="TurnIn68493" />
+				</If>
+			</If>
+
+		</While>
+
+		<!-- The True Meaning of Summer -->
+
+		<If Condition="not IsQuestCompleted(68496)">
+			<If Condition="HasQuest(68496)">
+                <If Condition="GetQuestStep(68496) == 1 and HasAtLeast(20304,7)">
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Talking to Haermaga..."/>
+                    <GetTo ZoneId="137" XYZ="769.0955, 11.07654, 474.62" /> <!-- Haermaga -->
+                    <HandOver ItemId="20304" QuestId="68496" StepId="1" NpcId="1023788" XYZ="765.8044, 11.00171, 478.9348" />
+                </If>
+                <If Condition="GetQuestStep(68496) == 2">
+                    <GetTo ZoneId="137" XYZ="689.8756, 14.66388, 659.9984" /> <!-- Destination -->
+                    <UseObject NpcId="2009021" XYZ="689.8756, 14.66388, 659.9984" Radius="10" QuestId="68496" StepId="2" />
+                </If>
+                <If Condition="GetQuestStep(68496) == 3">
+                    <GetTo ZoneId="137" XYZ="710.4447, 9.903015, 296.1317" /> <!-- Destination -->
+                    <UseObject NpcId="2009023" XYZ="710.4447, 9.903015, 296.1317" Radius="10" QuestId="68496" StepId="3" />
+                </If>
+                <If Condition="GetQuestStep(68496) == 4">
+                    <GetTo ZoneId="137" XYZ="710.4447, 9.964111, 296.1317" /> <!-- Destination -->
+					<RunCode Name="The_True_Meaning_of_Summer" />
+                    <StopBot />
+
+                    <!-- TO DO -->
+
+                    <!-- Figure out how to complete this quest step. -->
+					<!-- Name:Pretty Lady 0x2B0EAC8EF90, Type:ff14bot.Objects.Character, ID:1023873, Obj:7022109 -->
+					<!-- Name:Pretty Lady 0x2B0EAC055A0, Type:ff14bot.Objects.BattleCharacter, ID:0, Obj:204 -->
+					<!-- Name:Attractive Lady 0x2B0EAC94B50, Type:ff14bot.Objects.Character, ID:1023874, Obj:7022110 -->
+					<!-- Name:Attractive Lady 0x2B0EAC07EB0, Type:ff14bot.Objects.BattleCharacter, ID:0, Obj:205 -->
+					<!-- Name:Charming Lady 0x2B0EAC91D70, Type:ff14bot.Objects.Character, ID:1023872, Obj:7022108 -->
+					<!-- Name:Charming Lady 0x2B0EAC02C90, Type:ff14bot.Objects.BattleCharacter, ID:0, Obj:203 -->
+					<!-- Name:Lovely Lady 0x2B0EAC97930, Type:ff14bot.Objects.Character, ID:1023871, Obj:7022106 -->
+					<!-- Name:Lovely Lady 0x2B0EAC00380, Type:ff14bot.Objects.BattleCharacter, ID:0, Obj:202 -->
+                    <!-- 93% Magification -->
+                    <!-- http://i.imgur.com/5FKnvwY.png -->
+
+                    <!-- TO DO -->
+
+                    <UseObject NpcId="2009026" XYZ="710.4447, 9.964111, 296.1317" Radius="10" QuestId="68496" StepId="4" />
+                </If>
+                <If Condition="GetQuestStep(68496) == 5">
+					<Log Color="&LogColor;" Name="Moonfire Faire" Message="Delivering Gegeruju's spyglass..."/>
+                    <GetTo ZoneId="137" XYZ="769.0955, 11.07654, 474.62" /> <!-- Haermaga -->
+                    <HandOver ItemId="2002396" QuestId="68496" StepId="5" NpcId="1023788" XYZ="765.8044, 11.00171, 478.9348" />
+                </If>
+                <If Condition="GetQuestStep(68496) == 6">
+                    <GetTo ZoneId="137" XYZ="747.4631, 9.567322, 214.6486" /> <!-- Destination -->
+                    <UseObject NpcId="2009022" XYZ="747.4631, 9.567322, 214.6486" Radius="10" QuestId="68496" StepId="6" />
+                </If>
+                <If Condition="GetQuestStep(68496) == 255">
+
+					<!-- Rewards
+
+					Faire Joi
+					Faire Kohakama
+					Faire Zoi
+
+					-->
+
+                    <GetTo ZoneId="137" XYZ="763.8584, 11.07654, 478.8989" /> <!-- Haermaga -->
+                    <TurnIn QuestId="68496" NpcId="1023788" XYZ="765.8044, 11.00171, 478.9348" />
+                </If>
+			</If>
+		</If>
+
+		<Log Color="&LogColor;" Name="Moonfire Faire" Message="You've completed the Moonfire Faire seasonal event quests!"/>
+
+	</Order>
+	<CodeChunks>
+		<CodeChunk Name="Pickup68493">
+			<![CDATA[ 
+				await Coroutine.Sleep(1000);
+				GameObjectManager.GetObjectByNPCId(1023789).Interact();
+				await Coroutine.Sleep(1000);
+				if (ff14bot.RemoteWindows.SelectIconString.IsOpen)
+					ff14bot.RemoteWindows.SelectIconString.ClickSlot(0);
+				await Coroutine.Sleep(2000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(1000);
+				if (ff14bot.RemoteWindows.JournalAccept.IsOpen)
+					ff14bot.RemoteWindows.JournalAccept.Accept();
+				await Coroutine.Sleep(2000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(4000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(1000);
+			]]>
+		</CodeChunk>
+		<CodeChunk Name="TurnIn68493">
+			<![CDATA[ 
+				await Coroutine.Sleep(1000);
+				GameObjectManager.GetObjectByNPCId(1023789).Interact();
+				await Coroutine.Sleep(1000);
+				ff14bot.RemoteWindows.Talk.Next();
+				await Coroutine.Sleep(1000);
+				if (ff14bot.RemoteWindows.JournalResult.IsOpen)
+					ff14bot.RemoteWindows.JournalResult.Complete();
+				await Coroutine.Sleep(5000);
+			]]>
+		</CodeChunk>
+        <CodeChunk Name="The_True_Meaning_of_Summer">
+            <![CDATA[ 
+                while (ConditionParser.GetQuestStep(68496) == 4)
+                {
+                    System.Windows.Media.Color textColor = System.Windows.Media.Color.FromRgb(29,213,226);
+                    System.Windows.Media.Color shadowColor = System.Windows.Media.Color.FromRgb(13,106,175);
+                    Core.OverlayManager.AddToast(() => "[Moonfire Faire]\nPlease manually complete The True Meaning of Summer quest objective!", TimeSpan.FromMilliseconds(25000), textColor, shadowColor, new System.Windows.Media.FontFamily("Gautami"));
+                    await Coroutine.Sleep(26000);
+                }
+            ]]>
+        </CodeChunk>
+	</CodeChunks>
+	<GrindAreas>
+	</GrindAreas>
+</Profile>
