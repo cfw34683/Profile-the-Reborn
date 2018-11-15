@@ -1,0 +1,48 @@
+﻿<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Profile: [MIN] Crescent Spring Water               
+ Author: Str8_no_life                           
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Version: 1.1                                     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+<Profile>
+
+	<Name>[MIN] 64+ Crescent Spring Water (v1.1) -SNL</Name>
+
+	<Order>			
+
+			<While Condition="Core.Player.ClassLevel &gt; 1">
+				<If Condition="not IsOnMap(614)">
+					<TeleportTo Name="Namai" AetheryteId="107" />
+				</If>
+				
+					<ExGather DiscoverUnknowns="true">
+					
+					<GatherObjects>
+						<GatherObject>Mineral Deposit</GatherObject>
+					</GatherObjects>
+					
+					<Items>
+						<GatherItem Name="Crescent Spring Water" />
+					</Items>
+					
+					<GatherSpots>
+						<IndirectApproachGatherSpot ApproachLocation="572.7186, 90.60042, 112.8349" NodeLocation="576.0488, 91.74075, 114.4922" />
+					</GatherSpots>
+					
+					<HotSpots>
+						<HotSpot Radius="40" XYZ="503.9793, 67.83667, -63.21317" />
+						<HotSpot Radius="20" XYZ="589.9658, 104.419, 49.58293" />
+						<HotSpot Radius="35" XYZ="603.6482, 123.8413, 80.06719" />
+						<HotSpot Radius="35" XYZ="572.4063, 101.4711, 97.76173" />
+						<HotSpot Radius="30" XYZ="418.1696, 89.59642, 13.73815" />
+						<HotSpot Radius="30" XYZ="400.0945, 79.46626, 5.254807" />
+					</HotSpots>
+					
+				</ExGather>
+			</While>
+
+	</Order>
+
+</Profile>

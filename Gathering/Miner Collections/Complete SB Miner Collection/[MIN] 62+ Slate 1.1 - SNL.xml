@@ -1,0 +1,45 @@
+﻿<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Profile: [MIN] Slate               
+ Author: Str8_no_life                           
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Version: 1.1                                     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+<Profile>
+
+	<Name>[MIN] 62+ Slate (v1.1) -SNL</Name>
+
+	<Order>			
+
+			<While Condition="Core.Player.ClassLevel &gt; 1">
+				<If Condition="not IsOnMap(620)">
+					<TeleportTo Name="Ala Gannha" AetheryteId="100" />
+				</If>
+				
+					<ExGather DiscoverUnknowns="true">
+					
+					<GatherObjects>
+						<GatherObject>Rocky Outcrop</GatherObject>
+					</GatherObjects>
+					
+					<Items>
+						<GatherItem Name="Slate" />
+					</Items>
+					
+					<GatherSpots>
+						<IndirectApproachGatherSpot ApproachLocation="-12.91798, 112.7244, -393.7148" NodeLocation="-11.21539, 114.1222, -392.7825" />
+					</GatherSpots>
+					
+					<HotSpots>
+						<HotSpot Radius="40" XYZ="101.9714, 142.2195, -503.0048" />
+						<HotSpot Radius="40" XYZ="166.5977, 149.3336, -355.5518" />
+						<HotSpot Radius="30" XYZ="-14.73359, 124.8442, -389.9182" />
+					</HotSpots>
+					
+				</ExGather>
+			</While>
+
+	</Order>
+
+</Profile>
