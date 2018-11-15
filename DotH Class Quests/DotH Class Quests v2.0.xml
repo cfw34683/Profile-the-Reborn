@@ -1,0 +1,3169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Profile>
+	<Name>DotH Class Quests</Name>
+
+	<KillRadius>50</KillRadius>
+	<BehaviorDirectory>./Custom</BehaviorDirectory>
+
+<!-- Required Items!
+Carpenter
+	Maple Lumber
+	3 x Square Maple Shield
+	12 x Ash Lumber
+	Feather Harpoon
+	Ash Shortbow
+	Iron Lance (Materia Enhanced)
+	HQ Walnut Lumber
+	HQ Walnut Cane
+	HQ Oak Longbow
+	HQ Oak Composite Bow
+	HQ Cobalt Halberd
+	HQ Jade Crook
+	HQ Yew Longbow
+	HQ Rosewood Lumber
+	HQ Crab Bow (Melded with Savage Aim Materia III)
+	
+	HQ Holy Cedar Composite Bow
+	HQ Dark Chestnut Rod
+	3 x HQ Birch Lumber
+	HQ Adamantite Trident
+
+	
+Blacksmith
+	Bronze Ingot
+	3 x Bronze Cross-pein Hammer
+	12 x Bronze Rivets
+	Spiked Bronze Labrys
+	Bronze Spatha
+	Iron Cross-pein Hammer (Materia Enhanced)
+	HQ Steel Ingot
+	HQ Plumed Iron Hatchet
+	HQ Steel Bhuj
+	HQ Wrapped Crowsbeak Hammer
+	HQ Cobalt Shamshir
+	HQ Buccaneer's Bardiche
+	HQ Cobalt Knuckles
+	HQ Cobalt Winglet (Melded with Savage Might Materia III)
+	
+	3 x HQ Mythrite Rivets
+	HQ Titanium Bastard Sword
+	HQ Titanium Lump Hammer
+	HQ Adamantite Winglet
+	
+	
+Armorer
+	Bronze Ingot
+	3 x Bronze Hoplons
+	12 x Bronze Plate
+	Decorated Bronze Barbut
+	Bronze Buckler
+	Iron Hoplon (Materia Enhanced)
+	HQ Steel Ingot
+	HQ Steel Chainmail
+	HQ Steel Frypan
+	HQ Mythril Cuirass
+	HQ Mythril-plated Caligae
+	HQ Reinforced Mythril Elmo
+	HQ Mythril Sollerets
+	HQ Cobalt Haubergeon (Melded with Heaven's Eye Materia III)
+	
+	Titanium Mask of Striking
+	HQ Titanium Cuirass of Maiming
+	HQ Titanium Hoplon
+	HQ Adamantite Lorica of Fending
+	
+
+Goldsmith
+	Copper Ingot
+	3 x Copper Gorget
+	12 x Copper Rings
+	Fang Earring
+	Brass Gorget
+	Staghorn Staff (Materia Enhanced)
+	HQ Silver Ingot
+	HQ Malachite Earrings
+	HQ Fire Brand
+	HQ Horn Staff
+	HQ Electrum Circlet (Zircon, Amber and Spinel)
+	HQ Black Pearl Ring (Melded with Piety Materia III)
+	
+	Hardsilver Bangle of Casting
+	Hardsilver Ingot
+	Aurum Regis Cylinder
+	Star Sapphire Music Box
+	Star Ruby Music Box
+	
+	
+Leatherworker
+	Leather
+	3 x Leather Choker
+	12 x Hard Leather
+	Hard Leather Caligae
+	Hard Leather Choker
+	Goatskin Leggings (Materia Enhanced)
+	HQ Toad Leather
+	HQ Toadskin Jacket
+	HQ Boarskin Ringbands
+	HQ Boarskin Smithy's Gloves
+	HQ Fingerless Raptorskin Gloves
+	HQ Raptorskin Targe
+	HQ Raptorskin Choker
+	HQ Raptorskin Jerkin (Melded with Gathers Grasp Materia III)
+	
+	HQ Wyvernskin Workboots
+	HQ Dhalmelskin Leggings of Scouting
+	HQ Dragonskin Choker
+	Chivalric Battledress of Aiming
+
+	
+Weaver
+	Hempen Yarn
+	3 x Hempen Breeches
+	12 x Hempen Cloth
+	Cotton Scarf
+	Cotton Shepherd's Slops
+	Cotton Acton (Materia Enhanced)
+	HQ Undyed Velveteen
+	HQ Velveteen Gaiters
+	HQ Linen Shirt
+	HQ Woolen Tights
+	HQ Woolen Beret
+	HQ Woolen Gown
+	HQ Woolen Gaskins
+	HQ Patrician's Bottoms
+	HQ Patrician's Coatee
+	HQ Patrician's Wedge Cap
+	
+	HQ Holy Rainbow Gloves
+	HQ Holy Rainbow Hat of Healing
+	3 x HQ Crawler Silk
+	Chivalric Doublet of Healing
+	
+
+Alchemy
+	Distilled Water
+	3 x Antidote
+	12 x Beeswax
+	Potion of Intelligence
+	Potion of Dexterity
+	Engraved Hard Leather Grimoire (Materia Enhanced)
+	HQ Natron
+	HQ 3 x Weak Blinding Potion
+	HQ Hi-Ether
+	HQ 3 x Hi-Potion of Strength
+	HQ Mega-Potion of Intelligence
+	HQ Mega-Potion of Mind
+	HQ Mega-Potion of Vitality
+	HQ Budding Rosewood Wand (Melded with Quicktongue Materia III)
+	
+	3 x HQ Enchanted Mythrite Ink
+	3 x HQ Grade 1 Intelligence Dissolvent
+	1 x HQ Draconian Potion of Strength
+	1 x HQ Noble Gold
+	
+	
+Culinarian
+	Maple Syrup
+	Grilled Trout
+	2 x Grilled Dodo
+	Meat Miq'abob
+	Dried Prunes
+	Aldgoat Steak
+	HQ Smoked Raptor
+	HQ Ratatouille
+	HQ Blood Currant Tart
+	HQ Pastry Fish
+	HQ Chamolile Tea
+	HQ Dzemael Gratin
+	HQ Eft Steak
+	HQ Beef Stew
+	HQ Trapper's Quiche
+	HQ Crowned Pie
+	
+	Sohm Al Tart
+	HQ Ishgardian Tea
+	HQ Beet Soup
+	HQ Kaiser Roll
+	HQ Grilled Sweetfish
+	HQ Cockatrice Meatballs
+	HQ Morel Salad
+	HQ Deep-Fried Okeanis
+	HQ Marron Glace
+	
+-->
+	
+	<Order>
+<!-- Carpenter -->
+	<If Condition="Core.Player.CurrentJob == Enums.ClassJobType.Carpenter">
+		<LogMessage Message="Starting Carpenter Class Quests!"/>
+<!-- My First Saw -->
+		<If Condition="not IsQuestCompleted(65741)">
+			<LogMessage Message="My First Saw"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(65741)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="65741" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<OtherTurnIn ItemId="5361" AllowHq="true" QuestId="65741" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>
+			</If>
+		</If>
+		
+<!-- To Be the Wood -->
+		<If Condition="not IsQuestCompleted(65675) and Core.Player.ClassLevel &gt; 4">
+			<LogMessage Message="To Be the Wood"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(65675)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="65675" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<OtherTurnIn ItemIds="2219,2219,2219" AllowHq="true" QuestId="65675" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>
+			</If>
+		</If>
+		
+<!-- Supplies for the Sick -->
+		<If Condition="not IsQuestCompleted(65676) and Core.Player.ClassLevel &gt; 9">
+			<LogMessage Message="Supplies for the Sick"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(65676)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="65676" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<OtherTurnIn ItemId="5364" AllowHq="true" QuestId="65676" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>
+			</If>
+		</If>
+		
+<!-- A Carpenter in Need -->
+		<If Condition="not IsQuestCompleted(65677) and Core.Player.ClassLevel &gt; 14">
+			<LogMessage Message="A Carpenter in Need"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(65677)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="65677" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(65677) == 1"> <!-- Mera Pamera -->
+					<TalkTo NpcId="1000149" InteractDistance="2" UseMesh="True" XYZ="-9.720032, -3.25, 52.47571"/>
+				</If>
+				<If Condition="GetQuestStep(65677) == 2"> <!-- Luciane & Ywain -->
+					<impHandOver ItemId="1895" AllowHq="true" QuestId="65677" StepId="2" NpcId="1000200" XYZ="209.5521, 0.9999819, 35.01941"/>
+				<If Condition="not IsOnMap(133)"> <!-- Teleport Ywain -->
+					<GetTo ZoneID="133" XYZ="157.7019, 15.90038, -270.3442"/>
+				</If>
+					<impHandOver ItemId="1823" AllowHq="true" QuestId="65677" StepId="2" NpcId="1000254" XYZ="157.7019, 15.90038, -270.3442"/>
+				</If>
+				<If Condition="GetQuestStep(65677) == 255"> <!-- Beatin -->
+				<If Condition="not IsOnMap(132)"> <!--Teleport Beatin -->
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<TurnIn QuestId="65677" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If>
+			</If>
+		</If>
+		
+<!-- The Lance's Lesson -->			
+		<If Condition="not IsQuestCompleted(65678) and Core.Player.ClassLevel &gt; 19">
+			<LogMessage Message="The Lance's Lesson"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(65678)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="65678" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<OtherTurnIn ItemId="1827" AllowHq="true" QuestId="65678" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>
+			</If>
+		</If>
+			
+<!-- A Crisis of Confidence -->
+		<If Condition="not IsQuestCompleted(65704) and Core.Player.ClassLevel &gt; 24">
+			<LogMessage Message="A Crisis of Confidence"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(65704)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="65704" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(65704) == 1"> <!-- Nicoliaux -->
+					<TalkTo NpcId="1000162" InteractDistance="2" UseMesh="True" XYZ="-77.95837, -3.695303, 53.08606"/>
+				</If>
+				<If Condition="GetQuestStep(65704) == 255"> <!-- Beatin -->
+					<TurnIn ItemId="5371" RequiresHq="true" QuestId="65704" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Between Captain and Conjurer -->
+		<If Condition="not IsQuestCompleted(65705) and Core.Player.ClassLevel &gt; 29">
+			<LogMessage Message="Between Captain and Conjurer"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(65705)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="65705" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(65705) == 1"> <!-- Beatin -->
+					<HandOver ItemId="2015" RequiresHq="true" QuestId="65705" StepId="1" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If>
+				<If Condition="GetQuestStep(65705) == 2"> <!-- Gairhard -->
+					<HandOver ItemId="2015" RequiresHq="true" QuestId="65705" StepId="2" NpcId="1000125" XYZ="-56.26001, -0.5033983, -0.1679077"/>	
+				</If>
+				<If Condition="GetQuestStep(65705) == 3"> <!-- Ponette -->
+					<If Condition="not IsOnMap(130)"> <!-- Teleport Ponette -->
+					<GetTo ZoneID="130" XYZ="-230.4265, -4, -8.255188"/>
+					</If>
+					<HandOver ItemId="2015" RequiresHq="true" QuestId="65705" StepId="3" NpcId="1000235" XYZ="-230.4265, -4, -8.255188"/>	
+				</If>
+				<If Condition="GetQuestStep(65705) == 4"> <!-- Gairhard -->
+				<If Condition="not IsOnMap(132)"> <!-- Teleport Gairhard -->
+					<GetTo ZoneID="132" XYZ="-56.26001, -0.5033983, -0.1679077"/>
+				</If>
+					<TalkTo InteractDistance="2" UseMesh="True" NpcId="1000125" XYZ="-56.26001, -0.5033983, -0.1679077"/>	
+				</If>
+				<If Condition="GetQuestStep(65705) == 255"> <!-- Beatin -->
+					<TurnIn QuestId="65705" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If>
+			</If>
+		</If>
+		
+<!-- Growing Apart -->
+		<If Condition="not IsQuestCompleted(66072) and Core.Player.ClassLevel &gt; 34">
+			<LogMessage Message="Growing Apart"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(66072)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="66072" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(66072) == 1"> <!-- Beatin -->
+					<HandOver ItemId="1917" RequiresHq="true" QuestId="66072" StepId="1" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If>
+				<If Condition="GetQuestStep(66072) == 2"> <!-- Gairhard -->
+					<HandOver ItemId="1917" RequiresHq="true" QuestId="66072" StepId="2" NpcId="1000125" XYZ="-56.26001, -0.5033983, -0.1679077"/>	
+				</If>
+				<If Condition="GetQuestStep(66072) == 255"> <!-- Beatin -->
+					<TurnIn QuestId="66072" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If>
+			</If>
+		</If>
+
+<!-- Memento Mori -->
+		<If Condition="not IsQuestCompleted(66073) and Core.Player.ClassLevel &gt; 39">
+			<LogMessage Message="Memento Mori"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(66073)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="66073" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(66073) == 1"> <!-- Beatin -->
+					<HandOver ItemId="1925" RequiresHq="true" QuestId="66073" StepId="1" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If>
+				<If Condition="GetQuestStep(66073) == 2"> <!-- Gairhard -->
+					<HandOver ItemId="1925" RequiresHq="true" QuestId="66073" StepId="2" NpcId="1000125" XYZ="-56.26001, -0.5033983, -0.1679077"/>	
+				</If>
+				<If Condition="GetQuestStep(66073) == 255"> <!-- Beatin -->
+					<TurnIn QuestId="66073" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Gone till the Sixth Astral Moon -->
+		<If Condition="not IsQuestCompleted(66074) and Core.Player.ClassLevel &gt; 44">
+			<LogMessage Message="Gone till the Sixth Astral Moon"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(66074)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="66074" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(66074) == 1"> <!-- Nicoliaux -->
+					<TalkTo NpcId="1000162" InteractDistance="2" UseMesh="True" XYZ="-77.95837, -3.695303, 53.08606"/>
+				</If>
+				<If Condition="GetQuestStep(66074) == 2"> <!-- Gairhard -->
+					<TalkTo InteractDistance="2" UseMesh="True" NpcId="1000125" XYZ="-56.26001, -0.5033983, -0.1679077"/>
+				</If>
+				<If Condition="GetQuestStep(66074) == 3"> <!-- Beatin -->
+					<HandOver ItemIds="1937,1862,2039" RequiresHq="true,true,true" QuestId="66074" StepId="3" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If>
+				<If Condition="GetQuestStep(66074) == 4"> <!-- Gairhard -->
+					<HandOver ItemIds="1937,1862,2039" RequiresHq="true,true,true" QuestId="66074" StepId="4" NpcId="1000125" XYZ="-56.26001, -0.5033983, -0.1679077"/>
+				</If>
+				<If Condition="GetQuestStep(66074) == 255"> <!-- Beatin -->
+					<TurnIn QuestId="66074" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If>
+			</If>
+		</If>
+		
+<!-- Saving Captain Gairhard -->
+		<If Condition="not IsQuestCompleted(66075) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Saving Captain Gairhard"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(132)">
+				<If Condition="not HasQuest(66075)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="66075" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(66075) == 1"> <!-- Nicoliaux -->
+					<TalkTo NpcId="1000162" InteractDistance="2" UseMesh="True" XYZ="-77.95837, -3.695303, 53.08606"/>
+				</If>
+				<If Condition="GetQuestStep(66075) == 2"> <!-- Beatin -->
+					<HandOver ItemId="5376" RequireHq="true" QuestId="66075" StepId="2" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(66075) == 3"> <!-- Gairhard -->
+					<If Condition="not IsOnMap(154)">
+						<GetTo ZoneID="154" XYZ="162.005, -27.84127, 309.9564"/>
+				</If>
+					<HandOver ItemId="1942" RequireHq="true" QuestId="66075" StepId="3" NpcId="1003072" XYZ="162.005, -27.84127, 309.9564"/>
+				</If>
+				<If Condition="GetQuestStep(66075) == 255"> <!-- Beatin -->
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>	
+				</If> 
+					<TurnIn QuestId="66075" StepId="255" NpcId="1000153" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Lance of a Lifetime -->
+		<If Condition="not IsQuestCompleted(67533) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Lance of a Lifetime"/>
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+			<If Condition="IsOnMap(418)">						
+			<If Condition="IsOnMap(132)"> <!-- Beatin -->
+					<PickupQuest NpcId="1000153" QuestId="67533" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(67533) == 1"> <!-- Veteran Temple Knight -->
+					<HandOver ItemId="2001681" QuestId="67533" StepId="1" NpcId="1012499" XYZ="108.2627, 24.38417, 12.06982" />
+				</If>
+				<If Condition="GetQuestStep(67533) == 255"> <!-- Barthovieu -->
+					<TurnIn ItemId="2001681" QuestId="67533" StepId="255" NpcId="1012498" XYZ="96.57422, -20.02087, 64.7135" />
+				</If>
+			</If>
+		</If>
+		
+<!-- A-hunting He Will Go -->
+		<If Condition="not IsQuestCompleted(67534) and Core.Player.ClassLevel &gt; 52">
+			<LogMessage Message="A-hunting He Will Go"/>
+				<If Condition="not IsOnMap(418)">
+					<GetTo ZoneID="418" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+			<If Condition="IsOnMap(418)">				
+				<If Condition="not HasQuest(67534)"> <!-- Barthovieu -->
+					<PickupQuest NpcId="1012498" QuestId="67534" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+				<If Condition="GetQuestStep(67534) == 1"> <!-- Barthovieu -->
+					<HandOver ItemId="10611" RequiresHq="true" QuestId="67534" StepId="1" NpcId="1012498" XYZ="96.57422, -20.02087, 64.7135" />
+				</If>
+				<If Condition="GetQuestStep(67534) == 2"> <!-- Philipallais -->
+					<TalkTo NpcId="1012501" InteractDistance="2" UseMesh="true" XYZ="-141.558, 19.06319, -13.26007" />
+				</If>
+				<If Condition="GetQuestStep(67534) == 255"> <!-- Barthovieu -->
+					<TurnIn QuestId="67534" StepId="255" NpcId="1012498" XYZ="96.57422, -20.02087, 64.7135" />
+				</If>
+			</If>
+		</If>
+
+<!-- Ministers Of Grace Defend Him -->
+		<If Condition="not IsQuestCompleted(67535) and Core.Player.ClassLevel &gt; 54">
+			<LogMessage Message="Ministers Of Grace Defend Him"/>
+				<If Condition="not IsOnMap(418)">
+					<GetTo ZoneID="418" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+			<If Condition="IsOnMap(418)">				
+				<If Condition="not HasQuest(67535)"> <!-- Barthovieu -->
+					<PickupQuest NpcId="1012498" QuestId="67535" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+				<If Condition="GetQuestStep(67535) == 1"> <!-- Orthodox Monastic -->
+					<TalkTo NpcId="1012502" InteractDistance="2" UseMesh="true" XYZ="-30.6554, 5.504704, 23.72772" />
+				</If>
+				<If Condition="GetQuestStep(67535) == 2"> <!-- Orthodox Monastic -->
+					<HandOver ItemId="10636" RequiresHq="true" QuestId="67535" StepId="2" NpcId="1012502" XYZ="-30.6554, 5.504704, 23.72772" />
+				</If>
+				<If Condition="GetQuestStep(67535) == 255"> <!-- Barthovieu -->
+					<TurnIn QuestId="67535" StepId="255" NpcId="1012498" XYZ="96.57422, -20.02087, 64.7135" />
+				</If>
+			</If>
+		</If>
+
+<!-- The Son Also Rises -->
+		<If Condition="not IsQuestCompleted(67536) and Core.Player.ClassLevel &gt; 56">
+			<LogMessage Message="The Son Also Rises"/>
+				<If Condition="not IsOnMap(418)">
+					<GetTo ZoneID="418" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+			<If Condition="IsOnMap(418)">					
+				<If Condition="not HasQuest(67536)"> <!-- Barthovieu -->				
+					<PickupQuest NpcId="1012498" QuestId="67536" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+				<If Condition="GetQuestStep(67536) == 1"> <!-- Philipallais -->
+					<TalkTo NpcId="1012505" InteractDistance="2" UseMesh="true" XYZ="-138.0484, 5.467082, 34.86682" />
+				</If>
+				<If Condition="GetQuestStep(67536) == 2"> <!-- Beatin -->
+				<If Condition="not IsOnMap(132)">
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If> 
+					<TalkTo NpcId="1000153" InteractDistance="2" UseMesh="true" XYZ="-44.87683, -1.250002, 56.83984" />
+				</If>
+				<If Condition="GetQuestStep(67536) == 3"> <!-- Roiteloin -->
+				<If Condition="not IsOnMap(155)">
+					<GetTo ZoneID="155" XYZ="115.3429, 287.0294, 142.1377"/>
+				</If>
+					<TalkTo NpcId="1000776" InteractDistance="2" UseMesh="true" XYZ="115.3429, 287.0294, 142.1377" />
+				</If>
+				<If Condition="GetQuestStep(67536) == 255"> <!-- Barthovieu -->
+				<If Condition="not IsOnMap(418)">
+					<GetTo ZoneID="418" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+					<TurnIn ItemId="12583" RequireHq="true" QuestId="67536" StepId="255" NpcId="1012498" XYZ="96.57422, -20.02087, 64.7135" />
+				</If>
+			</If>
+		</If>
+
+<!-- More Fierce than Fire -->
+		<If Condition="not IsQuestCompleted(67537) and Core.Player.ClassLevel &gt; 59">
+			<LogMessage Message="More Fierce than Fire"/>
+				<If Condition="not IsOnMap(418)"> 
+					<GetTo ZoneID="418" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+			<If Condition="IsOnMap(418)">				
+				<If Condition="not HasQuest(67537)"> <!-- Barthovieu -->				
+					<PickupQuest NpcId="1012498" QuestId="67537" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+				<If Condition="GetQuestStep(67537) == 1"> <!-- Shivering Knight -->
+				<If Condition="not IsOnMap(397)">
+					<GetTo ZoneID="397" XYZ="-294.5449, 125.4943, -18.6618"/>
+				</If>
+					<TalkTo NpcId="1013596" InteractDistance="2" UseMesh="true" XYZ="-294.5449, 125.4943, -18.6618" />
+				</If>
+				<If Condition="GetQuestStep(67537) == 2"> <!-- Barthovieu -->
+				<If Condition="not IsOnMap(418)">
+					<GetTo ZoneID="418" XYZ="96.57422, -20.02087, 64.7135"/>
+				</If>
+					<HandOver ItemId="2001682" QuestId="67537" StepId="2" NpcId="1012498" XYZ="96.57422, -20.02087, 64.7135" />
+				</If>
+				<If Condition="GetQuestStep(67537) == 3"> <!-- Barthovieu -->
+					<HandOver ItemId="10609" QuestId="67537" StepId="3" NpcId="1012498" XYZ="96.57422, -20.02087, 64.7135" />
+				</If>
+				<If Condition="GetQuestStep(67537) == 4"> <!-- Philipallais -->
+					<TalkTo NpcId="1012505" InteractDistance="2" UseMesh="true" XYZ="-138.0484, 5.467082, 34.86682" />
+				</If>
+				<If Condition="GetQuestStep(67537) == 5"> <!-- Barthovieu -->
+					<TalkTo NpcId="1013597" InteractDistance="2" UseMesh="true" XYZ="-270.0085, 80.85996, -350.6066" />
+				</If>
+				<If Condition="GetQuestStep(67537) == 6"> <!-- Barthovieu -->
+					<TalkTo NpcId="1013600" InteractDistance="2" UseMesh="true" XYZ="-270.0085, 80.85996, -350.6066" />
+				</If>
+				<If Condition="GetQuestStep(67537) == 255"> <!-- Barthovieu -->
+				<If Condition="not IsOnMap(397)">
+					<GetTo ZoneID="397" XYZ="542.2294, 176.8043, -554.4976"/>
+				</If>
+					<TurnIn QuestId="67537" StepId="255" NpcId="1013686" XYZ="542.2294, 176.8043, -554.4976" />
+				</If>
+			</If>
+		</If>
+	</If>
+
+<!-- Blacksmith -->
+	<If Condition="Core.Player.CurrentJob == Enums.ClassJobType.Blacksmith">
+		<LogMessage Message="Starting Blacksmith Class Quests!"/>
+<!-- My First Cross-pein Hammer -->
+		<If Condition="not IsQuestCompleted(65828)">
+			<LogMessage Message="My First Cross-pein Hammer"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)"> 
+				<If Condition="not HasQuest(65828)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65828" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<OtherTurnIn ItemId="5056" AllowHq="true" QuestId="65828" StepId="255" NpcId="1000997" XYZ="-31.26581, 44.49997, 185.5344"/>
+			</If>
+		</If>
+		
+<!-- Hammer Time -->
+		<If Condition="not IsQuestCompleted(65829) and Core.Player.ClassLevel &gt; 4">
+			<LogMessage Message="Hammer Time"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)"> 
+				<If Condition="not HasQuest(65829)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65829" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<OtherTurnIn ItemIds="2341,2341,2341" AllowHq="true" QuestId="65829" StepId="255" NpcId="1000997" XYZ="-31.26581, 44.49997, 185.5344"/>
+			</If>		
+		</If>
+		
+<!-- Riveting Ramblings -->
+		<If Condition="not IsQuestCompleted(65830) and Core.Player.ClassLevel &gt; 9">
+			<LogMessage Message="Riveting Ramblings"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)"> 
+				<If Condition="not HasQuest(65830)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65830" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<OtherTurnIn ItemId="5091" AllowHq="true" QuestId="65830" StepId="255" NpcId="1000997" XYZ="-31.26581, 44.49997, 185.5344"/>
+			</If>		
+		</If>
+		
+<!-- The Business of Blacksmithing -->
+		<If Condition="not IsQuestCompleted(65831) and Core.Player.ClassLevel &gt; 14">
+			<LogMessage Message="The Business of Blacksmithing"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65831)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65831" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(65831) == 1"> <!-- Faezahr -->
+					<TalkTo NpcId="1001005" InteractDistance="2" UseMesh="True" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+				<If Condition="GetQuestStep(65831) == 255"> <!-- Faezahr -->
+					<OtherTurnIn ItemIds="1605,1753" AllowHq="true" QuestId="65831" StepId="255" NpcId="1001005" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+			</If>		
+		</If>
+
+<!-- By the Sweat of Your Brow -->
+		<If Condition="not IsQuestCompleted(65832) and Core.Player.ClassLevel &gt; 19">
+			<LogMessage Message="By the Sweat of Your Brow"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)"> <!-- Brithael -->
+				<If Condition="not HasQuest(65832)">
+					<PickupQuest NpcId="1000997" QuestId="65832" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<OtherTurnIn ItemId="2344" AllowHq="true" QuestId="65832" StepId="255" NpcId="1000997" XYZ="-31.26581, 44.49997, 185.5344"/>
+			</If>		
+		</If>
+
+<!-- True as Steel -->
+		<If Condition="not IsQuestCompleted(65833) and Core.Player.ClassLevel &gt; 24">
+			<LogMessage Message="True as Steel"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65833)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65833" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(65833) == 255"> <!-- Faezahr -->
+					<TurnIn ItemId="5058" RequiresHq="true" QuestId="65833" StepId="255" NpcId="1001005" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+			</If>		
+		</If>
+		
+<!-- As Iron Sharpens Iron -->
+		<If Condition="not IsQuestCompleted(65834) and Core.Player.ClassLevel &gt; 29">
+			<LogMessage Message="As Iron Sharpens Iron"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65834)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65834" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(65834) == 1"> <!-- Faezahr -->
+					<TalkTo NpcId="1001005" InteractDistance="2" UseMesh="True" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+				<If Condition="GetQuestStep(65834) == 2"> <!-- Khuswb -->
+					<TalkTo NpcId="1000971" InteractDistance="2" UseMesh="True" XYZ="-51.28564, 42.8, 195.5138"/>
+				</If>
+				<If Condition="GetQuestStep(65834) == 3"> <!-- Khuswb -->
+					<HandOver ItemId="2551" RequiresHq="true" QuestId="65834" StepId="3" NpcId="1000971" XYZ="-51.28564, 42.8, 195.5138"/>				
+				</If>
+				<If Condition="GetQuestStep(65834) == 4"> <!-- Faezahr -->
+					<TalkTo NpcId="1001005" InteractDistance="2" UseMesh="True" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+				<If Condition="GetQuestStep(65834) == 255"> <!-- Brithael -->
+					<TurnIn QuestId="65834" StepId="255" NpcId="1000997" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			</If>		
+		</If>
+
+<!-- Set Faezahr to Stun -->
+		<If Condition="not IsQuestCompleted(65835) and Core.Player.ClassLevel &gt; 34">
+			<LogMessage Message="Set Faezahr to Stun"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65835)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65835" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(65835) == 1"> <!-- Faezahr -->
+					<TalkTo NpcId="1001005" InteractDistance="2" UseMesh="True" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+				<If Condition="GetQuestStep(65835) == 255"> <!-- Faezahr -->
+					<TurnIn ItemId="1778" RequiresHq="true" QuestId="65835" StepId="255" NpcId="1001005" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+			</If>		
+		</If>
+
+<!-- Forging Ahead -->
+		<If Condition="not IsQuestCompleted(65836) and Core.Player.ClassLevel &gt; 39">
+			<LogMessage Message="Forging Ahead"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65836)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65836" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(65836) == 255"> <!-- Brithael -->
+					<TurnIn ItemId="2350" RequiresHq="true" QuestId="65836" StepId="255" NpcId="1000997" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			</If>		
+		</If>
+
+<!-- Beauty and the Bardiche -->
+		<If Condition="not IsQuestCompleted(65837) and Core.Player.ClassLevel &gt; 44">
+			<LogMessage Message="Beauty and the Bardiche"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65837)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65837" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(65837) == 1"> <!-- Faezahr -->
+					<TalkTo NpcId="1001005" InteractDistance="2" UseMesh="True" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+				<If Condition="GetQuestStep(65837) == 2"> <!-- Faezahr -->
+					<HandOver ItemIds="1723,1796,1659" RequiresHq="true,true,true" QuestId="65837" StepId="2" NpcId="1001005" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+				<If Condition="GetQuestStep(65837) == 255"> <!-- Muriel -->
+				<If Condition="not IsOnMap(129)"> <!-- Teleport Muriel -->
+					<GetTo ZoneID="129" XYZ="-300.4044, 21.34725, 193.1945"/>
+				</If>
+					<TurnIn ItemIds="1723,1796,1659" RequiresHq="true,true,true" QuestId="65837" StepId="255" NpcId="1001539" XYZ="-300.4044, 21.34725, 193.1945"/>
+				</If>			
+			</If>		
+		</If>
+
+<!-- Waiting in the Winglet -->
+		<If Condition="not IsQuestCompleted(65838) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Waiting in the Winglet"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65838)"> <!-- Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65838" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(65838) == 1"> <!-- Faezahr -->
+					<TalkTo NpcId="1001005" InteractDistance="2" UseMesh="True" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+				<If Condition="GetQuestStep(65838) == 2"> <!-- Well-traveled Miqo'te -->
+					<TalkTo NpcId="1005177" InteractDistance="2" UseMesh="True" XYZ="25.07056, 31.99998, 32.45593"/>
+				</If>
+				<If Condition="GetQuestStep(65838) == 3"> <!-- Faezahr -->
+					<HandOver ItemId="1663" RequiresHq="true" QuestId="65838" StepId="3" NpcId="1001005" XYZ="-52.35376, 42.49961, 211.5968"/>
+				</If>
+				<If Condition="GetQuestStep(65838) == 4"> <!-- Well-traveled Miqo'te -->
+					<TalkTo NpcId="1005178" InteractDistance="2" UseMesh="True" XYZ="-42.37433, 42.5, 204.1199"/>
+				</If>
+				<If Condition="GetQuestStep(65838) == 255"> <!-- Brithael -->
+					<TurnIn QuestId="65838" StepId="255" NpcId="1000997" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			</If>		
+		</If>	
+
+<!-- Forging Northwards -->
+		<If Condition="not IsQuestCompleted(67543) and Core.Player.ClassLevel &gt; 50">
+			<LogMessage Message="Beauty and the Bardiche"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67543)"> <!-- Pick up Quest Brithael -->
+					<PickupQuest NpcId="1000997" QuestId="65837" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(675443) == 1"> <!-- Fremondain -->
+					<TalkTo NpcId="1012510" InteractDistance="2" UseMesh="True" XYZ="-6.51562, 39.5175, 16.9527"/>
+				</If>
+				<If Condition="GetQuestStep(67546) == 255"> <!-- Fremondain -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Fremondain -->
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+					<TurnIn QuestId="67546" StepId="255" NpcId="1012509" Distance="1" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+			</If>
+		</If>				
+	
+	<!-- Leave it to Fremondain -->
+		<If Condition="not IsQuestCompleted(67544) and Core.Player.ClassLevel &gt; 53">
+			<LogMessage Message="Leave it to Fremondain"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67544)"> <!-- Pick up Quest Fremondain -->
+					<PickupQuest NpcId="1012509" QuestId="67544" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+				<If Condition="GetQuestStep(67544) == 1"> <!-- Laurisse De Jervaint -->
+				<If Condition="not IsOnMap(397)"> <!-- Teleport Laurisse De Jervaint -->
+					<GetTo ZoneID="397" XYZ="385.977, 173.258, 449.363"/>
+				</If>
+					<TalkTo NpcId="1012511" InteractDistance="2" UseMesh="True" XYZ="385.977, 173.258, 449.363"/>
+				</If>
+				<If Condition="GetQuestStep(67544) == 2"> <!-- Fremondain -->
+				<If Condition="IsOnMap(419)"> <!-- Teleport Fremondain -->
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+					<TalkTo NpcId="1012509" InteractDistance="2" UseMesh="True" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+				<If Condition="GetQuestStep(67544) == 255"> <!-- Fremondain -->
+					<TurnIn ItemId="12528" RequiresHq="true" QuestId="67544" StepId="255" NpcId="1012509" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>			
+			</If>		
+		</If>
+
+		<!-- The Good Fight -->
+		<If Condition="not IsQuestCompleted(67545) and Core.Player.ClassLevel &gt; 55">
+			<LogMessage Message="The Good Fight"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67545)"> <!-- Pick up Quest Fremondain -->
+					<PickupQuest NpcId="1012509" QuestId="67545" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+				<If Condition="GetQuestStep(67545) == 1"> <!-- Laurisse De Jervaint -->
+				<If Condition="not IsOnMap(398)"> <!-- Teleport Laurisse De Jervaint -->
+					<GetTo ZoneID="398" XYZ="517.265, -51.1521, 35.5687"/>
+				</If>
+					<TalkTo NpcId="1012515" InteractDistance="2" UseMesh="True" XYZ="517.265, -51.1521, 35.5687"/>
+				</If>
+				<If Condition="GetQuestStep(67545) == 2"> <!-- Fremondain -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Fremondain -->
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+					<HandOver ItemId="10588" RequiresHq="true" QuestId="67545" StepId="2" NpcId="1012509" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+				<If Condition="GetQuestStep(67545) == 255"> <!-- Turn in at Destination -->
+				<If Condition="not IsOnMap(418)"> <!-- Teleport Destination -->
+					<GetTo ZoneID="418" XYZ="83.63464, 23.97186, -32.76117"/>
+				</If>
+					<TurnIn QuestId="67545" StepId="255" NpcId="2005898" Distance="1" XYZ="83.63464, 23.97186, -32.76117"/>
+				</If>
+			</If>		
+		</If>
+		
+	<!-- Blade that was Broken -->
+		<If Condition="not IsQuestCompleted(67546) and Core.Player.ClassLevel &gt; 58">
+			<LogMessage Message="Blade that was Broken"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67546)"> <!-- Pick up Quest Fremondain -->
+					<PickupQuest NpcId="1012509" QuestId="67546" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+
+				<If Condition="GetQuestStep(67546) == 1"> <!-- Brithael -->
+				<If Condition="not IsOnMap(128)"> <!-- Brithael -->
+					<GetTo ZoneID="128" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+					<HandOver ItemId="2001709" QuestId="67546" StepId="1" NpcId="1000997" XYZ="-31.26581, 44.49997, 185.5344"/>
+				</If>
+				<If Condition="GetQuestStep(67546) == 2"> <!-- Gerolt -->
+				<If Condition="not IsOnMap(154)"> <!-- Teleport Gerolt -->
+					<GetTo ZoneID="154" XYZ="440.726, -0.937455, -62.1923"/>
+				</If>
+					<HandOver ItemId="2001709" QuestId="67546" StepId="2" NpcId="1003075" XYZ="440.726, -0.937455, -62.1923"/>
+				</If>
+				<If Condition="GetQuestStep(67546) == 3"> <!-- Drake -->
+					<HandOver ItemId="11877" QuestId="67546" StepId="3" NpcId="1008945" XYZ="445.4565, -0.9374095, -67.36859"/>
+				</If>
+				<If Condition="GetQuestStep(67546) == 4"> <!-- Gerolt -->
+					<HandOver ItemId="2001709" QuestId="67546" StepId="4" NpcId="1003075" XYZ="440.726, -0.937455, -62.1923"/>
+				</If>
+				<If Condition="GetQuestStep(67546) == 255"> <!-- Fremondain -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Fremondain -->
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+					<TurnIn ItemId="2001709" QuestId="67546" StepId="255" NpcId="1012509" Distance="1" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+			</If>
+		</If>
+		
+<!-- Integrity -->
+		<If Condition="not IsQuestCompleted(67547) and Core.Player.ClassLevel &gt; 59">
+			<LogMessage Message="Integrity"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67547)"> <!-- Pick up Quest Fremondain -->
+					<PickupQuest NpcId="1012509" QuestId="67547" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>		
+				<If Condition="GetQuestStep(67547) == 1"> <!-- Fremondain -->
+					<HandOver ItemId="10591" QuestId="67547" StepId="1" NpcId="1012509" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+				<If Condition="GetQuestStep(67547) == 2"> <!-- Laurisse De Jervaint -->
+				<If Condition="not IsOnMap(418)"> <!-- Teleport Laurisse De Jervaint -->
+					<GetTo ZoneID="418" XYZ="80.1306, 24.0645, -32.1703" />
+				</If>
+					<TalkTo NpcId="1013682" InteractDistance="2" UseMesh="True" XYZ="80.1306, 24.0645, -32.1703"/>
+				</If>
+				<If Condition="GetQuestStep(67547) == 255"> <!-- Fremondain -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Fremondain -->
+					<GetTo ZoneID="419" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+					<TurnIn ItemId="2001709" QuestId="67547" StepId="255" NpcId="1012509" Distance="1" XYZ="-190.566, -12.5484, -25.8185"/>
+				</If>
+			</If>
+		</If>
+	</If>
+	
+<!-- Armorer -->
+	<If Condition="Core.Player.CurrentJob == Enums.ClassJobType.Armorer">
+		<LogMessage Message="Starting Armorer Class Quests!"/>
+<!-- My First Doming Hammer -->
+		<If Condition="not IsQuestCompleted(65810)">
+			<LogMessage Message="My First Doming Hammer"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)"> <!-- H'naanza -->
+				<If Condition="not HasQuest(65810)">
+					<PickupQuest NpcId="1001000" QuestId="65810" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<OtherTurnIn ItemId="5056" AllowHq="true" QuestId="65810" StepId="255" NpcId="1001000" XYZ="-32.02869, 41.49999, 208.3923"/>
+			</If>
+		</If>
+		
+<!-- From Thigh To Neck -->
+		<If Condition="not IsQuestCompleted(65811) and Core.Player.ClassLevel &gt; 4">
+			<LogMessage Message="From Thigh To Neck"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)"> <!-- H'naanza -->
+				<If Condition="not HasQuest(65811)">
+					<PickupQuest NpcId="1001000" QuestId="65811" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<OtherTurnIn ItemIds="2226,2226,2226" AllowHq="true" QuestId="65811" StepId="255" NpcId="1001000" XYZ="-32.02869, 41.49999, 208.3923"/>
+			</If>		
+		</If>
+		
+<!-- The Base Fundamentals -->
+		<If Condition="not IsQuestCompleted(65812) and Core.Player.ClassLevel &gt; 9">
+			<LogMessage Message="The Base Fundamentals"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65812)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65812" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<OtherTurnIn ItemId="5071" AllowHq="true" QuestId="65812" StepId="255" NpcId="1001009" XYZ="-30.1366, 41.5, 212.3903"/>
+			</If>		
+		</If>
+		
+<!-- One's Own Worst Critic -->
+		<If Condition="not IsQuestCompleted(65813) and Core.Player.ClassLevel &gt; 14">
+			<LogMessage Message="One's Own Worst Critic"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65813)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65813" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65813) == 1"> <!-- Drystwyda -->
+					<TalkTo NpcId="1001011" InteractDistance="2" UseMesh="True" XYZ="-61.99744, 42.49878, 201.8616"/>
+				</If>
+				<If Condition="GetQuestStep(65813) == 2"> <!-- Blanstyr -->
+					<TalkTo NpcId="1001001" InteractDistance="2" UseMesh="True" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(65813) == 3"> <!-- Blanstyr -->
+					<impHandOver ItemIds="2680,2231" AllowHq="true" QuestId="65813" StepId="3" NpcId="1001001" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(65813) == 4"> <!-- Drystwyda -->
+					<TalkTo NpcId="1001011" InteractDistance="2" UseMesh="True" XYZ="-61.99744, 42.49878, 201.8616"/>
+				</If>
+				<If Condition="GetQuestStep(65813) == 255"> <!-- H'naanza -->
+					<TurnIn NpcId="1001000" QuestId="65813" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+			</If>		
+		</If>
+		
+<!-- An Armorer's Pride -->
+		<If Condition="not IsQuestCompleted(65814) and Core.Player.ClassLevel &gt; 19">
+			<LogMessage Message="An Armorer's Pride"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65814)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65814" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65814) == 255"> <!-- Blanstyr -->
+					<OtherTurnIn ItemId="2236" AllowHq="true" QuestId="65814" StepId="255" NpcId="1001001" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			</If>		
+		</If>
+
+<!-- Showing Your Steel -->
+		<If Condition="not IsQuestCompleted(65815) and Core.Player.ClassLevel &gt; 24">
+			<LogMessage Message="Showing Your Steel"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65815)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65815" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65815) == 255"> <!-- Blanstyr -->
+					<TurnIn ItemId="5058" RequiresHq="true" QuestId="65815" StepId="255" NpcId="1001001" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			</If>		
+		</If>
+		
+<!-- May the Best Armorer Win -->
+		<If Condition="not IsQuestCompleted(65816) and Core.Player.ClassLevel &gt; 29">
+			<LogMessage Message="May the Best Armorer Win"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65816)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65816" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65816) == 1">
+					<If Condition="not IsOnMap(129)">
+						<TeleportTo Name="Limsa Lominsa" AetheryteId="8" />
+					</If>
+					<MoveTo Name="Nortyrwyb" Distance="1" UseMesh="True" XYZ="-154.46, 6.250009, 167.087"/>
+					<TalkTo NpcId="1002107" InteractDistance="2" UseMesh="True" XYZ="-157.2137, 6.250008, 164.9652"/>
+				</If>
+				<If Condition="GetQuestStep(65816) == 2"> <!-- Blanstyr -->
+				<If Condition="not IsOnMap(128)"> <!-- Teleport Blanstyr -->
+					<GetTo ZoneID="128" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+					<TalkTo NpcId="1001001" InteractDistance="2" UseMesh="True" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(65816) == 255"> <!-- Blanstyr -->
+					<TurnIn ItemId="3096" RequiresHq="true" QuestId="65816" StepId="255" NpcId="1001001" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			</If>		
+		</If>
+		
+<!-- Pans of Steel -->
+		<If Condition="not IsQuestCompleted(65817) and Core.Player.ClassLevel &gt; 34">
+			<LogMessage Message="Pans of Steel"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65817)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65817" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65817) == 1"> <!-- H'naanza -->
+					<HandOver ItemId="2502" RequiresHq="true" QuestId="65817" StepId="1" NpcId="1001000" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65817) == 255"> <!-- Lyngsath -->
+					<TurnIn ItemId="2502" RequiresHq="true" QuestId="65817" StepId="255" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			</If>		
+		</If>
+		
+<!-- Best of Three -->
+		<If Condition="not IsQuestCompleted(65818) and Core.Player.ClassLevel &gt; 39">
+			<LogMessage Message="Best of Three"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65818)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65818" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65818) == 1"> <!-- Blanstyr -->
+					<TalkTo NpcId="1001001" InteractDistance="2" UseMesh="True" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(65818) == 2"> <!-- H'naanza -->
+					<HandOver ItemId="3149" RequiresHq="true" QuestId="65818" StepId="2" NpcId="1001000" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65818) == 255"> <!-- Blanstyr -->
+					<TurnIn ItemId="3149" RequiresHq="true" QuestId="65818" StepId="255" NpcId="1001001" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			</If>		
+		</If>
+		
+<!-- For the Good of the Guild -->
+		<If Condition="not IsQuestCompleted(65819) and Core.Player.ClassLevel &gt; 44">
+			<LogMessage Message="For the Good of the Guild"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-31.23862, 41.49998, 205.5451"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65819)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65819" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65819) == 1"> <!-- H'naanza -->
+					<HandOver ItemIds="3861,2830,3868" RequiresHq="true,true,true" QuestId="65819" StepId="1" NpcId="1001000" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(65819) == 255"> <!-- Blanstyr -->
+					<TurnIn QuestId="65819" StepId="255" NpcId="1001001" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			</If>		
+		</If>
+
+<!-- Rivalry and Respect -->
+		<If Condition="not IsQuestCompleted(65820) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Rivalry and Respect"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65820)"> <!-- H'naanza -->
+					<PickupQuest NpcId="1001000" QuestId="65820" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>			
+				<If Condition="GetQuestStep(65820) == 1"> <!-- Zwynberk -->
+				<If Condition="not IsOnMap(129)"> <!-- Teleport Zwynberk -->
+					<GetTo ZoneID="129" XYZ="-202.6857, 16, 56.99243" />
+				</If>	
+					<HandOver ItemId="3203" RequiresHq="true" QuestId="65820" StepId="1" NpcId="1001540" XYZ="-202.6857, 16, 56.99243"/>
+				</If>	
+				<If Condition="GetQuestStep(65820) == 2"> <!-- Blanstyr -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Blanstyr -->
+					<GetTo ZoneID="131" XYZ="-56.44318, 39.97361, 178.7289" />
+				</If>
+					<TalkTo NpcId="1001001" QuestId= "65820" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(65820) == 255"> <!-- H'naanza -->
+					<TurnIn NpcId="1001000" QuestId="65820" StepId="255" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+			</If>		
+		</If>
+		
+<!--The Breaking of Blanstyr -->		
+		<If Condition="not IsQuestCompleted(67574) and Core.Player.ClassLevel &gt; 50">
+			<LogMessage Message="The Breaking of Blanstyr"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+			<If Condition="IsOnMap(128)"> <!-- H'naanza -->
+				<If Condition="not HasQuest(67574)">
+					<PickupQuest NpcId="1001000" QuestId="67574" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(67574) == 1"> <!-- Blanstyr -->
+					<TalkTo NpcId="1001001" QuestId="67574" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(67574) == 2"> <!-- H'naanza -->
+					<TalkTo NpcId="1001000" QuestId="67574" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(67574) == 3"> <!-- Blanstyr -->
+				<If Condition="not IsOnMap(135)"> <!-- Teleport Blanstyr -->
+					<GetTo ZoneID="135" XYZ="314.72, 46.2473, 18.7567"/>
+				</If>
+				<TalkTo NpcId="1012522" QuestId="67574" StepId="3" InteractDistance="2" UseMesh="True" XYZ="314.72, 46.2473, 18.7567"/>
+				</If>			
+				<If Condition="GetQuestStep(67574) == 4"> <!-- H'naanza -->
+				<If Condition="not IsOnMap(129)"> <!-- Teleport H'naanza -->
+					<GetTo ZoneID="129" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+					<TalkTo NpcId="1001000" QuestId="67574" StepId="4" InteractDistance="2" UseMesh="True" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(67574) == 255"> <!-- Blanstyr -->
+					<TurnIn NpcId="1001001" QuestId="67574" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>			
+			</If>
+		</If>
+
+<!-- Light-Headed -->
+		<If Condition="not IsQuestCompleted(67575) and Core.Player.ClassLevel &gt; 53">
+			<LogMessage Message="Light-Headed"/>		
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67575)"> <!-- Blanstyr -->
+					<PickupQuest NpcId="1001001" QuestId="67575" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(67575) == 1"> <!-- Benathaire -->
+					<TalkTo NpcId="1012518" QuestId="67575" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-24.91, 40, 4.995"/>
+				</If>
+				<If Condition="GetQuestStep(67575) == 2"> <!-- Geva -->
+				<If Condition="not IsOnMap(133)"> <!-- Teleport Geva -->
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+					<TalkTo NpcId="1000691" QuestId="67575" StepId="2" InteractDistance="2" UseMesh="True" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(67575) == 2"> <!-- Beatin -->
+				<If Condition="not IsOnMap(132)"> <!-- Teleport Beatin -->
+					<GetTo ZoneID="132" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+					<TalkTo NpcId="1000153" QuestId="67575" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-44.87683, -1.250002, 56.83984"/>
+				</If>
+				<If Condition="GetQuestStep(67575) == 3"> <!-- H'naanza -->
+				<If Condition="not IsOnMap(128)"> <!-- Teleport H'naanza -->
+					<GetTo ZoneID="128" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+					<TalkTo NpcId="1001000" QuestId="67575" StepId="3" InteractDistance="2" UseMesh="True" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(67575) == 255"> <!-- Benathaire -->
+					<TurnIn NpcId="1012518" ItemId="10756" QuestId="67575" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-24.91, 40, 4.995"/>
+				</If>
+			</If>
+		</If>
+		
+<!-- Fancy Lancer -->
+		<If Condition="not IsQuestCompleted(67576) and Core.Player.ClassLevel &gt; 56">
+			<LogMessage Message="Fancy Lancer"/>		
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67576)"> <!-- Blanstyr -->
+					<PickupQuest NpcId="1001001" QuestId="67576" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(67576) == 1"> <!-- Benathaire -->
+					<TalkTo NpcId="1012518" QuestId="67576" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-24.91, 40, 4.995"/>
+				</If>
+				<If Condition="GetQuestStep(67576) == 2"> <!-- H'naanza -->
+					<TalkTo NpcId="1001000" QuestId="67576" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+
+				<If Condition="GetQuestStep(67576) == 3"> <!-- Serendipity -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Serendipity -->	
+					<GetTo ZoneID="131" XYZ="-26.95457, 12.2, 107.8843"/>
+				</If>	
+					<TalkTo NpcId="1004093" QuestId="67576" StepId="3" InteractDistance="2" UseMesh="True" XYZ="-26.95457, 12.2, 107.8843"/>
+				</If>
+				<If Condition="GetQuestStep(67576) == 3"> <!-- Redolent Rose -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Redolent Rose -->
+					<GetTo ZoneID="131" XYZ="155.4446, 7.791982, 102.1763"/>
+				</If>
+					<TalkTo NpcId="1003818" QuestId="67576" StepId="3" InteractDistance="2" UseMesh="True" XYZ="155.4446, 7.791982, 102.1763"/>
+				</If>
+				<If Condition="GetQuestStep(67576) == 4"> <!-- H'naanza -->
+				<If Condition="not IsOnMap(128)"> <!-- Teleport H'naanza -->
+					<GetTo ZoneID="128" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+					<TalkTo NpcId="1001000" QuestId="67576" StepId="4" InteractDistance="2" UseMesh="True" XYZ="-32.02869, 41.49999, 208.3923"/>
+				</If>
+				<If Condition="GetQuestStep(67576) == 255"> <!-- Benathaire -->
+					<TurnIn NpcId="1012518" itemId="10721" RequiresHq="True" QuestId="67576" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-24.91, 40, 4.995"/>
+				</If>
+			</If>
+		</If>
+
+<!-- The Reforging of Blanstyr -->
+		<If Condition="not IsQuestCompleted(67577) and Core.Player.ClassLevel &gt; 58">
+			<LogMessage Message="The Reforging of Blanstyr"/>		
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67577)"> <!-- Blanstyr -->
+					<PickupQuest NpcId="1001001" QuestId="67577" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(67577) == 1"> <!--Benathaire -->
+					<TalkTo NpcId="1012518" QuestId="67577" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-24.91, 40, 4.995"/>
+				</If>
+				<If Condition="GetQuestStep(67577) == 2"> <!-- Wannmaga -->
+				<If Condition="not IsOnMap(155)"> <!-- Teleport Wannmaga -->
+					<GetTo ZoneID="155" XYZ="-128.527, 304.127, -295.816" />
+				</If>				
+					<TalkTo NpcId="1012521" QuestId="67577" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-128.527, 304.127, -295.816" />
+				</If> 
+				<If Condition="GetQuestStep(67577) == 3"> <!-- Pray to Statue of Halone -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Statue of Halone -->
+					<GetTo ZoneID="419" XYZ="-162.1466, 14.95313, -185.525"/>
+				</If>				
+					<MoveTo Name="Prayer Spot" XYZ="-162.1466, 14.95313, -185.525"/>
+					<SoEmoteNpc Emote="pray" XYZ="-162.1466, 14.95313, -185.525" QuestId="67577" StepId="3"/>
+				</If>
+				<If Condition="GetQuestStep(67577) == 4"> <!-- Wannmaga -->
+				<If Condition="not IsOnMap(155)"> <!-- Teleport Wannmaga -->
+					<GetTo ZoneID="155" XYZ="-128.527, 304.127, -295.816" />
+				</If>				
+					<TalkTo NpcId="1012521" QuestId="67577" StepId="4" InteractDistance="2" UseMesh="True" XYZ="-128.527, 304.127, -295.816"/>
+				</If>
+				<If Condition="GetQuestStep(67577) == 255"> <!-- Benathaire -->
+				<If Condition="not IsOnMap(128)"> <!-- Teleport Benathaire -->
+					<GetTo ZoneID="128" XYZ="-24.91, 40, 4.995"/>
+				</If>				
+					<TurnIn NpcId="1012518" ItemId="10667" RequiresHq="true" QuestId="67577" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-24.91, 40, 4.995"/>
+				</If>
+			</If>
+		</If>
+	
+<!-- The Pride of Vymelli -->
+		<If Condition="not IsQuestCompleted(67578) and Core.Player.ClassLevel &gt; 59">
+			<LogMessage Message="The Pride of Vymelli"/>		
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67578)"> <!-- Blanstyr -->
+					<PickupQuest NpcId="1001001" QuestId="67578" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(67578) == 1"> <!-- Benathaire -->
+					<TalkTo NpcId="1013925" QuestId="67578" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-24.91, 40, 4.995"/>
+				</If>
+				<If Condition="GetQuestStep(67578) == 2"> <!-- Blanstyr -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Blanstyr -->
+					<GetTo ZoneID="131" XYZ="-93.6067, 6.5, 31.4414"/>
+				</If>				
+					<TalkTo NpcId="1013790" QuestId="67578" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-93.6067, 6.5, 31.4414"/>
+				</If>
+				<If Condition="GetQuestStep(67578) == 3"> <!-- H'naanza -->
+					<TalkTo NpcId="1012527" QuestId="67578" StepId="3" InteractDistance="2" UseMesh="True" XYZ="1.15, 7.599, 153.105"/>
+				</If> 
+				<If Condition="GetQuestStep(67578) == 4"> <!-- Blanstyr -->
+				<If Condition="not IsOnMap(128)"> <!-- Teleport Blanstyr -->
+					<GetTo ZoneID="128" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>				
+					<HandOver NpcId="1001001" ItemId="10682" RequireHq="True" QuestId="67578" StepId="4" InteractDistance="2" UseMesh="True" XYZ="-56.44318, 39.97361, 178.7289"/>
+				</If>
+				<If Condition="GetQuestStep(67578) == 255"> <!-- Benathaire -->
+				<If Condition="not IsOnMap(129)"> <!-- Teleport Benathaire -->
+					<GetTo ZoneID="129" XYZ="6.48505, 20.3097, 1.08331"/>
+				</If>				
+					<TurnIn NpcId="1013791" ItemId="2001689" QuestId="67578" StepId="255" InteractDistance="2" UseMesh="True" XYZ="6.48505, 20.3097, 1.08331"/>
+				</If>
+			</If>
+		</If>	
+	</If>	
+
+<!-- Goldsmith -->
+	<If Condition="Core.Player.CurrentJob == Enums.ClassJobType.Goldsmith">
+		<LogMessage Message="Starting Goldsmith Class Quests!"/>
+<!-- My First Chaser Hammer -->
+		<If Condition="not IsQuestCompleted(66146)">
+			<LogMessage Message="My First Chaser Hammer"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66146)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66146" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+					<OtherTurnIn ItemId="5062" AllowHq="true" QuestId="66146" StepId="255" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+			</If>
+		</If>
+	
+<!-- Gorgets Rising -->
+		<If Condition="not IsQuestCompleted(66147) and Core.Player.ClassLevel &gt; 4">
+			<LogMessage Message="Gorgets Rising"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66147)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66147" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<OtherTurnIn ItemIds="4305,4305,4305" AllowHq="true" QuestId="66147" StepId="255" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+			</If>
+		</If>
+	
+<!-- Throw Some Rings on It -->
+		<If Condition="not IsQuestCompleted(66149) and Core.Player.ClassLevel &gt; 9">
+			<LogMessage Message="Throw Some Rings on It"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66149)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66149" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66149) == 1"> <!-- Serendipity -->
+					<impHandOver ItemId="5086" AllowHq="true" QuestId="66149" StepId="1" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66149) == 2"><!-- Robert -->
+					<impHandOver ItemId="5086" AllowHq="true" QuestId="66149" StepId="2" NpcId="1004097" XYZ="-22.17145, 14, 73.28906"/>
+				</If>
+				<If Condition="GetQuestStep(66149) == 255"> <!-- Serendipity -->
+					<TurnIn QuestId="66149" StepId="255" NpcId="1004093" InteractDistance="2" UseMesh="true" XYZ="-25.16223, 12.2, 110.7957" />
+				</If>
+			</If>
+		</If>
+	
+<!-- Objectively Speaking -->
+		<If Condition="not IsQuestCompleted(66150) and Core.Player.ClassLevel &gt; 14">
+			<LogMessage Message="Objectively Speaking"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66150)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66150" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66150) == 1"> <!-- Serendipity -->
+					<impHandOver ItemIds="4204,4309" AllowHq="true" QuestId="66150" StepId="1" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66150) == 2"> <!-- Robert -->
+					<impHandOver ItemIds="4204,4309" AllowHq="true" QuestId="66150" StepId="2" NpcId="1004097" XYZ="-22.17145, 14, 73.28906"/>
+				</If>
+				<If Condition="GetQuestStep(66150) == 255"> <!-- Serendipity -->
+					<TurnIn QuestId="66150" StepId="255" NpcId="1004093" InteractDistance="2" UseMesh="true" XYZ="-25.16223, 12.2, 110.7957" />
+				</If>
+			</If>
+		</If>
+
+<!-- A Melding of the Minds -->
+		<If Condition="not IsQuestCompleted(66151) and Core.Player.ClassLevel &gt; 19">
+			<LogMessage Message="A Melding of the Minds"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66151)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66151" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+					<OtherTurnIn ItemId="2111" AllowHq="true" QuestId="66151" StepId="255" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+			</If>
+		</If>
+	
+<!-- Or Ever the Silver Cord Be Loosed -->
+		<If Condition="not IsQuestCompleted(66152) and Core.Player.ClassLevel &gt; 24">
+			<LogMessage Message="Or Ever the Silver Cord Be Loosed"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66152)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66152" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<TurnIn ItemId="5064" RequiresHq="true" QuestId="66152" StepId="255" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+			</If>
+		</If>
+	
+<!-- Serendipity Now -->
+		<If Condition="not IsQuestCompleted(66153) and Core.Player.ClassLevel &gt; 29">
+			<LogMessage Message="Serendipity Now"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66153)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66153" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66153) == 1"> <!-- Serendipity -->
+					<HandOver ItemId="4218" RequiresHq="true" QuestId="66153" StepId="1" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66153) == 2"> <!-- Roroton -->
+				<If Condition="not IsOnMap(130)"> <!-- Teleport Roroton -->
+					<GetTo ZoneID="130" XYZ="-19.27222, 9, -89.15851" />
+				</If>
+					<HandOver ItemId="4218" RequiresHq="true" QuestId="66153" StepId="2" NpcId="1004098" XYZ="-19.27222, 9, -89.15851"/>
+				</If>
+				<If Condition="GetQuestStep(66153) == 255"> <!-- Serendipity -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Serendipity -->
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>					
+				</If>
+					<TurnIn ItemId="2000509" QuestId="66153" StepId="255" NpcId="1004093" InteractDistance="2" UseMesh="true" XYZ="-25.16223, 12.2, 110.7957" />
+				</If>
+			</If>
+		</If>
+
+<!-- Mammets on Fire -->
+		<If Condition="not IsQuestCompleted(66191) and Core.Player.ClassLevel &gt; 34">
+			<LogMessage Message="Mammets on Fire"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66191)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66191" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+					<TurnIn ItemId="2078" RequiresHq="true" QuestId="66191" StepId="255" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+			</If>
+		</If>
+	
+<!-- The Horns of the Green -->
+		<If Condition="not IsQuestCompleted(66192) and Core.Player.ClassLevel &gt; 39">
+			<LogMessage Message="The Horns of the Green"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66192)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66192" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66192) == 1"> <!-- Serendipity -->
+					<HandOver ItemId="2125" RequiresHq="true" QuestId="66192" StepId="1" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66192) == 2"> <!-- Roroton -->
+				<If Condition="not IsOnMap(130)"> <!-- Teleport Roroton -->
+					<GetTo ZoneID="130" XYZ="-19.27222, 9, -89.15851" />
+				</If>
+					<HandOver ItemId="2125" RequiresHq="true" QuestId="66192" StepId="2" NpcId="1004098" XYZ="-19.27222, 9, -89.15851"/>
+				</If>
+				<If Condition="GetQuestStep(66192) == 255"> <!-- Serendipity -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Serendipity -->
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>					
+				</If>
+					<TurnIn QuestId="66192" StepId="255" NpcId="1004093" InteractDistance="2" UseMesh="true" XYZ="-25.16223, 12.2, 110.7957" />
+				</If>
+			</If>
+		</If>
+
+<!-- The Fox in the Hen House -->
+		<If Condition="not IsQuestCompleted(66193) and Core.Player.ClassLevel &gt; 44">
+			<LogMessage Message="The Fox in the Hen House"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66193)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66193" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66193) == 1"> <!-- Serendipity -->
+					<HandOver ItemIds="2876,2878,2872" RequiresHq="true,true,true" QuestId="66193" StepId="1" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66193) == 2"> <!-- Robert -->
+					<TalkTo NpcId="1004097" InteractDistance="2" UseMesh="true" XYZ="-22.17145, 14, 73.28906" />
+				</If>
+				<If Condition="GetQuestStep(66193) == 3"> <!-- Roroton -->
+				<If Condition="not IsOnMap(130)"> <!-- Teleport Roroton -->
+					<GetTo ZoneID="130" XYZ="-19.27222, 9, -89.15851" />
+				</If>
+					<HandOver ItemIds="2876,2878,2872" RequiresHq="true,true,true" QuestId="66193" StepId="3" NpcId="1004098" XYZ="-19.27222, 9, -89.15851"/>
+				</If>
+				<If Condition="GetQuestStep(66193) == 255"> <!-- Serendipity -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Serendipity -->
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>					
+				</If>
+					<TurnIn QuestId="66193" StepId="255" NpcId="1004093" InteractDistance="2" UseMesh="true" XYZ="-25.16223, 12.2, 110.7957" />
+				</If>
+			</If>
+		</If>
+		
+<!-- Form to the Formless -->
+		<If Condition="not IsQuestCompleted(67606) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Form to the Formless"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(67606)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="67606" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(67606) == 1"> <!-- Marcel -->
+					<TalkTo NpcId="1012528" QuestId="67606" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+				<If Condition="GetQuestStep(67606) == 2"> <!-- Serendipity -->
+					<TalkTo NpcId="1004093" QuestId="67606" StepId="2" InteractDistance="2" UseMesh="true" XYZ="-25.16223, 12.2, 110.7957" />
+				</If>
+				<If Condition="GetQuestStep(67606) == 3"> <!-- Momodi -->
+				<If Condition="not IsOnMap(130)"> <!-- Teleport Momodi -->
+					<GetTo ZoneID="130" XYZ="21.0726, 7.45, -78.7823"/>
+				</If>				
+					<TalkTo NpcId="1001353" QuestId="67606" StepId="3" InteractDistance="2" UseMesh="True" XYZ="21.0726, 7.45, -78.7823"/>
+				</If>
+				<If Condition="GetQuestStep(67606) == 255"> <!-- Marcel -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Marcel -->
+					<GetTo ZoneID="131" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>				
+					<TurnIn NpcId="1012528" QuestId="67606" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			</If>
+		</If>
+	
+<!-- Jaded -->
+		<If Condition="not IsQuestCompleted(66194) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Jaded"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66194)"> <!-- Serendipity -->
+					<PickupQuest NpcId="1004093" QuestId="66194" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66194) == 1"> <!-- Serendipity -->
+					<HandOver ItemId="4514" RequiresHq="true" QuestId="66194" StepId="1" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(66194) == 2"> <!-- Serendipity -->
+					<TalkTo NpcId="1004093" InteractDistance="2" UseMesh="true" XYZ="-25.16223, 12.2, 110.7957" />
+				</If>
+				<If Condition="GetQuestStep(66194) == 3"> <!-- Gigi -->
+					<TalkTo NpcId="1006035" InteractDistance="2" UseMesh="true" XYZ="74.17407, 8, -80.1557" />
+				</If>
+				<If Condition="GetQuestStep(66194) == 255"> <!-- Serendipity -->
+					<TurnIn QuestId="66194" StepId="255" NpcId="1004093" InteractDistance="2" UseMesh="true" XYZ="-25.16223, 12.2, 110.7957" />
+				</If>
+			</If>
+		</If>
+		
+<!-- Elegance and Artistry -->
+		<If Condition="not IsQuestCompleted(67607) and Core.Player.ClassLevel &gt; 53">
+			<LogMessage Message="Elegance and Artistry"/>		
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(67607)"> <!-- Marcel -->
+					<PickupQuest NpcId="1012528" QuestId="67607" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If> 
+				<If Condition="GetQuestStep(67607) == 1">
+					<TalkTo NpcId="1012529" QuestId="67607" StepId="1" InteractDistance="2" UseMesh="True" XYZ="132.874, 4, -68.3243"/>
+				</If>
+				<If Condition="GetQuestStep(67607) == 2">
+					<TalkTo NpcId="1012528" QuestId="67607" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+				<If Condition="GetQuestStep(67607) == 255">
+					<TurnIn NpcId="1012528" ItemId="11068" QuestId="67607" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			</If>
+		</If>
+		
+<!-- Double Trouble -->
+		<If Condition="not IsQuestCompleted(67608) and Core.Player.ClassLevel &gt; 55">
+			<LogMessage Message="Double Trouble"/>		
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(67608)"> <!-- Marcel -->
+					<PickupQuest NpcId="1012528" QuestId="67608" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+				<If Condition="GetQuestStep(67608) == 1"> <!-- Serendipity -->
+					<TalkTo NpcId="1004093" QuestId="67608" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(67608) == 2"> <!--Bartelot -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Bartelot -->
+					<GetTo ZoneID="419" XYZ="-18.0975, 15.9897, -5.58375"/>
+				</If>				
+					<HandOver ItemId="2001878" RequiresHq="False" QuestId="67608" StepId="2" NpcId="1011220" XYZ="-18.0975, 15.9897, -5.58375"/>
+				</If>
+				<If Condition="GetQuestStep(67608) == 3"> <!-- Pierryvain -->
+				<If Condition="not IsOnMap(401)"> <!-- Teleport Pierryvain -->
+					<GetTo ZoneID="401" XYZ="-612.702, -119.637, 486.132"/>
+				</If>				
+					<TalkTo NpcId="1012535" QuestId="67608" StepId="3" InteractDistance="2" UseMesh="True" XYZ="-612.702, -119.637, 486.132"/>
+				</If>
+				<If Condition="GetQuestStep(67608) == 4"> <!-- Hand in Ingot Pierryvain -->
+					<HandOver ItemId="12521" RequiresHq="False" QuestId="67608" StepId="4" NpcId="1012535" XYZ="-612.702, -119.637, 486.132"/>
+				</If>		
+				<If Condition="GetQuestStep(67608) == 255"> <!-- Marcel -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Back to Marcel -->
+					<GetTo ZoneID="131" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If> 					
+					<TurnIn NpcId="1012528" ItemId="2001722" QuestId="67608" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			</If>
+		</If>
+
+<!-- A Masterclass -->
+		<If Condition="not IsQuestCompleted(67609) and Core.Player.ClassLevel &gt; 56">
+			<LogMessage Message="A Masterclass"/>		
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			<If Condition="IsOnMap(131)">			
+				<If Condition="not HasQuest(67609)"> <!-- Marcel -->
+					<PickupQuest NpcId="1012528" QuestId="67609" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+				<If Condition="GetQuestStep(67609) == 1"> <!-- Serendipity -->
+					<TalkTo NpcId="1004093" QuestId="67609" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(67609) == 2"> <!-- Colbernoux -->
+					<TalkTo NpcId="1012536" QuestId="67609" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-38.6809, 13.5, 119.22"/>
+				</If>
+				<If Condition="GetQuestStep(67609) == 3"> <!-- Serendipity -->
+					<HandOver ItemId="12644" RequiresHq="False" QuestId="67609" StepId="3" NpcId="1004093" XYZ="-25.16223, 12.2, 110.7957"/>
+				</If>
+				<If Condition="GetQuestStep(67609) == 255"> <!-- Marcel -->
+					<TurnIn NpcId="1012528" QuestId="67609" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Two Hearts Beat as One -->
+		<If Condition="not IsQuestCompleted(67610) and Core.Player.ClassLevel &gt; 59">
+			<LogMessage Message="Two Hearts Beat as One"/>		
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(67610)"> <!-- Marcel -->
+					<PickupQuest NpcId="1012528" QuestId="67610" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+				<If Condition="GetQuestStep(67610) == 1"> <!-- Marcel -->
+					<HandOver ItemId="12108, 12109" RequiresHq="False, False" QuestId="67610" StepId="1" NpcId="1012528" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>		
+				<If Condition="GetQuestStep(67610) == 2"> <!-- Still River -->
+				<If Condition="not IsOnMap(130)"> <!-- Teleport Still River -->
+					<GetTo ZoneID="130" XYZ="24.3574, 7.98047, -117.39"/>
+				</If>					
+					<HandOver ItemId="12109" RequiresHq="False" QuestId="67610" StepId="2" NpcId="1012532" XYZ="24.3574, 7.98047, -117.39"/>
+				</If>
+				<If Condition="GetQuestStep(67610) == 3"> <!-- Jeweled Peak -->
+					<HandOver ItemId="12108" RequiresHq="False" QuestId="67610" StepId="3" NpcId="1012530" XYZ="12.6008, 7, -86.4211"/>
+				</If>
+				<If Condition="GetQuestStep(67610) == 255"> <!-- Marcel -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Marcel -->
+					<GetTo ZoneID="131" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>				
+					<TurnIn NpcId="1012528" QuestId="67610" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-57.406, 18.5041, 66.5633"/>
+				</If>
+			</If>
+		</If>
+	</If>
+	
+<!-- Leatherworker -->
+	<If Condition="Core.Player.CurrentJob == Enums.ClassJobType.Leatherworker">
+		<LogMessage Message="Starting Leatherworker Class Quests!"/>
+<!-- My First Head Knife -->
+		<If Condition="not IsQuestCompleted(65745)">
+			<LogMessage Message="My First Head Knife"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)"> <!-- Geva -->
+				<If Condition="not HasQuest(65745)">
+					<PickupQuest NpcId="1000691" QuestId="65745" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+					<OtherTurnIn ItemId="5275" AllowHq="true" QuestId="65745" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+			</If>
+		</If>
+<!-- A Test of Technique -->
+		<If Condition="not IsQuestCompleted(65642) and Core.Player.ClassLevel &gt; 4">
+			<LogMessage Message="A Test of Technique"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)"> <!-- Geva -->
+				<If Condition="not HasQuest(65642)">
+					<PickupQuest NpcId="1000691" QuestId="65642" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+					<OtherTurnIn ItemIds="4304,4304,4304" AllowHq="true" QuestId="65642" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+			</If>
+		</If>
+<!-- Geva's Gambit -->
+		<If Condition="not IsQuestCompleted(65671) and Core.Player.ClassLevel &gt; 9">
+			<LogMessage Message="Geva's Gambit"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)"> <!-- Geva -->
+				<If Condition="not HasQuest(65671)">
+					<PickupQuest NpcId="1000691" QuestId="65671" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+					<OtherTurnIn ItemId="5276" AllowHq="true" QuestId="65671" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+			</If>
+		</If>
+	
+<!-- Working Hells for Leather -->
+		<If Condition="not IsQuestCompleted(65672) and Core.Player.ClassLevel &gt; 14">
+			<LogMessage Message="Working Hells for Leather"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)">
+				<If Condition="not HasQuest(65672)"> <!-- Geva -->
+					<PickupQuest NpcId="1000691" QuestId="65672" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65672) == 1"> <!-- Geva -->
+					<impHandOver ItemIds="3772,4308" AllowHq="true" QuestId="65672" StepId="1" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65672) == 255"> <!-- Sosobati -->
+					<MoveTo Name="Sosobati" Distance="1" UseMesh="true" XYZ="59.30462, 8, -141.0205"/>
+					<SoEmoteNpc Emote="pray" NpcIds="1000681" XYZ="59.30462, 8, -141.0205" QuestId="65672" StepId="255" />
+					<TurnIn QuestId="65672" StepId="255" NpcId="1000681" XYZ="58.73193, 7.980469, -138.5672"/>
+				</If>
+			</If>
+		</If>
+	
+<!-- Aldgoat Everything -->
+		<If Condition="not IsQuestCompleted(65673) and Core.Player.ClassLevel &gt; 19">
+			<LogMessage Message="Aldgoat Everything"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)"> <!-- Geva -->
+				<If Condition="not HasQuest(65673)">
+					<PickupQuest NpcId="1000691" QuestId="65673" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+					<OtherTurnIn ItemId="3784" AllowHq="true" QuestId="65673" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+			</If>
+		</If>
+	
+<!-- Skin in the Game -->
+		<If Condition="not IsQuestCompleted(65587) and Core.Player.ClassLevel &gt; 24">
+			<LogMessage Message="Skin in the Game"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)">
+				<If Condition="not HasQuest(65587)"> <!-- Geva -->
+					<PickupQuest NpcId="1000691" QuestId="65587" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65587) == 1"> <!-- Geva -->
+					<HandOver ItemId="5280" RequiresHq="true" QuestId="65587" StepId="1" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65587) == 2"> <!-- Aymar -->
+				<If Condition="not IsOnMap(132)">
+						<GetTo ZoneID="132" XYZ="34.47009, -7.8, 92.69849"/>
+				</If>
+					<HandOver ItemId="5280" RequiresHq="true" QuestId="65587" StepId="2" NpcId="1000542" XYZ="34.47009, -7.8, 92.69849"/>
+				</If>
+				<If Condition="GetQuestStep(65587) == 255"> <!-- Geva -->
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+					<TurnIn QuestId="65587" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Toadskins of the Father -->
+		<If Condition="not IsQuestCompleted(65597) and Core.Player.ClassLevel &gt; 29">
+			<LogMessage Message="Toadskins of the Father"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)">
+				<If Condition="not HasQuest(65597)"> <!-- Geva -->
+					<PickupQuest NpcId="1000691" QuestId="65597" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65597) == 1"> <!-- Camillain -->
+					<TalkTo NpcId="1000170" InteractDistance="2" UseMesh="true" XYZ="72.09875, 13.98013, -254.9935" />
+				</If>
+				<If Condition="GetQuestStep(65597) == 2"> <!-- Geva -->
+					<TalkTo NpcId="1000691" InteractDistance="2" UseMesh="true" XYZ="71.97681, 8, -166.5217" />
+				</If>
+				<If Condition="GetQuestStep(65597) == 3"> <!-- Geva -->
+					<HandOver ItemId="3100" RequiresHq="true" QuestId="65597" StepId="3" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65597) == 4"> <!-- Camillain -->
+					<HandOver ItemId="3100" RequiresHq="true" QuestId="65597" StepId="4" NpcId="1000170" XYZ="72.09875, 13.98013, -254.9935" />
+				</If>
+				<If Condition="GetQuestStep(65597) == 255"> <!-- Geva -->
+					<TurnIn QuestId="65597" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			</If>
+		</If>
+	
+<!-- Lead by Example -->
+		<If Condition="not IsQuestCompleted(65599) and Core.Player.ClassLevel &gt; 34">
+			<LogMessage Message="Lead by Example"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)"> <!-- Geva -->
+				<If Condition="not HasQuest(65599)">
+					<PickupQuest NpcId="1000691" QuestId="65599" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+					<TurnIn ItemId="3616" RequiresHq="true" QuestId="65599" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+			</If>
+		</If>
+	
+<!-- Brand Loyalty -->
+		<If Condition="not IsQuestCompleted(65600) and Core.Player.ClassLevel &gt; 39">
+			<LogMessage Message="Brand Loyalty"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)">
+				<If Condition="not HasQuest(65600)"> <!-- Geva -->
+					<PickupQuest NpcId="1000691" QuestId="65600" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65600) == 1"> <!-- Geva -->
+					<HandOver ItemId="3639" RequiresHq="true" QuestId="65600" StepId="1" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65600) == 2"> <!-- Sooted Blacksmith -->
+					<impHandOver ItemId="3639" RequiresHq="true" AllowHq= "true" QuestId="65600" StepId="2" NpcId="1003674" XYZ="75.54736, 6.133996, -90.62335"/>
+				</If>
+				<If Condition="GetQuestStep(65600) == 255"> <!-- Geva -->
+					<TurnIn QuestId="65600" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			</If>
+		</If>
+	
+<!-- Dissension in the Ranks -->
+		<If Condition="not IsQuestCompleted(65601) and Core.Player.ClassLevel &gt; 44">
+			<LogMessage Message="Dissension in the Ranks"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)"> 
+				<If Condition="not HasQuest(65601)"> <!-- Geva -->
+					<PickupQuest NpcId="1000691" QuestId="65601" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65601) == 1"> <!-- Geva -->
+					<HandOver ItemIds="3651,2270,4360" RequiresHq="true,true,true" QuestId="65601" StepId="1" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65601) == 2"> <!-- Pimoh Nelhah -->
+					<HandOver ItemId="3651" RequiresHq="true" QuestId="65601" StepId="2" NpcId="1000179" XYZ="-153.1243, 4, -31.50995"/>
+				</If>
+				<If Condition="not IsOnMap(132)"> <!-- Teleport Leuric -->
+					<GetTo ZoneID="132" XYZ="38.10168, -8.011047, 112.5963"/>
+				</If>
+					<HandOver ItemId="2270" RequiresHq="true" QuestId="65601" StepId="2" NpcId="1000371" XYZ="38.10168, -8.011047, 112.5963"/>
+				<If Condition="not IsOnMap(133)"> <!-- Teleport Nhago Jawantal -->
+					<GetTo ZoneID="133" XYZ="149.5841, 13.5714, -105.5466"/>
+				</If>
+					<HandOver ItemId="4360" RequiresHq="true" QuestId="65601" StepId="2" NpcId="1003675" XYZ="149.5841, 13.5714, -105.5466"/>
+				<If Condition="GetQuestStep(65601) == 255">  <!-- Geva -->	
+					<TurnIn QuestId="65601" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Accept No Imitations -->
+		<If Condition="not IsQuestCompleted(65602) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Accept No Imitations"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			<If Condition="IsOnMap(133)">
+				<If Condition="not HasQuest(65602)"> <!-- Geva -->
+					<PickupQuest NpcId="1000691" QuestId="65602" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+				<If Condition="GetQuestStep(65602) == 1">
+					<MoveTo Name="Dauid" Distance="1" UseMesh="true" XYZ="-96.19726, 6.409533, -151.978"/>
+					<HandOver ItemId="2000807" QuestId="65602" StepId="1" NpcId="1003676" XYZ="-94.16345, 5.718591, -155.4131"/>
+				</If>
+				<If Condition="GetQuestStep(65602) == 2"> <!-- Geva -->
+					<TalkTo NpcId="1000691" InteractDistance="2" UseMesh="true" XYZ="71.97681, 8, -166.5217" />
+				</If>
+				<If Condition="GetQuestStep(65602) == 3">
+					<MoveTo Name="Estaine" Distance="1" UseMesh="true" XYZ="-52.65088, 6.749007, -125.2032"/>
+					<HandOver ItemId="3206" RequiredHq="true" NpcId="1000286" StepId="3" XYZ="-53.57446, 7.202537, -118.3643" />
+				</If>
+				<If Condition="GetQuestStep(65602) == 255"> <!-- Geva -->
+					<TurnIn QuestId="65602" StepId="255" NpcId="1000691" XYZ="71.97681, 8, -166.5217"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Turndown Service  -->
+		<If Condition="not IsQuestCompleted(67611) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Turndown Service"/>
+				<If Condition="not IsOnMap(133)">
+					<GetTo ZoneID="133" XYZ="71.9768, 8, -166.522" />
+				</If>
+			<If Condition="IsOnMap(133)">
+				<If Condition="not HasQuest(67611)"> <!-- Geva -->
+					<PickupQuest NpcId="1000691" QuestId="67611" XYZ="71.9768, 8, -166.522"/>					
+				</If>
+				<If Condition="GetQuestStep(67611) == 1"> <!-- Elde -->
+					<If Condition="not IsOnMap(419)"> <!-- Teleport to Elde -->
+						<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+					<HandOver ItemId="2001717" RequiresHq="False" QuestId="67611" StepId="1" NpcId="1012538" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+				<If Condition="GetQuestStep(67611) == 2"> <!-- Mathye -->
+					<TalkTo NpcId="1012181" QuestId="67611" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-248.54, -20.0349, -90.9767"/>
+				</If>
+				<If Condition="GetQuestStep(67611) == 3"> <!-- Elaisse -->
+					<TalkTo NpcId="1012180" QuestId="67611" StepId="3" InteractDistance="2" UseMesh="True" XYZ="-174.169, -12.5555, -21.5556"/>
+				</If>
+				<If Condition="GetQuestStep(67611) == 4"> <!-- Gerhardt -->
+					<TalkTo NpcId="1012542" QuestId="67611" StepId="4" InteractDistance="2" UseMesh="True" XYZ="-119.036, -12.6349, -14.1448"/>
+				</If>
+				<If Condition="GetQuestStep(67611) == 255"> <!-- Elde -->
+					<TurnIn NpcId="1012538" QuestId="67611" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+			</If>		
+		</If>
+
+<!-- By Your Bootstraps -->
+		<If Condition="not IsQuestCompleted(67612) and Core.Player.ClassLevel &gt; 53">
+			<LogMessage Message="By Your Bootstraps"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817" />
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67612)"> <!-- Elde -->
+					<PickupQuest NpcId="1012538" QuestId="67612" XYZ="-259.069, -20.0349, -84.3817"/>					
+				</If>
+				<If Condition="GetQuestStep(67612) == 1"> <!-- Elaisse -->
+					<HandOver ItemId="2001718" RequiresHq="False" QuestId="67612" StepId="1" NpcId="1012180" XYZ="-174.169, -12.5555, -21.5556"/>
+				</If>
+				<If Condition="GetQuestStep(67612) == 2"> <!-- Elde -->
+					<TalkTo NpcId="1012538" QuestId="67612" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+				<If Condition="GetQuestStep(67612) == 255"> <!-- Elde -->
+					<TurnIn NpcId="1012538" ItemId="12007" RequiresHq="True" QuestId="67612" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+			</If>
+		</If>
+		
+<!-- Perfect Pitch -->
+		<If Condition="not IsQuestCompleted(67613) and Core.Player.ClassLevel &gt; 55">
+			<LogMessage Message="Perfect Pitch"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817" />
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67613)"> <!-- Elde -->
+					<PickupQuest NpcId="1012538" QuestId="67613" XYZ="-259.069, -20.0349, -84.3817"/>					
+				</If>
+				<If Condition="GetQuestStep(67613) == 1"> <!-- Gerhardt -->
+					<TalkTo NpcId="1012542" QuestId="67613" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-119.036, -12.6349, -14.1448"/>
+				</If>
+				<If Condition="GetQuestStep(67613) == 2"> <!-- Elde -->
+					<TalkTo NpcId="1012538" QuestId="67613" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+				<If Condition="GetQuestStep(67613) == 3"> <!-- Elde -->
+					<HandOver ItemId="10875" RequiresHq="True" QuestId="67613" StepId="3" NpcId="1012538" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>	
+				<If Condition="GetQuestStep(67613) == 4"> <!-- Aubrenard -->
+					<If Condition="not IsOnMap(418)"> <!-- Teleport Aubrenard -->
+						<GetTo ZoneID="418" XYZ="100.572, 15.1216, 44.5715"/>
+				</If>
+					<HandOver ItemId="2001719" RequiresHq="False" QuestId="67613" StepId="4" NpcId="1012544" XYZ="100.572, 15.1216, 44.5715"/>
+				</If>
+				<If Condition="GetQuestStep(67613) == 255"> <!-- Elde -->
+					<If Condition="not IsOnMap(419)"> <!-- Teleport Elde -->
+						<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+					<TurnIn NpcId="1012538" QuestId="67613" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+			</If>
+		</If>
+					
+<!-- From the Hoplon to the Brume -->
+		<If Condition="not IsQuestCompleted(67614) and Core.Player.ClassLevel &gt; 58">
+			<LogMessage Message="From the Hoplon to the Brume"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817" />
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67614)"> <!-- Elde -->
+					<PickupQuest NpcId="1012538" QuestId="67614" XYZ="-259.069, -20.0349, -84.3817"/>					
+				</If>
+				<If Condition="GetQuestStep(67614) == 1"> <!-- Elaisse -->
+					<HandOver ItemId="2001880" RequiresHq="False" QuestId="67614" StepId="1" NpcId="1012180" XYZ="-174.169, -12.5555, -21.5556"/>
+				</If>
+				<If Condition="GetQuestStep(67614) == 2"> <!-- Gerhardt -->
+					<TalkTo NpcId="1012542" QuestId="67614" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-119.036, -12.6349, -14.1448"/>
+				</If>
+				<If Condition="GetQuestStep(67614) == 3"> <!-- Elde -->
+					<TalkTo NpcId="1012538" QuestId="67614" StepId="3" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+				<If Condition="GetQuestStep(67614) == 4"> <!-- Aubrenard -->
+					<If Condition="not IsOnMap(418)"> <!-- Teleport Aubrenard -->
+						<GetTo ZoneID="418" XYZ="32.517, -12.0209, 53.4828"/>
+				</If>	
+					<HandOver ItemId="2001714" RequiresHq="False" QuestId="67614" StepId="4" NpcId="1012545" XYZ="32.517, -12.0209, 53.4828"/>
+				</If>
+				<If Condition="GetQuestStep(67614) == 5"> <!-- Elde -->
+					<If Condition="not IsOnMap(419)"> <!-- Teleport Elde -->
+						<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>				
+					<HandOver ItemId="2001715" RequiresHq="False" QuestId="67614" StepId="5" NpcId="1012538" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+				<If Condition="GetQuestStep(67614) == 255"> <!-- Elde -->
+					<TurnIn NpcId="1012538" ItemId="12024" RequiresHq="True" QuestId="67614" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+			</If>
+		</If>
+					
+<!-- A Winter's Sale -->
+		<If Condition="not IsQuestCompleted(67615) and Core.Player.ClassLevel &gt; 59">
+			<LogMessage Message="A Winter's Sale"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817" />
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67615)"> <!-- Elde -->
+					<PickupQuest NpcId="1012538" QuestId="67615" XYZ="-259.069, -20.0349, -84.3817"/>					
+				</If>				
+				<If Condition="GetQuestStep(67615) == 1"> <!-- Geva -->
+					<If Condition="not IsOnMap(133)"> <!-- Teleport Geva -->
+						<GetTo ZoneID="133" XYZ="71.9768, 8, -166.522"/>
+				</If>				
+					<HandOver ItemId="2001716" RequiresHq="False" QuestId="67615" StepId="1" NpcId="1000691" XYZ="71.9768, 8, -166.522"/>
+				</If>				
+				<If Condition="GetQuestStep(67615) == 2"> <!-- Elde -->
+					<If Condition="not IsOnMap(419)"> <!-- Teleport Elde -->
+						<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>				
+					<TalkTo NpcId="1012538" QuestId="67615" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>				
+				<If Condition="GetQuestStep(67615) == 3"> <!-- Elde -->
+					<HandOver ItemId="12999" RequiresHq="False" QuestId="67615" StepId="3" NpcId="1012538" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+				<If Condition="GetQuestStep(67615) == 4"> <!-- Ortefauchel -->
+					<If Condition="not IsOnMap(418)"> <!-- Teleport Ortefauchel -->
+						<GetTo ZoneID="418" XYZ="87.2488, 23.9791, -26.8303"/>
+				</If>				
+					<TalkTo NpcId="1012540" QuestId="67615" StepId="4" InteractDistance="2" UseMesh="True" XYZ="87.2488, 23.9791, -26.8303"/>
+				</If>
+				<If Condition="GetQuestStep(67615) == 255"> <!-- Elde -->
+					<If Condition="not IsOnMap(419)"> <!-- Teleport Elde -->
+						<GetTo ZoneID="419" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+					<TurnIn NpcId="1012538" QuestId="67615" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-259.069, -20.0349, -84.3817"/>
+				</If>
+			</If>
+		</If>		
+	</If>
+	
+<!-- Weaver -->
+	<If Condition="Core.Player.CurrentJob == Enums.ClassJobType.Weaver">
+		<LogMessage Message="Starting Weaver Class Quests!"/>
+<!-- My First Needle -->
+		<If Condition="not IsQuestCompleted(66071)">
+			<LogMessage Message="My First Needle"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66071)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66071" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<OtherTurnIn ItemId="5333" AllowHq="true" QuestId="66071" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+			</If>
+		</If>
+	
+<!-- Once More unto the Breeches -->
+		<If Condition="not IsQuestCompleted(66123) and Core.Player.ClassLevel &gt; 4">
+			<LogMessage Message="Once More unto the Breeches"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">			
+				<If Condition="not HasQuest(66123)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66123" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<OtherTurnIn ItemIds="3274,3274,3274" AllowHq="true" QuestId="66123" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+			</If>
+		</If>
+	
+<!-- Alternative Applications -->
+		<If Condition="not IsQuestCompleted(66125) and Core.Player.ClassLevel &gt; 9">
+			<LogMessage Message="Alternative Applications"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66125)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66125" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<OtherTurnIn ItemId="5324" AllowHq="true" QuestId="66125" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+			</If>
+		</If>
+	
+<!-- Practical Needs -->
+		<If Condition="not IsQuestCompleted(66126) and Core.Player.ClassLevel &gt; 14">
+			<LogMessage Message="Practical Needs"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66126)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66126" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(66126) == 1"> <!-- Wawarukka -->
+					<TalkTo NpcId="1003819" InteractDistance="2" UseMesh="true" XYZ="17.74622, 12.27927, 108.2017" />
+				</If>
+				<If Condition="GetQuestStep(66126) == 255"> <!-- Redolent Rose -->
+					<OtherTurnIn ItemIds="2670,3322" AllowHq="true" QuestId="66126" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Materia Concerns -->
+		<If Condition="not IsQuestCompleted(66127) and Core.Player.ClassLevel &gt; 19">
+			<LogMessage Message="Materia Concerns"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>					
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66126)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66127" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(66127) == 1"><!-- Mamajaru -->
+				<If Condition="not IsOnMap(130)"> <!-- Teleport Mamajaru -->
+					<GetTo ZoneID="130" XYZ="-64.56097, 4, -118.1812" />
+				</If>
+					<TalkTo NpcId="1003820" InteractDistance="2" UseMesh="true" XYZ="-64.56097, 4, -118.1812" />				
+				</If>
+				<If Condition="GetQuestStep(66127) == 2"><!-- Redolent Rose -->
+				<If Condition="not IsOnMap(131)"><!-- Teleport Redolent Rose -->
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>					
+				</If>
+				<TalkTo NpcId="1003818" InteractDistance="2" UseMesh="true" XYZ="157.3662, 7.792007, 98.92419" />
+				</If>
+				<If Condition="GetQuestStep(66127) == 255"> <!-- Redolent Rose -->
+					<OtherTurnIn ItemIds="3039" AllowHq="true" QuestId="66127" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			</If>
+		</If>
+
+<!-- That Velveteen Dress -->
+		<If Condition="not IsQuestCompleted(66128) and Core.Player.ClassLevel &gt; 24">
+			<LogMessage Message="That Velveteen Dress"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66128)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66128" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(66128) == 1"> <!-- Babawai-Kokomo -->
+					<TalkTo NpcId="1003823" InteractDistance="2" UseMesh="true" XYZ="-1.236023, 15, 6.851257" />
+					<TalkTo NpcId="1003821" InteractDistance="2" UseMesh="true" XYZ="-0.6256714, 15, 6.454529" />
+				</If>
+				<If Condition="GetQuestStep(66128) == 2"> <!-- Redolent Rose -->
+					<TalkTo NpcId="1003818" InteractDistance="2" UseMesh="true" XYZ="157.3662, 7.792007, 98.92419" />
+				</If>
+				<If Condition="GetQuestStep(66128) == 255"> <!-- Redolent Rose -->
+					<TurnIn ItemId="5326" RequiresHq="true" QuestId="66128" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Miner on a Mission -->
+		<If Condition="not IsQuestCompleted(66129) and Core.Player.ClassLevel &gt; 29">
+			<LogMessage Message="Miner on a Mission"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66129)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66129" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(66129) == 1"> <!-- Wawarukka -->
+					<TalkTo NpcId="1003826" InteractDistance="2" UseMesh="true" XYZ="17.74622, 12.27927, 108.2017" />
+				</If>
+				<If Condition="GetQuestStep(66129) == 255"> <!-- Redolent Rose -->
+					<TurnIn ItemId="3823" RequiresHq="true" QuestId="66129" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Designed by Committee -->
+		<If Condition="not IsQuestCompleted(66187) and Core.Player.ClassLevel &gt; 34">
+			<LogMessage Message="Designed by Committee"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66187)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66187" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(66187) == 1"> <!-- Wawarukka -->
+					<TalkTo NpcId="1003915" InteractDistance="2" UseMesh="true" XYZ="17.74622, 12.27927, 108.2017" />
+				</If>
+				<If Condition="GetQuestStep(66187) == 255"> <!-- Redolent Rose -->
+					<TurnIn ItemId="3125" RequiresHq="true" QuestId="66187" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			</If>
+		</If>
+
+<!-- A Subtle Inquiry -->
+		<If Condition="not IsQuestCompleted(66188) and Core.Player.ClassLevel &gt; 39">
+			<LogMessage Message="A Subtle Inquiry"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+			<If Condition="not HasQuest(66188)"> <!-- Redolent Rose -->
+				<PickupQuest NpcId="1003818" QuestId="66188" XYZ="157.3662, 7.792007, 98.92419"/>
+			</If>
+			<If Condition="GetQuestStep(66188) == 1"> <!-- Kokomo -->
+				<TalkTo NpcId="1003918" InteractDistance="2" UseMesh="true" XYZ="-0.6256714, 15, 6.454529" />
+			</If>
+			<If Condition="GetQuestStep(66188) == 255"> <!-- Redolent Rose -->
+				<TurnIn ItemId="3413" RequiresHq="true" QuestId="66188" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+			</If>
+		</If>
+	</If>
+
+<!-- The Intervention -->
+		<If Condition="not IsQuestCompleted(66189) and Core.Player.ClassLevel &gt; 44">
+			<LogMessage Message="The Intervention"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66189)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66189" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(66189) == 1"> <!-- Wawarukka -->
+					<TalkTo NpcId="1003919" InteractDistance="2" UseMesh="true" XYZ="17.74622, 12.27927, 108.2017" />
+				</If>
+				<If Condition="GetQuestStep(66189) == 255"> <!-- Redolent Rose -->
+					<TurnIn ItemId="2829,3176,3429" RequiresHq="true,true,true" QuestId="66189" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			</If>
+		</If>
+
+<!-- A Miner Reborn -->
+		<If Condition="not IsQuestCompleted(66190) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="A Miner Reborn"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66190)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="66190" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(66190) == 1"> <!-- Redolent Rose -->
+					<HandOver ItemId="3475,2895,3215" RequiresHq="true,true,true" QuestId="66190" StepId="1" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(66190) == 2"> <!-- Wawarukka -->
+					<TalkTo NpcId="1003921" InteractDistance="2" UseMesh="true" XYZ="23.23944, 14, 10.45239" />
+				</If>
+				<If Condition="GetQuestStep(66190) == 255"> <!-- Redolent Rose -->
+					<TurnIn QuestId="66190" StepId="255" NpcId="1003818" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			</If>
+		</If>
+<!-- The Social Knitwork -->
+		<If Condition="not IsQuestCompleted(67538) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="The Social Knitwork"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(67538)"> <!-- Redolent Rose -->
+					<PickupQuest NpcId="1003818" QuestId="67538" XYZ="157.3662, 7.792007, 98.92419"/>					
+				</If>				
+				<If Condition="GetQuestStep(67538) == 1"> <!-- Bartelot -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Bartelot -->
+					<GetTo ZoneID="419" XYZ="-18.0975, 15.9897, -5.58375"/>
+				</If>					
+					<TalkTo NpcId="1011220" QuestId="67538" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-18.0975, 15.9897, -5.58375"/>
+				</If>
+				<If Condition="GetQuestStep(67538) == 2"> <!-- Framoncis -->
+					<TalkTo NpcId="1011218" QuestId="67538" StepId="2" InteractDistance="2" UseMesh="True" XYZ="-155.398, -0.134931, -81.2995"/>
+				</If>
+				<If Condition="GetQuestStep(67538) == 3"> <!-- Glenda -->
+					<TalkTo NpcId="1012549" QuestId="67538" StepId="3" InteractDistance="2" UseMesh="True" XYZ="-147.76, 14.9935, -159.801"/>
+				</If>
+				<If Condition="GetQuestStep(67538) == 255"> <!-- Averil -->
+					<TurnIn NpcId="1012548" QuestId="67538" StepId="255" InteractDistance="2" UseMesh="True" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+			</If>
+		</If>
+								
+<!-- Tomboy Foolery -->
+		<If Condition="not IsQuestCompleted(67539) and Core.Player.ClassLevel &gt; 53">
+			<LogMessage Message="Tomboy Foolery"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67539)"> <!-- Averil -->
+					<PickupQuest NpcId="1012548" QuestId="67539" XYZ="86.1737, -4.73493, -30.4632"/>					
+				</If>
+				<If Condition="GetQuestStep(67539) == 1"> <!-- Glenda -->
+					<TalkTo NpcId="1012549" QuestId="67539" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-147.76, 14.9935, -159.801"/>
+				</If>
+				<If Condition="GetQuestStep(67539) == 2"> <!-- Averil -->
+					<TalkTo NpcId="1012548" QuestId="67539" StepId="2" InteractDistance="2" UseMesh="True" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+				<If Condition="GetQuestStep(67539) == 255"> <!-- Averil -->
+					<TurnIn ItemId="11966" RequiresHq="True" NpcId="1012548" QuestId="67539" StepId="255" InteractDistance="2" UseMesh="True" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+			</If>
+		</If>
+
+<!-- For Lover and Country -->
+		<If Condition="not IsQuestCompleted(67540) and Core.Player.ClassLevel &gt; 55">
+			<LogMessage Message="For Lover and Country"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67540)"> <!-- Averil -->
+					<PickupQuest NpcId="1012548" QuestId="67540" XYZ="86.1737, -4.73493, -30.4632"/>					
+				</If>
+				<If Condition="GetQuestStep(67540) == 1"> <!-- Well Dressed Townsperson 1 -->
+					<TalkTo NpcId="1012551" QuestId="67540" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-14.9386, 15.9651, -41.7335"/>
+				</If>
+				<If Condition="GetQuestStep(67540) == 1"> <!-- Well Dressed Townsperson 2 -->
+					<TalkTo NpcId="1012550" QuestId="67540" StepId="1" InteractDistance="2" UseMesh="True" XYZ="4.41171, 15.965, 11.541"/>
+				</If>
+				<If Condition="GetQuestStep(67540) == 2"> <!-- Averil -->
+					<TalkTo NpcId="1012548" QuestId="67540" StepId="2" InteractDistance="2" UseMesh="True" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>			
+				<If Condition="GetQuestStep(67540) == 3"> <!-- Redolent Rose -->
+				<If Condition="not IsOnMap(131)"> <!--- Teleport Redolent Rose -->
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>					
+					<TalkTo NpcId="1003818" QuestId="67540" StepId="3" InteractDistance="2" UseMesh="True" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(67540) == 255"> <!-- Averil -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Averil -->
+					<GetTo ZoneID="419" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>				
+					<TurnIn ItemId="10881" RequiresHq="True" NpcId="1012548" QuestId="67540" StepId="255" InteractDistance="2" UseMesh="True" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Spinning the Truth -->
+		<If Condition="not IsQuestCompleted(67541) and Core.Player.ClassLevel &gt; 58">
+			<LogMessage Message="Spinning the Truth"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67541)"> <!-- Averil -->
+					<PickupQuest NpcId="1012548" QuestId="67541" XYZ="86.1737, -4.73493, -30.4632"/>					
+				</If>	
+				<If Condition="GetQuestStep(67541) == 1"> <!-- Glenda -->
+					<HandOver ItemId="2001713" RequiresHq="False" QuestId="67541" StepId="1" NpcId="1012549" XYZ="-147.76, 14.9935, -159.801"/>
+				</If>
+				<If Condition="GetQuestStep(67541) == 2"> <!-- Averil -->
+					<TalkTo NpcId="1012548" QuestId="67541" StepId="2" InteractDistance="2" UseMesh="True" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+				<If Condition="GetQuestStep(67541) == 255"> <!-- Averil -->
+					<TurnIn ItemId="12596" RequiresHq="True" NpcId="1012548" QuestId="67541" StepId="255" InteractDistance="2" UseMesh="True" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+			</If>
+		</If>
+				
+<!-- Never Leave Without a Good-Bye -->
+		<If Condition="not IsQuestCompleted(67542) and Core.Player.ClassLevel &gt; 59">
+			<LogMessage Message="Never Leave Without a Good-Bye"/>
+				<If Condition="not IsOnMap(419)">
+					<GetTo ZoneID="419" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+			<If Condition="IsOnMap(419)">
+				<If Condition="not HasQuest(67542)"> <!-- Averil -->
+					<PickupQuest NpcId="1012548" QuestId="67542" XYZ="86.1737, -4.73493, -30.4632"/>					
+				</If>
+				<If Condition="GetQuestStep(67542) == 1"> <!-- Well Dressed Townsperson 1 -->
+					<TalkTo NpcId="1012553" QuestId="67542" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-53.388, 11.9651, 45.077"/>
+				</If>
+				<If Condition="GetQuestStep(67542) == 1"> <!-- Well Dressed Townsperson 2 -->
+					<TalkTo NpcId="1012552" QuestId="67542" StepId="1" InteractDistance="2" UseMesh="True" XYZ="37.0031, 16.495, -27.6036"/>
+				</If>
+				<If Condition="GetQuestStep(67542) == 2"> <!-- Averil -->
+					<TalkTo NpcId="1012548" QuestId="67542" StepId="2" InteractDistance="2" UseMesh="True" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>				
+				<If Condition="GetQuestStep(67542) == 3"> <!-- Redolent Rose -->
+				<If Condition="not IsOnMap(131)"> <!--- Teleport Redolent Rose -->
+					<GetTo ZoneID="131" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>					
+					<TalkTo NpcId="1003818" QuestId="67542" StepId="3" InteractDistance="2" UseMesh="True" XYZ="157.3662, 7.792007, 98.92419"/>
+				</If>
+				<If Condition="GetQuestStep(67542) == 4"> <!-- Averil -->
+				<If Condition="not IsOnMap(419)"> <!-- Teleport Averil -->
+					<GetTo ZoneID="419" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>					
+					<HandOver ItemId="13001" RequiresHq="False" QuestId="67542" StepId="4" NpcId="1012548" XYZ="86.1737, -4.73493, -30.4632"/>
+				</If>
+				<If Condition="GetQuestStep(67542) == 255"> <!-- Turn In -->
+				<If Condition="not IsOnMap(418)"> <!-- Teleport Turn in -->
+					<GetTo ZoneID="418" XYZ="9.994568, 1.266479, 109.453"/>
+				</If>					
+					<TurnIn NpcId="2005910" QuestId="67542" StepId="255" InteractDistance="2" UseMesh="True" XYZ="9.994568, 1.266479, 109.453"/>
+				</If>
+			</If>
+		</If>		
+	</If>
+
+<!-- Alchemist -->
+	<If Condition="Core.Player.CurrentJob == Enums.ClassJobType.Alchemist">
+		<LogMessage Message="Starting Alchemist Class Quests!"/>
+<!-- My First Alembic -->
+		<If Condition="not IsQuestCompleted(66113)">
+			<LogMessage Message="My First Alembic"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>			
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66113)"> <!-- Severian -->
+					<PickupQuest QuestId="66113" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+					<OtherTurnIn ItemId="5487" AllowHq="true" QuestId="66113" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+			</If>
+		</If>
+	
+<!-- The Second Principle -->
+		<If Condition="not IsQuestCompleted(66114) and Core.Player.ClassLevel &gt; 4">
+			<LogMessage Message="The Second Principle"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66114)"> <!-- Severian -->
+					<PickupQuest QuestId="66114" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+					<OtherTurnIn ItemId="4564" AllowHq="true" QuestId="66114" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+			</If>
+		</If>
+	
+<!-- All of Your Beeswax -->
+		<If Condition="not IsQuestCompleted(66116) and Core.Player.ClassLevel &gt; 9">
+			<LogMessage Message="All of Your Beeswax"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66116)"> <!-- Severian -->
+					<PickupQuest QuestId="66116" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+					<OtherTurnIn ItemId="5515" AllowHq="true" QuestId="66116" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+			</If>
+		</If>
+	
+<!-- For Fair Love -->
+		<If Condition="not IsQuestCompleted(66117) and Core.Player.ClassLevel &gt; 14">
+			<LogMessage Message="For Fair Love"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66117)"> <!-- Severian -->
+					<PickupQuest QuestId="66117" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+				<If Condition="GetQuestStep(66117) == 1"> <!-- Severian -->
+					<impHandOver ItemIds="4597,4595" AllowHq="true" QuestId="66117" StepId="1" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+				<If Condition="GetQuestStep(66117) == 2"> <!-- Ardara -->
+					<impHandOver ItemIds="4597,4595" AllowHq="true" QuestId="66117" StepId="2" NpcId="1003926" XYZ="-80.1557, 7.014143, -5.142395" />
+				</If>
+				<If Condition="GetQuestStep(66117) == 255"> <!-- Severian -->
+					<TurnIn QuestId="66117" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+			</If>
+		</If>
+	
+<!-- The Arcanist's Tome -->
+		<If Condition="not IsQuestCompleted(66118) and Core.Player.ClassLevel &gt; 19">
+			<LogMessage Message="The Arcanist's Tome"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66118)"> <!-- Severian -->
+					<PickupQuest QuestId="66118" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+					<OtherTurnIn ItemId="2149" AllowHq="true" QuestId="66118" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+			</If>
+		</If>
+
+<!-- Practical Alchemy -->
+		<If Condition="not IsQuestCompleted(66119) and Core.Player.ClassLevel &gt; 24">
+			<LogMessage Message="Practical Alchemy"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66119)"> <!-- Severian -->
+					<PickupQuest QuestId="66119" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+					<TurnIn ItemId="5522" RequiresHq="true" QuestId="66119" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+			</If>
+		</If>
+		
+<!-- Baleful Brews -->
+		<If Condition="not IsQuestCompleted(66120) and Core.Player.ClassLevel &gt; 29">
+			<LogMessage Message="Baleful Brews"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66120)"> <!-- Severian -->
+					<PickupQuest QuestId="66120" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+				<If Condition="GetQuestStep(66120) == 1"> <!-- Severian -->
+					<HandOver ItemId="4575" RequiresHq="true" QuestId="66120" StepId="1" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+				<If Condition="GetQuestStep(66120) == 2"> <!-- W'bulea -->
+					<HandOver ItemId="4575" RequiresHq="true" QuestId="66120" StepId="2" NpcId="1003927" XYZ="105.9434, 7.999993, -32.70007" />
+				</If>
+				<If Condition="GetQuestStep(66120) == 255"> <!-- Severian -->
+					<TurnIn QuestId="66120" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+			</If>
+		</If>
+	
+<!-- Cease and Assist -->
+		<If Condition="not IsQuestCompleted(66183) and Core.Player.ClassLevel &gt; 34">
+			<LogMessage Message="Cease and Assist"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66183)"> <!-- Severian -->
+					<PickupQuest QuestId="66183" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+				<If Condition="GetQuestStep(66183) == 1"> <!-- Deitrich -->
+					<TalkTo NpcId="1002281" InteractDistance="3" UseMesh="true" XYZ="-115.5821, 41.59998, 121.0144" />
+				</If>
+				<If Condition="GetQuestStep(66183) == 2"> <!-- Severian -->
+					<TalkTo NpcId="1002299" InteractDistance="2" UseMesh="true" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+				<If Condition="GetQuestStep(66183) == 255"> <!-- Severian -->
+					<TurnIn ItemId="4556" RequiresHq="true" QuestId="66183" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+			</If>
+		</If>
+	
+<!-- Might Made Right -->
+		<If Condition="not IsQuestCompleted(66184) and Core.Player.ClassLevel &gt; 39">
+			<LogMessage Message="Might Made Right"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">				
+				<If Condition="not HasQuest(66184)"> <!-- Severian -->
+					<PickupQuest QuestId="66184" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+					<TurnIn ItemId="4599" RequiresHq="true" QuestId="66184" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+			</If>
+		</If>
+		
+<!-- Ultimate Alchemy -->
+		<If Condition="not IsQuestCompleted(66185) and Core.Player.ClassLevel &gt; 44">
+			<LogMessage Message="Ultimate Alchemy"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66185)"> <!-- Severian -->
+					<PickupQuest QuestId="66185" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+					<TurnIn ItemIds="4607,4608,4606" RequiresHq="true,true,true" QuestId="66185" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+			</If>
+		</If>
+		
+<!-- Momentary Miracle -->
+		<If Condition="not IsQuestCompleted(66186) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Momentary Miracle"/>
+				<If Condition="not IsOnMap(131)">
+					<GetTo ZoneID="131" XYZ="-98.8938, 40.19999, 120.8362"/>					
+				</If>
+			<If Condition="IsOnMap(131)">
+				<If Condition="not HasQuest(66186)"> <!--Severian -->			
+					<PickupQuest QuestId="66186" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>		
+				<If Condition="GetQuestStep(66186) == 1"> <!-- W'bulea -->
+					<TalkTo NpcId="1003927" InteractDistance="2" UseMesh="true" XYZ="105.9434, 7.999993, -32.70007" />
+				</If>
+				<If Condition="GetQuestStep(66186) == 2">
+					<TalkTo NpcId="1001309" InteractDistance="2" UseMesh="true" XYZ="37.67456, 7.999928, -113.2067" />
+					<TalkTo NpcId="1001301" InteractDistance="2" UseMesh="true" XYZ="14.1756, 6.973328, -83.87885" />
+					<TalkTo NpcId="1001354" InteractDistance="2" UseMesh="true" XYZ="-34.16504, 9.099978, -87.44946" />
+				</If>
+				<If Condition="GetQuestStep(66186) == 3"> <!-- Severian -->
+					<HandOver ItemId="1987" RequiresHq="false" QuestId="66186" StepId="3" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+				<If Condition="GetQuestStep(66186) == 255"> <!-- Severian -->
+					<TurnIn QuestId="66186" StepId="255" NpcId="1002299" XYZ="-98.8938, 40.19999, 120.8362" />
+				</If>
+			</If>
+		</If>
+		
+<!-- Magic Marks the Spot -->
+		<If Condition="not IsQuestCompleted(67602) and Core.Player.ClassLevel &gt; 53">
+			<LogMessage Message="Magic Marks the Spot"/>
+				<If Condition="not IsOnMap(156)">
+					<GetTo ZoneID="156" XYZ="76.8951, 22.2367, -640.412" />
+				</If>
+			<If Condition="IsOnMap(156)">
+				<If Condition="not HasQuest(67602)"> <!-- Wiltwaek -->
+					<PickupQuest NpcId="1012558" QuestId="67602" XYZ="76.8951, 22.2367, -640.412"/>					
+				</If>
+				<If Condition="GetQuestStep(67602) == 1"> <!-- Baderon -->
+				<If Condition="not IsOnMap(128)"> <!-- Teleport Baderon -->
+					<GetTo ZoneID="128" XYZ="17.41204, 40.21601, -5.304209"/>
+				</If>					
+					<HandOver ItemId="2001705" RequiresHq="False" QuestId="67602" StepId="1" NpcId="1000972" XYZ="17.41204, 40.21601, -5.304209"/>
+				</If>
+				<If Condition="not IsOnMap(156)"> <!-- Teleport Wiltwaek -->
+					<GetTo ZoneID="156" XYZ="76.8951, 22.2367, -640.412" />
+				</If>
+				<If Condition="GetQuestStep(67602) == 2"> <!-- Wiltwaek -->
+					<HandOver ItemId="2001705" RequiresHq="False" QuestId="67602" StepId="2" NpcId="1012558" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>
+				<If Condition="GetQuestStep(67602) == 3"> <!-- Wiltwaek -->
+					<HandOver ItemId="12601" RequiresHq="True" QuestId="67602" StepId="3" NpcId="1012558" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>
+				<If Condition="GetQuestStep(67602) == 255"> <!-- Wiltwaek -->
+					<OtherTurnIn NpcId="1012560" QuestId="67602" StepId="255" InteractDistance="2" UseMesh="True" XYZ="431.235, -5.50854, -440.635"/>
+				</If>
+			</If>
+		</If>
+		
+<!-- From Hells -->
+		<If Condition="not IsQuestCompleted(67603) and Core.Player.ClassLevel &gt; 55">
+			<LogMessage Message="From Hells"/>
+				<If Condition="not IsOnMap(156)">
+					<GetTo ZoneID="156" XYZ="75.8951, 21.2367, -639.412" />
+				</If>
+			<If Condition="IsOnMap(156)">
+					<GetTo ZoneID="156" XYZ="76.8951, 22.2367, -640.412"/>
+				<If Condition="not HasQuest(67603)"> <!-- Wiltwaek -->
+					<PickupQuest NpcId="1012558" QuestId="67603" XYZ="76.8951, 22.2367, -640.412"/>					
+				</If>
+				<If Condition="GetQuestStep(67603) == 1"> <!-- Chanene -->
+					<TalkTo NpcId="1012563" QuestId="67603" StepId="1" InteractDistance="2" UseMesh="True" XYZ="24.0044, 29, -823.655"/>
+				</If>
+				<If Condition="GetQuestStep(67603) == 2"> <!-- Rowena -->
+					<HandOver ItemId="12615" RequiresHq="True" QuestId="67603" StepId="2" NpcId="1001304" XYZ="25.5894, 28.9768, -825.376"/>
+				</If>
+				<If Condition="GetQuestStep(67603) == 3"> <!-- Wiltwaek -->
+					<TalkTo NpcId="1012558" QuestId="67603" StepId="3" InteractDistance="2" UseMesh="True" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>
+				<If Condition="GetQuestStep(67603) == 4"> <!-- Severian -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Severian -->
+					<GetTo ZoneID="131" XYZ="-98.8689, 40.1769, 120.866"/>
+				</If>				
+					<HandOver ItemId="2001706" RequiresHq="False" QuestId="67603" StepId="4" NpcId="1002299" XYZ="-98.8689, 40.1769, 120.866"/>
+				</If>
+				<If Condition="GetQuestStep(67603) == 255"> <!-- Wiltwaek -->
+				<If Condition="not IsOnMap(156)"> <!-- Teleport Wiltwaek -->
+					<GetTo ZoneID="156" XYZ="76.8951, 22.2367, -640.412" />
+				</If>				
+					<TurnIn ItemId="2001706" RequiresHq="False" NpcId="1012558" QuestId="67603" StepId="255" InteractDistance="2" UseMesh="True" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>
+			</If>
+		</If>
+
+<!-- Burden of Proof -->
+		<If Condition="not IsQuestCompleted(67604) and Core.Player.ClassLevel &gt; 58">
+			<LogMessage Message="Burden of Proof"/>
+				<If Condition="not IsOnMap(156)">
+					<GetTo ZoneID="156" XYZ="76.8951, 22.2367, -640.412" />
+				</If>
+			<If Condition="IsOnMap(156)">
+				<If Condition="not HasQuest(67604)"> <!-- Wiltwaek -->
+					<PickupQuest NpcId="1012558" QuestId="67604" XYZ="76.8951, 22.2367, -640.412"/>					
+				</If>
+				<If Condition="GetQuestStep(67604) == 1"> <!-- Chanene -->
+					<TalkTo NpcId="1012565" QuestId="67604" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-231.42, -3.98459, -541.852"/>
+				</If>
+				<If Condition="GetQuestStep(67604) == 2"> <!-- Estranged Sister -->
+				<If Condition="not IsOnMap(398)"> <!-- Teleport Estranged Sister -->
+					<GetTo ZoneID="398" XYZ="485.099, -51.1414, 40.2075"/>
+				</If>					
+					<HandOver ItemId="2001707" RequiresHq="False" QuestId="67604" StepId="2" NpcId="1013673" XYZ="485.099, -51.1414, 40.2075"/>
+				</If>			
+				<If Condition="GetQuestStep(67604) == 3"> <!-- Wiltwaek -->
+				<If Condition="not IsOnMap(156)"> <!-- Teleport Wiltwaek -->
+					<GetTo ZoneID="156" XYZ="-232.23, -4.08927, -543.584" />
+				</If>					
+					<HandOver ItemId="2001707" RequiresHq="False" QuestId="67604" StepId="3" NpcId="1012558" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>
+				<If Condition="GetQuestStep(67604) == 255"> <!-- Chanene -->
+					<TurnIn ItemId="12622" RequireHq="True" NpcId="1012559" QuestId="67604" StepId="255" InteractDistance="2" UseMesh="True" XYZ="78.2486, 22.2367, -640.01"/>
+				</If>
+			</If>
+		</If>
+
+<!-- What Death can join Together -->
+		<If Condition="not IsQuestCompleted(67605) and Core.Player.ClassLevel &gt; 59">
+			<LogMessage Message="What Death can join Together"/>
+				<If Condition="not IsOnMap(156)">
+					<GetTo ZoneID="156" XYZ="76.8951, 22.2367, -640.412" />
+				</If>
+			<If Condition="IsOnMap(156)">
+				<If Condition="not HasQuest(67605)"> <!-- Wiltwaek -->
+					<PickupQuest NpcId="1012558" QuestId="67605" XYZ="76.8951, 22.2367, -640.412"/>					
+				</If>
+				<If Condition="GetQuestStep(67605) == 1"> <!-- Chanene -->
+					<TalkTo NpcId="1013676" QuestId="67605" StepId="1" InteractDistance="2" UseMesh="True" XYZ="414.228, -6.10586, -445.93"/>
+				</If>
+				<If Condition="GetQuestStep(67605) == 2"> <!-- Chanene -->
+					<TalkTo NpcId="1013677" QuestId="67605" StepId="2" InteractDistance="2" UseMesh="True" XYZ="241.9012, 1.377398, -568.0171"/>
+				</If>
+				<If Condition="GetQuestStep(67605) == 3"> <!-- Wiltwaek -->
+					<TalkTo NpcId="1012558" QuestId="67605" StepId="3" InteractDistance="2" UseMesh="True" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>
+				<If Condition="GetQuestStep(67605) == 4"> <!-- Severian -->
+				<If Condition="not IsOnMap(131)"> <!-- Teleport Severian -->
+					<GetTo ZoneID="131" XYZ="-98.8689, 40.1769, 120.866"/>
+				</If>					
+					<TalkTo NpcId="1002299" QuestId="67605" StepId="4" InteractDistance="2" UseMesh="True" XYZ="-98.8689, 40.1769, 120.866"/>
+				</If>
+				<If Condition="GetQuestStep(67605) == 5"> <!-- Wiltwaek -->
+				<If Condition="not IsOnMap(156)"> <!-- Teleport Wiltwaek -->
+					<GetTo ZoneID="156" XYZ="76.8951, 22.2367, -640.412" />
+				</If>					
+					<HandOver ItemId="2001708" RequiresHq="False" QuestId="67605" StepId="5" NpcId="1012558" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>	
+				<If Condition="GetQuestStep(67605) == 6"> <!-- Wiltwaek -->
+					<HandOver ItemId="10651" RequiresHq="True" QuestId="67605" StepId="6" NpcId="1012558" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>	
+				<If Condition="GetQuestStep(67605) == 255"> <!-- Wiltwaek -->
+					<TurnIn NpcId="1012558" QuestId="67605" StepId="255" InteractDistance="2" UseMesh="True" XYZ="76.8951, 22.2367, -640.412"/>
+				</If>
+			</If>
+		</If>		
+	</If>
+	
+<!-- Culinarian -->
+	<If Condition="Core.Player.CurrentJob == Enums.ClassJobType.Culinarian">
+		<LogMessage Message="Starting Culinarian Class Quests!"/>
+<!-- My First Skillet -->
+		<If Condition="not IsQuestCompleted(65790)">
+			<LogMessage Message="My First Skillet"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)"> <!-- Lyngsath -->
+				<If Condition="not HasQuest(65790)">
+					<PickupQuest QuestId="65790" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<OtherTurnIn ItemId="4849" AllowHq="true" QuestId="65790" StepId="255" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+			</If>
+		</If>
+		
+<!-- A Treat Of Trout -->
+		<If Condition="not IsQuestCompleted(65791) and Core.Player.ClassLevel &gt; 4">
+			<LogMessage Message="A Treat Of Trout"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)"> <!-- Lyngsath -->
+				<If Condition="not HasQuest(65791)">
+					<PickupQuest QuestId="65791" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<OtherTurnIn ItemId="4660" AllowHq="true" QuestId="65791" StepId="255" NpcId="1000950" XYZ="-66.26996, 42.29999, -162.9207" />
+			</If>		
+		</If>
+		
+<!-- Dodo It Yourself -->
+		<If Condition="not IsQuestCompleted(65793) and Core.Player.ClassLevel &gt; 9">
+			<LogMessage Message="Dodo It Yourself"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65793)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65793" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<OtherTurnIn ItemId="4640" AllowHq="true" QuestId="65793" StepId="255" NpcId="1000950" XYZ="-66.26996, 42.29999, -162.9207" />
+			</If>		
+		</If>
+		
+<!-- On a Skewer Tip -->
+		<If Condition="not IsQuestCompleted(65794) and Core.Player.ClassLevel &gt; 14">
+			<LogMessage Message="On a Skewer Tip"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65794)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65794" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<If Condition="GetQuestStep(65794) == 1"> <!-- Ingham -->
+					<TalkTo NpcId="1000950" InteractDistance="2" UseMesh="true" XYZ="-66.26996, 42.29999, -162.9207" />
+				</If>
+				<If Condition="GetQuestStep(65794) == 2"> <!-- Maetimaga -->
+					<TalkTo NpcId="1000965" InteractDistance="2" UseMesh="true" XYZ="-76.98181, 40.99999, -136.2173" />
+				</If>
+				<If Condition="GetQuestStep(65794) == 3"> <!-- Maetimaga -->
+					<impHandOver ItemId="4642" AllowHq="true" QuestId="65794" StepId="3" NpcId="1000965" XYZ="-76.98181, 40.99999, -136.2173" />
+				</If>
+				<If Condition="GetQuestStep(65794) == 255"> <!-- Lyngsath -->
+					<TurnIn QuestId="65794" StepId="255" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+			</If>		
+		</If>
+
+<!-- Releasing a Burden -->
+		<If Condition="not IsQuestCompleted(65795) and Core.Player.ClassLevel &gt; 19">
+			<LogMessage Message="Releasing a Burden"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65795)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65795" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+					<OtherTurnIn ItemId="4730" AllowHq="true" QuestId="65795" StepId="255" NpcId="1000956" XYZ="-52.65894, 42.69984, -160.235" />
+			</If>		
+		</If>
+		
+<!-- Winning Friends with Aldgoat -->
+		<If Condition="not IsQuestCompleted(65796) and Core.Player.ClassLevel &gt; 24">
+			<LogMessage Message="Winning Friends with Aldgoat"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65796)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65796" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+					<OtherTurnIn ItemId="4644" AllowHq="true" QuestId="65796" StepId="255" NpcId="1000956" XYZ="-52.65894, 42.69984, -160.235" />
+			</If>		
+		</If>
+		
+<!-- The Chefsbane Cometh -->
+		<If Condition="not IsQuestCompleted(65802) and Core.Player.ClassLevel &gt; 29">
+			<LogMessage Message="The Chefsbane Cometh"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65802)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65802" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<If Condition="GetQuestStep(65802) == 1"> <!-- Diving Dove -->
+					<TalkTo NpcId="1000956" InteractDistance="2" UseMesh="true" XYZ="-52.65894, 42.69984, -160.235" />
+				</If>
+				<If Condition="GetQuestStep(65802) == 2"> <!-- Nonopesa -->
+					<TalkTo NpcId="1000973" InteractDistance="2" UseMesh="true" XYZ="-91.23376, 40.99999, -154.7723" />
+				</If>
+				<If Condition="GetQuestStep(65802) == 3"> <!-- Nonopesa -->
+					<HandOver ItemId="4645" RequiresHq="true" QuestId="65802" StepId="3" NpcId="1000973" XYZ="-91.23376, 40.99999, -154.7723" />
+				</If>
+				<If Condition="GetQuestStep(65802) == 255"> <!-- Lyngsath -->
+					<TurnIn QuestId="65802" StepId="255" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+			</If>		
+		</If>
+
+<!-- Of Cooks and Books -->
+		<If Condition="not IsQuestCompleted(65803) and Core.Player.ClassLevel &gt; 34">
+			<LogMessage Message="Of Cooks and Books"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65803)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65803" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<If Condition="GetQuestStep(65803) == 1"> <!-- Latisha -->
+					<TalkTo NpcId="1001537" InteractDistance="2" UseMesh="true" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+				<If Condition="GetQuestStep(65803) == 255"> <!-- Latisha -->
+					<TurnIn ItemId="4677" RequiresHq="true" QuestId="65803" StepId="255" NpcId="1001537" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+			</If>		
+		</If>
+
+<!-- Diplomacy of the Skillet -->
+		<If Condition="not IsQuestCompleted(65804) and Core.Player.ClassLevel &gt; 39">
+			<LogMessage Message="Diplomacy of the Skillet"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65804)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65804" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<If Condition="GetQuestStep(65804) == 1"> <!-- Latisha -->
+					<TalkTo NpcId="1001537" InteractDistance="2" UseMesh="true" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+				<If Condition="GetQuestStep(65804) == 255"> <!-- Latisha -->
+					<TurnIn ItemIds="4712,4733,4749" RequiresHq="true,true,true" QuestId="65804" StepId="255" NpcId="1001537" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+			</If>		
+		</If>
+
+<!-- A Taste of Home -->
+		<If Condition="not IsQuestCompleted(65805) and Core.Player.ClassLevel &gt; 44">
+			<LogMessage Message="A Taste of Home"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65805)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65805" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<If Condition="GetQuestStep(65805) == 1"><!-- Latisha -->
+					<TalkTo NpcId="1001537" InteractDistance="2" UseMesh="true" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+				<If Condition="GetQuestStep(65805) == 255"><!-- Latisha -->
+					<TurnIn ItemId="4679" RequiresHq="true" QuestId="65805" StepId="255" NpcId="1001537" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+			</If>		
+		</If>
+
+<!-- Revenge of the Chefsbane -->
+		<If Condition="not IsQuestCompleted(65806) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Revenge of the Chefsbane"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(65805)"> <!-- Lyngsath -->
+					<PickupQuest QuestId="65806" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+				<If Condition="GetQuestStep(65806) == 1"> <!-- Diving Dove -->
+					<TalkTo NpcId="1000956" InteractDistance="2" UseMesh="true" XYZ="-52.65894, 42.69984, -160.235" />
+				</If>
+				<If Condition="GetQuestStep(65806) == 2"> <!-- Latisha -->
+					<TalkTo NpcId="1001537" InteractDistance="2" UseMesh="true" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+				<If Condition="GetQuestStep(65806) == 3"> <!-- Cocorama, Gigiwazu, Rose & Rubh Epocan -->
+					<TalkTo NpcId="1000962" InteractDistance="2" UseMesh="true" XYZ="-85.16064, 40.99998, -141.0392" />
+					<TalkTo NpcId="1002079" InteractDistance="2" UseMesh="true" XYZ="-5.69165, 44.00137, -102.2507" />				
+				<If Condition="not IsOnMap(129)"> <!-- Teleport Rose & Rubh Epocan -->
+					<GetTo ZoneID="129" XYZ="-136.6751, 18.2, 16.495" />
+				</If>
+					<TalkTo NpcId="1003277" InteractDistance="2" UseMesh="true" XYZ="-136.6751, 18.2, 16.495" />
+					<TalkTo NpcId="1000899" InteractDistance="3" UseMesh="true" XYZ="-344.7776, 12.8938, 5.81366" />
+				</If>
+				<If Condition="GetQuestStep(65806) == 4"><!-- Latisha -->
+				<If Condition="not IsOnMap(128)"> <!-- Teleport Latisha -->
+					<GetTo ZoneID="128" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+				<TalkTo NpcId="1001537" InteractDistance="2" UseMesh="true" XYZ="-58.85406, 42.29973, -164.0803" />
+				</If>
+				<If Condition="GetQuestStep(65806) == 5"> <!-- Zanthael -->
+				<If Condition="not IsOnMap(129)"> <!-- Teleport Zanthael -->
+					<GetTo ZoneID="129" XYZ="9.170593, 20.9994, -15.21332" />
+				</If>
+					<HandOver ItemIds="4647,4678,4715,4713" RequiresHq="true,true,true,true" QuestId="65806" StepId="5" NpcId="1001029" XYZ="9.170593, 20.9994, -15.21332" />
+				</If>
+				<If Condition="GetQuestStep(65806) == 255"> <!-- Lyngsath -->
+				<If Condition="not IsOnMap(128)"><!-- Teleport Lyngsath -->
+					<GetTo ZoneID="128" XYZ="-54.64258, 43.99998, -151.2322"/>
+				</If>
+					<TurnIn QuestId="65806" StepId="255" NpcId="1000947" XYZ="-54.64258, 43.99998, -151.2322" />
+				</If>
+			</If>
+		</If>
+<!-- Wait on Me -->
+		<If Condition="not IsQuestCompleted(67579) and Core.Player.ClassLevel &gt; 49">
+			<LogMessage Message="Wait on Me"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="-54.6426, 43.9917, -151.202" />
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67579)"> <!-- Lyngsath -->
+					<PickupQuest NpcId="1000947" QuestId="67579" XYZ="-54.6426, 43.9917, -151.202"/>					
+				</If>
+				<If Condition="GetQuestStep(67579) == 1"> <!-- Melkoko -->
+					<TalkTo NpcId="1012568" QuestId="67579" StepId="1" InteractDistance="2" UseMesh="True" XYZ="69.7248, 44.3999, 135.967"/>
+				</If>
+				<If Condition="GetQuestStep(67579) == 2"> <!-- H'mhasi Tia -->
+					<TalkTo NpcId="1012569" QuestId="67579" StepId="2" InteractDistance="2" UseMesh="True" XYZ="83.7798, 44.4076, 129.228"/>
+				</If>
+				<If Condition="GetQuestStep(67579) == 255"> <!-- Melkoko -->
+					<TurnIn NpcId="1012568" QuestId="67579" StepId="255" InteractDistance="2" UseMesh="True" XYZ="69.7248, 44.3999, 135.967"/>
+				</If>
+			</If>
+		</If>
+				
+<!-- A Spoonful Less Sugar -->
+		<If Condition="not IsQuestCompleted(67580) and Core.Player.ClassLevel &gt; 53">
+			<LogMessage Message="A Spoonful Less Sugar"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="69.7248, 44.3999, 135.967" />
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67580)"> <!-- Melkoko -->
+					<PickupQuest NpcId="1012568" QuestId="67580" XYZ="69.7248, 44.3999, 135.967"/>					
+				</If>
+				<If Condition="GetQuestStep(67580) == 1"> <!-- Contest Council Member -->
+					<TalkTo NpcId="1012570" QuestId="67580" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-74.4754, 42, -153.719"/>
+				</If>
+				<If Condition="GetQuestStep(67580) == 2"> <!-- Melkoko -->
+					<TalkTo NpcId="1012568" QuestId="67580" StepId="2" InteractDistance="2" UseMesh="True" XYZ="69.7248, 44.3999, 135.967"/>
+				</If>
+				<If Condition="GetQuestStep(67580) == 3"> <!-- Sanguine Sirens Steerswoamn -->
+					<TalkTo NpcId="1012571" QuestId="67580" StepId="3" InteractDistance="2" UseMesh="True" XYZ="80.2607, 44.3884, 136.586"/>
+				</If>
+				<If Condition="GetQuestStep(67580) == 4"> <!-- Melkoko -->
+					<TalkTo NpcId="1012568" QuestId="67580" StepId="4" InteractDistance="2" UseMesh="True" XYZ="69.7248, 44.3999, 135.967"/>
+				</If>				
+				<If Condition="GetQuestStep(67580) == 255"> <!-- Melkoko -->
+					<TurnIn NpcId="1012568" ItemId="12842, 12846" RequiresHq="True, False" QuestId="67580" StepId="255" InteractDistance="2" UseMesh="True" XYZ="69.7248, 44.3999, 135.967"/>
+				</If>
+			</If>
+		</If>
+				
+<!-- Looking for some Hot Stuff -->
+		<If Condition="not IsQuestCompleted(67581) and Core.Player.ClassLevel &gt; 55">
+			<LogMessage Message="Looking for some Hot Stuff"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="69.7248, 44.3999, 135.967" />
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67581)"> <!-- Melkoko -->
+					<PickupQuest NpcId="1012568" QuestId="67581" XYZ="69.7248, 44.3999, 135.967"/>					
+				</If>
+				<If Condition="GetQuestStep(67581) == 1"> <!-- Lyngsath -->
+					<TalkTo NpcId="1000947" QuestId="67581" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-54.6426, 43.9917, -151.202"/>
+				</If>
+				<If Condition="GetQuestStep(67581) == 2"> <!-- Rhoswen -->
+					<TalkTo NpcId="1000918" QuestId="67581" StepId="2" InteractDistance="2" UseMesh="True" XYZ="84.1143, 44.428, 132.36"/>
+				</If>
+				<If Condition="GetQuestStep(67581) == 3"> <!-- Carvallain -->
+					<HandOver ItemId="2001676" RequiresHq="False" QuestId="67581" StepId="3" NpcId="1000915" XYZ="18.3871, 47.5929, -162.097"/>
+				</If>	
+				<If Condition="GetQuestStep(67581) == 4"> <!-- House Durendaire Chef -->
+				<If Condition="not IsOnMap(419)"> <!--  -->
+					<GetTo ZoneID="419" XYZ="-153.74, -0.234931, -46.7513"/>
+				</If>					
+					<HandOver ItemId="2001677" RequiresHq="False" QuestId="67581" StepId="4" NpcId="1012572" XYZ="-153.74, -0.234931, -46.7513"/>
+				</If>
+				<If Condition="GetQuestStep(67581) == 255"> <!-- Melkoko -->
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="69.7248, 44.3999, 135.967" />
+				</If>				
+					<TurnIn NpcId="1012568" ItemId="12849, 12862, 12855" RequiresHq="True, True, True" QuestId="67581" StepId="255" InteractDistance="2" UseMesh="True" XYZ="69.7248, 44.3999, 135.967"/>
+				</If>
+			</If>
+		</If>
+								
+<!-- Love Meat Tender -->
+		<If Condition="not IsQuestCompleted(67582) and Core.Player.ClassLevel &gt; 58">
+			<LogMessage Message="Love Meat Tender"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="69.7248, 44.3999, 135.967" />
+				</If>
+			<If Condition="IsOnMap(128)">
+				<If Condition="not HasQuest(67582)"> <!-- Melkoko -->
+					<PickupQuest NpcId="1012568" QuestId="67582" XYZ="69.7248, 44.3999, 135.967"/>					
+				</If>
+				<If Condition="GetQuestStep(67582) == 1"> <!-- Lyngsath -->
+					<TalkTo NpcId="1000947" QuestId="67582" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-54.6426, 43.9917, -151.202"/>
+				</If>
+				<If Condition="GetQuestStep(67582) == 255"> <!-- Lyngsath -->
+					<TurnIn NpcId="1000947" ItemId="12858" RequiresHq="True" QuestId="67582" StepId="255" InteractDistance="2" UseMesh="True" XYZ="-54.6426, 43.9917, -151.202"/>
+				</If>
+			</If>
+		</If>
+
+<!-- The Spirit of Hospitality -->
+		<If Condition="not IsQuestCompleted(67583) and Core.Player.ClassLevel &gt; 59">
+			<LogMessage Message="The Spirit of Hospitality"/>
+				<If Condition="not IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="69.7248, 44.3999, 135.967" />
+				</If>
+			<If Condition="IsOnMap(128)">
+					<GetTo ZoneID="128" XYZ="69.7248, 44.3999, 135.967" />
+				<If Condition="not HasQuest(67583)"> <!-- Melkoko -->
+					<PickupQuest NpcId="1012568" QuestId="67583" XYZ="69.7248, 44.3999, 135.967"/>					
+				</If>	
+				<If Condition="GetQuestStep(67583) == 1"> <!-- Dellemont -->
+					<TalkTo NpcId="1012575" QuestId="67583" StepId="1" InteractDistance="2" UseMesh="True" XYZ="-84.3991, 41, -136.797"/>
+				</If>
+				<If Condition="GetQuestStep(67583) == 2"> <!-- Melkoko -->
+					<TalkTo NpcId="1012568" QuestId="67583" StepId="2" InteractDistance="2" UseMesh="True" XYZ="69.7248, 44.3999, 135.967"/>
+				</If>
+				<If Condition="GetQuestStep(67583) == 3"> <!-- Contest Council Member -->
+					<HandOver ItemId="12854, 12860, 12847" RequiresHq="True, True, True" QuestId="67583" StepId="3" NpcId="1012576" XYZ="-80.906, 41, -139.3"/>
+				</If>
+				<If Condition="GetQuestStep(67583) == 255"> <!-- Melkoko -->
+					<TurnIn NpcId="1012568" QuestId="67583" StepId="255" InteractDistance="2" UseMesh="True" XYZ="69.7248, 44.3999, 135.967"/>
+				</If>
+			</If>
+		</If>		
+	</If>
+	
+	</Order>
+
+</Profile>

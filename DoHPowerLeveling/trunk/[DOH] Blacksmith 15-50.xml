@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Profile [<!-- Job Settings -->
+<!ENTITY Version "Slowpoke">]>
+	<Profile>
+	<Name>DOHPowerLeveling</Name>
+	<KillRadius>50</KillRadius>
+	<Order>
+				<!-- 15 : Iron Rivets -->
+				<If Condition="Core.Player.ClassLevel &lt; 20 and Core.Player.ClassLevel &gt; 14">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Blacksmith 15-20"/>
+					<While Condition="Core.Player.ClassLevel &lt; 20 and HasHqItem(5092)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="161" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Aleport" AetheryteId="14" />
+						<ExTurnInGuildLeve npcId="1001793" npcLocation="292.0781, -24.99481, 235.584" />
+					</While>
+					<If Condition="not HasHqItem(5092) and Core.Player.ClassLevel &lt; 20">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Iron Rivets !"/>
+					</If>
+				</If>
+				<!-- 20 : Iron Sledgehammer  -->
+				<If Condition="Core.Player.ClassLevel &lt; 25 and Core.Player.ClassLevel &gt; 19">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Blacksmith 20-25"/>
+					<While Condition="Core.Player.ClassLevel &lt; 25 and HasHqItem(2537)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="167" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Quarrymill" AetheryteId="5" />
+						<ExTurnInGuildLeve npcId="1001220" npcLocation="167.6966, 9.243, -45.80192" />
+					</While>
+					<If Condition="not HasHqItem(2537) and Core.Player.ClassLevel &lt; 25">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Iron Sledgehammer !"/>
+					</If>
+				</If>
+				<!-- 25 : Steel Broadsword -->
+				<If Condition="Core.Player.ClassLevel &lt; 30 and Core.Player.ClassLevel &gt; 24">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Blacksmith 25-30"/>
+					<While Condition="Core.Player.ClassLevel &lt; 30 and HasHqItem(1625)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="172" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Quarrymill" AetheryteId="5" />
+						<ExTurnInGuildLeve npcId="1001220" npcLocation="167.6966, 9.243, -45.80192" />
+					</While>
+					<If Condition="not HasHqItem(1625) and Core.Player.ClassLevel &lt; 30">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Steel Broadsword !"/>
+					</If>
+				</If>
+				<!-- 30 : Steel Falchion -->
+				<If Condition="Core.Player.ClassLevel &lt; 35 and Core.Player.ClassLevel &gt; 29">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Blacksmith 30-35"/>
+					<While Condition="Core.Player.ClassLevel &lt; 35 and HasHqItem(1633)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="177" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Costa del Sol" AetheryteId="11" />
+						<ExTurnInGuildLeve npcId="1004345" npcLocation="450.1401, 17.7485, 470.3299" />
+					</While>
+					<If Condition="not HasHqItem(1633) and Core.Player.ClassLevel &lt; 35">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Steel Falchion !"/>
+					</If>
+				</If>
+				<!-- 35 : Mythril Broadsword -->
+				<If Condition="Core.Player.ClassLevel &lt; 40 and Core.Player.ClassLevel &gt; 34">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Blacksmith 35-40"/>
+					<While Condition="Core.Player.ClassLevel &lt; 40 and HasHqItem(1643)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="183" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Camp Dragonhead" AetheryteId="23" />
+						<ExTurnInGuildLeve npcId="1002385" npcLocation="239.1644, 222.2132, 327.758" />
+					</While>
+					<If Condition="not HasHqItem(1643) and Core.Player.ClassLevel &lt; 40">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Mythril Broadsword !"/>
+					</If>
+				</If>
+				<!-- 40 : Mythril Sledgehammer -->
+				<If Condition="Core.Player.ClassLevel &lt; 45 and Core.Player.ClassLevel &gt; 39">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Blacksmith 40-45"/>
+					<While Condition="Core.Player.ClassLevel &lt; 45 and HasHqItem(2542)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="189" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Camp Dragonhead" AetheryteId="23" />
+						<ExTurnInGuildLeve npcId="1002402" npcLocation="-405.6902, 210.7882, -267.7335" />
+					</While>
+					<If Condition="not HasHqItem(2542) and Core.Player.ClassLevel &lt; 45">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Mythril Sledgehammer !"/>
+					</If>
+				</If>
+				<!-- 45 : Electrum Head Knife -->
+				<If Condition="Core.Player.ClassLevel &lt; 50 and Core.Player.ClassLevel &gt; 44">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Blacksmith 45-50"/>
+					<While Condition="Core.Player.ClassLevel &lt; 50 and HasHqItem(2427)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="195" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Revenant's Toll" AetheryteId="24" />
+						<ExTurnInGuildLeve npcId="1004349" npcLocation="445, -4.631977, -453.22" />
+					</While>
+					<If Condition="not HasHqItem(2427) and Core.Player.ClassLevel &lt; 50">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Electrum Head Knife !"/>
+					</If>
+				</If>
+	</Order>
+</Profile>

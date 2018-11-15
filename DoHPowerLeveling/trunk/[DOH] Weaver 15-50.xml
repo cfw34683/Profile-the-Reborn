@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Profile [<!-- Job Settings -->
+<!ENTITY Version "Slowpoke">]>
+	<Profile>
+	<Name>DOHPowerLeveling</Name>
+	<KillRadius>50</KillRadius>
+	<Order>
+				<!-- 15 : Cotton Kurta -->
+				<If Condition="Core.Player.ClassLevel &lt; 20 and Core.Player.ClassLevel &gt; 14">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Weaver 15-20"/>
+					<While Condition="Core.Player.ClassLevel &lt; 20 and HasHqItem(3041)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="401" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Camp Drybone" AetheryteId="18" />
+						<ExTurnInGuildLeve npcId="1001801" npcLocation="-394.2583, -57.32689, 128.8821" />
+					</While>
+					<If Condition="not HasHqItem(3041) and Core.Player.ClassLevel &lt; 20">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Cotton Kurta !"/>
+					</If>
+				</If>
+				<!-- 20 : Cotton Doublet Vest Of Gathering -->
+				<If Condition="Core.Player.ClassLevel &lt; 25 and Core.Player.ClassLevel &gt; 19">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Weaver 20-25"/>
+					<While Condition="Core.Player.ClassLevel &lt; 25 and HasHqItem(3053)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="407" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Quarrymill" AetheryteId="5" />
+						<ExTurnInGuildLeve npcId="1001220" npcLocation="167.6966, 9.243, -45.80192" />
+					</While>
+					<If Condition="not HasHqItem(3053) and Core.Player.ClassLevel &lt; 25">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Cotton Doublet Vest Of Gathering !"/>
+					</If>
+				</If>
+				<!-- 25 : Velveteen Wedge Cap Of Gathering -->
+				<If Condition="Core.Player.ClassLevel &lt; 30 and Core.Player.ClassLevel &gt; 24">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Weaver 25-30"/>
+					<While Condition="Core.Player.ClassLevel &lt; 30 and HasHqItem(2734)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="412" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Quarrymill" AetheryteId="5" />
+						<ExTurnInGuildLeve npcId="1001220" npcLocation="167.6966, 9.243, -45.80192" />
+					</While>
+					<If Condition="not HasHqItem(2734) and Core.Player.ClassLevel &lt; 30">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Velveteen Wedge Cap Of Gathering !"/>
+					</If>
+				</If>
+				<!-- 30 : Linen Chausses -->
+				<If Condition="Core.Player.ClassLevel &lt; 35 and Core.Player.ClassLevel &gt; 29">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Weaver 30-35"/>
+					<While Condition="Core.Player.ClassLevel &lt; 35 and HasHqItem(3379)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="417" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Costa del Sol" AetheryteId="11" />
+						<ExTurnInGuildLeve npcId="1004345" npcLocation="450.1401, 17.7485, 470.3299" />
+					</While>
+					<If Condition="not HasHqItem(3379) and Core.Player.ClassLevel &lt; 35">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Linen Chausses !"/>
+					</If>
+				</If>
+				<!-- 35 : Linen Wedge Cap Of Gathering -->
+				<If Condition="Core.Player.ClassLevel &lt; 40 and Core.Player.ClassLevel &gt; 34">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Weaver 35-40"/>
+					<While Condition="Core.Player.ClassLevel &lt; 40 and HasHqItem(2805)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="423" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Camp Dragonhead" AetheryteId="23" />
+						<ExTurnInGuildLeve npcId="1002385" npcLocation="239.1644, 222.2132, 327.758" />
+					</While>
+					<If Condition="not HasHqItem(2805) and Core.Player.ClassLevel &lt; 40">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Linen Wedge Cap Of Gathering !"/>
+					</If>
+				</If>
+				<!-- 40 : Woolen Kecks -->
+				<If Condition="Core.Player.ClassLevel &lt; 45 and Core.Player.ClassLevel &gt; 39">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Weaver 40-45"/>
+					<While Condition="Core.Player.ClassLevel &lt; 45 and HasHqItem(3421)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="429" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Camp Dragonhead" AetheryteId="23" />
+						<ExTurnInGuildLeve npcId="1002402" npcLocation="-405.6902, 210.7882, -267.7335" />
+					</While>
+					<If Condition="not HasHqItem(3421) and Core.Player.ClassLevel &lt; 45">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Woolen Kecks !"/>
+					</If>
+				</If>
+				<!-- 45 : Felt Chausses -->
+				<If Condition="Core.Player.ClassLevel &lt; 50 and Core.Player.ClassLevel &gt; 44">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Weaver 45-50"/>
+					<While Condition="Core.Player.ClassLevel &lt; 50 and HasHqItem(3456)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="435" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Revenant's Toll" AetheryteId="24" />
+						<ExTurnInGuildLeve npcId="1004349" npcLocation="445, -4.631977, -453.22" />
+					</While>
+					<If Condition="not HasHqItem(3456) and Core.Player.ClassLevel &lt; 50">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Felt Chausses !"/>
+					</If>
+				</If>
+	</Order>
+</Profile>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#############################################
+# Profile: [O] Aethernets - All City-states #
+#############################################
+# Author: y2krazy                           #
+#############################################
+# Version: 3.0.1                            #
+#############################################
+# Required Level: 61                        #
+#############################################
+# Required Setup:                           #
+#  Not Without Incident quest completed.    #
+#############################################
+# Required User Interaction:                #
+#  None                                     #
+#############################################
+-->
+<Profile>
+	<Name>[O] Aethernets - All City-states (v3.0.1)</Name>
+	<BehaviorDirectory>../Quest Behaviors</BehaviorDirectory>
+	<KillRadius>90</KillRadius>
+	<Order>
+
+		<If Condition="IsQuestCompleted(65575) and not IsQuestCompleted(66043)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Gridanian Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Gridanian Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsQuestCompleted(65643) and not IsQuestCompleted(66082)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Lominsan Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Lominsan Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsQuestCompleted(66130) and not IsQuestCompleted(66064)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Ul'dahn Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Ul'dahn Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(25) and IsAetheryteKnown(26) and IsAetheryteKnown(27) and IsAetheryteKnown(28) and IsAetheryteKnown(29) and IsAetheryteKnown(30)">
+			<LogMessage Message="[Aethernets - All City-states] You have already unlocked all of the Gridania Aethernet Shards!" />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(25) or not IsAetheryteKnown(26) or not IsAetheryteKnown(27) or not IsAetheryteKnown(28) or not IsAetheryteKnown(29) or not IsAetheryteKnown(30)">
+			<GetTo ZoneId="132" XYZ="-77.78102, -0.5030983, 2.252599" /> <!-- New Gridania -->
+			<GetTo ZoneId="133" XYZ="160.4767, 15.69993, -135.2895" /> <!-- Old Gridania -->
+		</While>
+
+		<If Condition="IsAetheryteKnown(49) and IsAetheryteKnown(43) and IsAetheryteKnown(44) and IsAetheryteKnown(41) and IsAetheryteKnown(42) and IsAetheryteKnown(48)">
+			<LogMessage Message="[Aethernets - All City-states] You have already unlocked all of the Limsa Lominsa Aethernet Shards!" />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(49) or not IsAetheryteKnown(43) or not IsAetheryteKnown(44) or not IsAetheryteKnown(41) or not IsAetheryteKnown(42) or not IsAetheryteKnown(48)">
+			<GetTo ZoneId="129" XYZ="-124.3134, 18, 20.80783" /> <!-- Limsa Lominsa Lower Decks -->
+			<GetTo ZoneId="128" XYZ="94.38336, 40.24703, 60.49877" /> <!-- Limsa Lominsa Upper Decks -->
+		</While>
+
+		<If Condition="IsAetheryteKnown(33) and IsAetheryteKnown(34) and IsAetheryteKnown(35) and IsAetheryteKnown(36) and IsAetheryteKnown(37) and IsAetheryteKnown(47) and IsAetheryteKnown(50) and IsAetheryteKnown(51) and IsAetheryteKnown(125)">
+			<LogMessage Message="[Aethernets - All City-states] You have already unlocked all of the Ul'dah Aethernet Shards!" />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(33) or not IsAetheryteKnown(34) or not IsAetheryteKnown(35) or not IsAetheryteKnown(36) or not IsAetheryteKnown(37) or not IsAetheryteKnown(47) or not IsAetheryteKnown(50) or not IsAetheryteKnown(51) or not IsAetheryteKnown(125)">
+			<GetTo ZoneId="130" XYZ="-152.032, 4.099983, -92.52749" /> <!-- Ul'dah - Steps of Nald -->
+			<GetTo ZoneId="131" XYZ="148.1966, 4, -43.52148" /> <!-- Ul'dah - Steps of Thal -->
+		</While>
+
+        <If Condition="not IsQuestCompleted(67116)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed the Coming to Ishgard quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete Coming to Ishgard and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(80) and IsAetheryteKnown(81) and IsAetheryteKnown(82) and IsAetheryteKnown(83) and IsAetheryteKnown(84) and IsAetheryteKnown(85) and IsAetheryteKnown(86) and IsAetheryteKnown(87)">
+			<LogMessage Message="[Aethernets - All City-states] You have already unlocked all of the Foundation Aethernet Shards!" />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(80) or not IsAetheryteKnown(81) or not IsAetheryteKnown(82) or not IsAetheryteKnown(83) or not IsAetheryteKnown(84) or not IsAetheryteKnown(85) or not IsAetheryteKnown(86) or not IsAetheryteKnown(87)">
+			<GetTo ZoneId="418" XYZ="73.89941, 24.3075, 22.04926" /> <!-- Foundation -->
+			<GetTo ZoneId="419" XYZ="17.99036, 16.00967, -9.567444" /> <!-- The Pillars -->
+		</While>
+
+        <If Condition="not IsQuestCompleted(67191)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed the A Great New Nation quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete A Great New Nation and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(90)">
+			<LogMessage Message="[Aethernets - All City-states] You have already unlocked the Idyllshire Aethernet Shard!" />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(90)">
+			<GetTo ZoneId="478" XYZ="0.1224781, 206.4994, 50.41509" /> <!-- Idyllshire -->
+		</While>
+
+        <If Condition="not IsQuestCompleted(67983)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed the Lyse Takes the Lead quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete Lyse Takes the Lead and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(121) and IsAetheryteKnown(122)">
+			<LogMessage Message="[Aethernets - All City-states] You have already unlocked all of the Rhalgr's Reach Aethernet Shards!" />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(121) or not IsAetheryteKnown(122)">
+			<GetTo ZoneId="635" XYZ="-57.19875, 0, 48.23918" /> <!-- Rhalgr's Reach -->
+		</While>
+
+        <If Condition="not IsQuestCompleted(68005)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed the Not Without Incident quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete Not Without Incident and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(112) and IsAetheryteKnown(113) and IsAetheryteKnown(114) and IsAetheryteKnown(115) and IsAetheryteKnown(116) and IsAetheryteKnown(117) and IsAetheryteKnown(118) and IsAetheryteKnown(119)">
+			<LogMessage Message="[Aethernets - All City-states] You have already unlocked all of the Kugane Aethernet Shards!" />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(112) or not IsAetheryteKnown(113) or not IsAetheryteKnown(114) or not IsAetheryteKnown(115) or not IsAetheryteKnown(116) or not IsAetheryteKnown(117) or not IsAetheryteKnown(118) or not IsAetheryteKnown(119)">
+			<GetTo ZoneId="628" XYZ="-31.31025, 0.1000018, -43.71614" /> <!-- Kugane -->
+		</While>
+
+		<LogMessage Message="[Aethernets - All City-states] You have unlocked all of the City-state Aethernet Shards!" />
+
+	</Order>
+	<CodeChunks>
+	</CodeChunks>
+	<GrindAreas>
+	</GrindAreas>
+</Profile>

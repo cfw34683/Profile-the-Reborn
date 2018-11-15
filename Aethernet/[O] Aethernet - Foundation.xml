@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--	
+#######################################
+# Profile: [O] Aethernet - Foundation #
+#######################################
+# Author: y2krazy                     #
+#######################################
+# Version: 3.0.0                      #
+#######################################
+# Required Level: 50                  #
+#######################################
+# Required Setup:                     #
+#  Coming to Ishgard quest completed. #
+#######################################
+# Required User Interaction:          #
+#  None                               #
+#######################################
+-->
+<Profile>
+	<Name>[O] Aethernet - Foundation (v3.0.0)</Name>
+	<BehaviorDirectory>../Quest Behaviors</BehaviorDirectory>
+	<KillRadius>90</KillRadius>
+	<Order>
+
+        <If Condition="not IsQuestCompleted(67116)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed the Coming to Ishgard quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete Coming to Ishgard and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(80) and IsAetheryteKnown(81) and IsAetheryteKnown(82) and IsAetheryteKnown(83) and IsAetheryteKnown(84) and IsAetheryteKnown(85) and IsAetheryteKnown(86) and IsAetheryteKnown(87)">
+			<LogMessage Message="[Aethernets - Foundation] You have already unlocked all of the Foundation Aethernet Shards!" />
+			<StopBot />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(80) or not IsAetheryteKnown(81) or not IsAetheryteKnown(82) or not IsAetheryteKnown(83) or not IsAetheryteKnown(84) or not IsAetheryteKnown(85) or not IsAetheryteKnown(86) or not IsAetheryteKnown(87)">
+			<GetTo ZoneId="418" XYZ="73.89941, 24.3075, 22.04926" /> <!-- Foundation -->
+			<GetTo ZoneId="419" XYZ="17.99036, 16.00967, -9.567444" /> <!-- The Pillars -->
+		</While>
+
+		<LogMessage Message="[Aethernet - Foundation] You have unlocked all of the Foundation Aethernet Shards!" />
+
+	</Order>
+	<CodeChunks>
+	</CodeChunks>
+	<GrindAreas>
+	</GrindAreas>
+</Profile>

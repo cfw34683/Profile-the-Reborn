@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+############################################
+# Profile: [O] Aethernet - Gridania        #
+############################################
+# Author: y2krazy                          #
+############################################
+# Version: 3.0.0                           #
+############################################
+# Required Level: 15                       #
+############################################
+# Required Setup:                          #
+#  The Gridanian Envoy quest completed, or #
+#  The Lominsan Envoy quest completed, or  #
+#  The Ul'dahn Envoy quest completed.      #
+############################################
+# Required User Interaction:               #
+#  None                                    #
+############################################
+-->
+<Profile>
+	<Name>[O] Aethernet - Gridania (v3.0.0)</Name>
+	<BehaviorDirectory>../Quest Behaviors</BehaviorDirectory>
+	<KillRadius>90</KillRadius>
+	<Order>
+
+		<If Condition="IsQuestCompleted(65575) and not IsQuestCompleted(66043)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Gridanian Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Gridanian Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsQuestCompleted(65643) and not IsQuestCompleted(66082)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Lominsan Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Lominsan Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsQuestCompleted(66130) and not IsQuestCompleted(66064)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Ul'dahn Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Ul'dahn Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(25) and IsAetheryteKnown(26) and IsAetheryteKnown(27) and IsAetheryteKnown(28) and IsAetheryteKnown(29) and IsAetheryteKnown(30)">
+			<LogMessage Message="[Aethernets - Gridania] You have already unlocked all of the Gridania Aethernet Shards!" />
+			<StopBot />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(25) or not IsAetheryteKnown(26) or not IsAetheryteKnown(27) or not IsAetheryteKnown(28) or not IsAetheryteKnown(29) or not IsAetheryteKnown(30)">
+			<GetTo ZoneId="132" XYZ="-77.78102, -0.5030983, 2.252599" /> <!-- New Gridania -->
+			<GetTo ZoneId="133" XYZ="160.4767, 15.69993, -135.2895" /> <!-- Old Gridania -->
+		</While>
+
+		<LogMessage Message="[Aethernets - Gridania] You have unlocked all of the Gridania Aethernet Shards!" />
+
+	</Order>
+	<CodeChunks>
+	</CodeChunks>
+	<GrindAreas>
+	</GrindAreas>
+</Profile>

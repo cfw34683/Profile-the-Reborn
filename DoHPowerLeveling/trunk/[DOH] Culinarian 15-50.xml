@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Profile [<!-- Job Settings -->
+<!ENTITY Version "Slowpoke">]>
+	<Profile>
+	<Name>DOHPowerLeveling</Name>
+	<KillRadius>50</KillRadius>
+	<Order>
+				<!-- 15 : Walnut Bread -->
+				<If Condition="Core.Player.ClassLevel &lt; 20 and Core.Player.ClassLevel &gt; 14">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Culinarian 15-20"/>
+					<While Condition="Core.Player.ClassLevel &lt; 20 and HasHqItem(4697)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="281" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Aleport" AetheryteId="14" />
+						<ExTurnInGuildLeve npcId="1001793" npcLocation="292.0781, -24.99481, 235.584" />
+					</While>
+					<If Condition="not HasHqItem(4697) and Core.Player.ClassLevel &lt; 20">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Walnut Bread !"/>
+					</If>
+				</If>
+				<!-- 20 : Salmon Meuniere  -->
+				<If Condition="Core.Player.ClassLevel &lt; 25 and Core.Player.ClassLevel &gt; 19">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Culinarian 20-25"/>
+					<While Condition="Core.Player.ClassLevel &lt; 25 and HasHqItem(4662)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="287" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Quarrymill" AetheryteId="5" />
+						<ExTurnInGuildLeve npcId="1001220" npcLocation="167.6966, 9.243, -45.80192" />
+					</While>
+					<If Condition="not HasHqItem(4662) and Core.Player.ClassLevel &lt; 25">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Salmon Meuniere !"/>
+					</If>
+				</If>
+				<!-- 25 : 9 x Chicken Stock -->
+				<If Condition="Core.Player.ClassLevel &lt; 30 and Core.Player.ClassLevel &gt; 24">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Culinarian 25-30"/>
+					<While Condition="Core.Player.ClassLevel &lt; 30 and HasHqItem(4867)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="292" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Quarrymill" AetheryteId="5" />
+						<ExTurnInGuildLeve npcId="1001220" npcLocation="167.6966, 9.243, -45.80192" />
+					</While>
+					<If Condition="not HasHqItem(4867) and Core.Player.ClassLevel &lt; 30">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Chicken Stock !"/>
+					</If>
+				</If>
+				<!-- 30 : 5 x Dark Vinegar -->
+				<If Condition="Core.Player.ClassLevel &lt; 35 and Core.Player.ClassLevel &gt; 29">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Culinarian 30-35"/>
+					<While Condition="Core.Player.ClassLevel &lt; 35 and HasHqItem(4860)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="297" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Costa del Sol" AetheryteId="11" />
+						<ExTurnInGuildLeve npcId="1004345" npcLocation="450.1401, 17.7485, 470.3299" />
+					</While>
+					<If Condition="not HasHqItem(4860) and Core.Player.ClassLevel &lt; 35">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Dark Vinegar !"/>
+					</If>
+				</If>
+				<!-- 35 : Knight's Bread -->
+				<If Condition="Core.Player.ClassLevel &lt; 40 and Core.Player.ClassLevel &gt; 34">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Culinarian 35-40"/>
+					<While Condition="Core.Player.ClassLevel &lt; 40 and HasHqItem(4702)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="303" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Camp Dragonhead" AetheryteId="23" />
+						<ExTurnInGuildLeve npcId="1002385" npcLocation="239.1644, 222.2132, 327.758" />
+					</While>
+					<If Condition="not HasHqItem(4702) and Core.Player.ClassLevel &lt; 40">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Knight's Bread !"/>
+					</If>
+				</If>
+				<!-- 40 : 5 x Rolanberry Cheese -->
+				<If Condition="Core.Player.ClassLevel &lt; 45 and Core.Player.ClassLevel &gt; 39">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Culinarian 40-45"/>
+					<While Condition="Core.Player.ClassLevel &lt; 45 and HasHqItem(4757)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="309" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Camp Dragonhead" AetheryteId="23" />
+						<ExTurnInGuildLeve npcId="1002402" npcLocation="-405.6902, 210.7882, -267.7335" />
+					</While>
+					<If Condition="not HasHqItem(4757) and Core.Player.ClassLevel &lt; 45">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Rolanberry Cheese !"/>
+					</If>
+				</If>
+				<!-- 45 : Crowned Pie -->
+				<If Condition="Core.Player.ClassLevel &lt; 50 and Core.Player.ClassLevel &gt; 44">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Culinarian 45-50"/>
+					<While Condition="Core.Player.ClassLevel &lt; 50 and HasHqItem(4713)">
+						<TeleportTo Name="Limsa Lominsa Lower Decks" AetheryteId="8" />
+						<GetTo ZoneId="128" XYZ="16.22756, 40.04852, 68.95342"/>
+						<ExPickupGuildLeve leveIds="315" leveType="Tradecraft" npcId="1000970" npcLocation="-11.09136, 40.01701, -10.87936" />
+						<TeleportTo Name="Revenant's Toll" AetheryteId="24" />
+						<ExTurnInGuildLeve npcId="1004349" npcLocation="445, -4.631977, -453.22" />
+					</While>
+					<If Condition="not HasHqItem(4713) and Core.Player.ClassLevel &lt; 50">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Crowned Pie !"/>
+					</If>
+				</If>
+	</Order>
+</Profile>

@@ -1,0 +1,62 @@
+[
+  {
+    "Item": 12851,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Culinarian",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 12856,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Culinarian",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 12869,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Culinarian",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 13743,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Culinarian",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  }
+]

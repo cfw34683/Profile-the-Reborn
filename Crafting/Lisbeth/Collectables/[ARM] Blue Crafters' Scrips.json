@@ -1,0 +1,62 @@
+[
+  {
+    "Item": 10696,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Armorer",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 10737,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Armorer",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 10694,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Armorer",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 12524,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Blacksmith",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  }
+]

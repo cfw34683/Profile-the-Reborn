@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+############################################
+# Profile: [O] Aethernet - Limsa Lominsa   #
+############################################
+# Author: y2krazy                          #
+############################################
+# Version: 3.0.0                           #
+############################################
+# Required Level: 15                       #
+############################################
+# Required Setup:                          #
+#  The Gridanian Envoy quest completed, or #
+#  The Lominsan Envoy quest completed, or  #
+#  The Ul'dahn Envoy quest completed.      #
+############################################
+# Required User Interaction:               #
+#  None                                    #
+############################################
+-->
+<Profile>
+	<Name>[O] Aethernet - Limsa Lominsa (v3.0.0)</Name>
+	<BehaviorDirectory>../Quest Behaviors</BehaviorDirectory>
+	<KillRadius>90</KillRadius>
+	<Order>
+
+		<If Condition="IsQuestCompleted(65575) and not IsQuestCompleted(66043)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Gridanian Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Gridanian Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsQuestCompleted(65643) and not IsQuestCompleted(66082)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Lominsan Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Lominsan Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsQuestCompleted(66130) and not IsQuestCompleted(66064)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Ul'dahn Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Ul'dahn Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(49) and IsAetheryteKnown(43) and IsAetheryteKnown(44) and IsAetheryteKnown(41) and IsAetheryteKnown(42) and IsAetheryteKnown(48)">
+			<LogMessage Message="[Aethernets - Limsa Lominsa] You have already unlocked all of the Limsa Lominsa Aethernet Shards!" />
+			<StopBot />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(49) or not IsAetheryteKnown(43) or not IsAetheryteKnown(44) or not IsAetheryteKnown(41) or not IsAetheryteKnown(42) or not IsAetheryteKnown(48)">
+			<GetTo ZoneId="129" XYZ="-124.3134, 18, 20.80783" /> <!-- Limsa Lominsa Lower Decks -->
+			<GetTo ZoneId="128" XYZ="94.38336, 40.24703, 60.49877" /> <!-- Limsa Lominsa Upper Decks -->
+		</While>
+
+		<LogMessage Message="[Aethernets - Limsa Lominsa] You have unlocked all of the Limsa Lominsa Aethernet Shards!" />
+
+	</Order>
+	<CodeChunks>
+	</CodeChunks>
+	<GrindAreas>
+	</GrindAreas>
+</Profile>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Profile [<!-- Job Settings -->
+<!ENTITY Version "Slowpoke">]>
+	<Profile>
+	<Name>DOHPowerLeveling</Name>
+	<KillRadius>50</KillRadius>
+	<Order>
+				<!-- 15 : Brass Circlet (Sunstone) -->
+				<If Condition="Core.Player.ClassLevel &lt; 20 and Core.Player.ClassLevel &gt; 14">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Goldsmith 15-20"/>
+					<While Condition="Core.Player.ClassLevel &lt; 20 and HasHqItem(2685)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="461" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Camp Drybone" AetheryteId="18" />
+						<ExTurnInGuildLeve npcId="1001801" npcLocation="-394.2583, -57.32689, 128.8821" />
+					</While>
+					<If Condition="not HasHqItem(2685) and Core.Player.ClassLevel &lt; 20">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Brass Circlet (Sunstone) !"/>
+					</If>
+				</If>
+				<!-- 20 : Wind Brand -->
+				<If Condition="Core.Player.ClassLevel &lt; 25 and Core.Player.ClassLevel &gt; 19">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Goldsmith 20-25"/>
+					<While Condition="Core.Player.ClassLevel &lt; 25 and HasHqItem(2063)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="467" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Quarrymill" AetheryteId="5" />
+						<ExTurnInGuildLeve npcId="1001220" npcLocation="167.6966, 9.243, -45.80192" />
+					</While>
+					<If Condition="not HasHqItem(2063) and Core.Player.ClassLevel &lt; 25">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Wind Brand !"/>
+					</If>
+				</If>
+				<!-- 25 : Fluorite Ring -->
+				<If Condition="Core.Player.ClassLevel &lt; 30 and Core.Player.ClassLevel &gt; 24">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Goldsmith 25-30"/>
+					<While Condition="Core.Player.ClassLevel &lt; 30 and HasHqItem(4450)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="472" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Quarrymill" AetheryteId="5" />
+						<ExTurnInGuildLeve npcId="1001220" npcLocation="167.6966, 9.243, -45.80192" />
+					</While>
+					<If Condition="not HasHqItem(4450) and Core.Player.ClassLevel &lt; 30">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Fluorite Ring !"/>
+					</If>
+				</If>
+				<!-- 30 : Silver Circlet (Goshenite) -->
+				<If Condition="Core.Player.ClassLevel &lt; 35 and Core.Player.ClassLevel &gt; 29">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Goldsmith 30-35"/>
+					<While Condition="Core.Player.ClassLevel &lt; 35 and HasHqItem(2737)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="477" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Costa del Sol" AetheryteId="11" />
+						<ExTurnInGuildLeve npcId="1004345" npcLocation="450.1401, 17.7485, 470.3299" />
+					</While>
+					<If Condition="not HasHqItem(2737) and Core.Player.ClassLevel &lt; 35">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Silver Circlet (Goshenite) !"/>
+					</If>
+				</If>
+				<!-- 35 : Aquamarine Bracelet -->
+				<If Condition="Core.Player.ClassLevel &lt; 40 and Core.Player.ClassLevel &gt; 34">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Goldsmith 35-40"/>
+					<While Condition="Core.Player.ClassLevel &lt; 40 and HasHqItem(4143)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="483" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Camp Dragonhead" AetheryteId="23" />
+						<ExTurnInGuildLeve npcId="1002385" npcLocation="239.1644, 222.2132, 327.758" />
+					</While>
+					<If Condition="not HasHqItem(4143) and Core.Player.ClassLevel &lt; 40">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Aquamarine Bracelet !"/>
+					</If>
+				</If>
+				<!-- 40 : Red Coral Ring -->
+				<If Condition="Core.Player.ClassLevel &lt; 45 and Core.Player.ClassLevel &gt; 39">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Goldsmith 40-45"/>
+					<While Condition="Core.Player.ClassLevel &lt; 45 and HasHqItem(4485)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="489" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Camp Dragonhead" AetheryteId="23" />
+						<ExTurnInGuildLeve npcId="1002402" npcLocation="-405.6902, 210.7882, -267.7335" />
+					</While>
+					<If Condition="not HasHqItem(4485) and Core.Player.ClassLevel &lt; 45">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Red Coral Ring !"/>
+					</If>
+				</If>
+				<!-- 45 : Tourmaline Choker -->
+				<If Condition="Core.Player.ClassLevel &lt; 50 and Core.Player.ClassLevel &gt; 44">
+					<ExLog Color="#FFFF00" Name="PowerLeveLing &Version;"  Message="Goldsmith 45-50"/>
+					<While Condition="Core.Player.ClassLevel &lt; 50 and HasHqItem(4369)">
+						<TeleportTo Name="Ul'dah - Steps of Nald" AetheryteId="9" />
+						<ExPickupGuildLeve leveIds="495" leveType="Tradecraft" npcId="1001794" npcLocation="42.08, 8.006774, -107.67" />
+						<TeleportTo Name="Revenant's Toll" AetheryteId="24" />
+						<ExTurnInGuildLeve npcId="1004349" npcLocation="445, -4.631977, -453.22" />
+					</While>
+					<If Condition="not HasHqItem(4369) and Core.Player.ClassLevel &lt; 50">
+						<ExLog Color="#FFFF00"  Message="Not enough HQ Tourmaline Choker !"/>
+					</If>
+				</If>
+	</Order>
+</Profile>

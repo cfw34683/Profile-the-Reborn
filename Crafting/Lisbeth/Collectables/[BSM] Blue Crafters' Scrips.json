@@ -1,0 +1,62 @@
+[
+  {
+    "Item": 11933,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Blacksmith",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 10596,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Blacksmith",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 10631,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Blacksmith",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  },
+  {
+    "Item": 12524,
+    "Group": 0,
+    "Amount": 0,
+    "Collectable": true,
+    "QuickSynth": false,
+    "SuborderQuickSynth": false,
+    "Hq": false,
+    "Food": 0,
+    "Primary": true,
+    "Type": "Blacksmith",
+    "Enabled": false,
+    "Manual": 0,
+    "Medicine": 0
+  }
+]

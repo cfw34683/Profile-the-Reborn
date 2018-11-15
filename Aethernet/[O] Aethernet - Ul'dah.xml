@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+############################################
+# Profile: [O] Aethernet - Ul'dah          #
+############################################
+# Author: y2krazy                          #
+############################################
+# Version: 3.0.1                           #
+############################################
+# Required Level: 15                       #
+############################################
+# Required Setup:                          #
+#  The Gridanian Envoy quest completed, or #
+#  The Lominsan Envoy quest completed, or  #
+#  The Ul'dahn Envoy quest completed.      #
+############################################
+# Required User Interaction:               #
+#  None                                    #
+############################################
+-->
+<Profile>
+	<Name>[O] Aethernet - Ul'dah (v3.0.1)</Name>
+	<BehaviorDirectory>../Quest Behaviors</BehaviorDirectory>
+	<KillRadius>90</KillRadius>
+	<Order>
+
+		<If Condition="IsQuestCompleted(65575) and not IsQuestCompleted(66043)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Gridanian Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Gridanian Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsQuestCompleted(65643) and not IsQuestCompleted(66082)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Lominsan Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Lominsan Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsQuestCompleted(66130) and not IsQuestCompleted(66064)">
+            <LogMessage Message="[Pre-Requisite Check] You haven't completed The Ul'dahn Envoy quest yet!" />
+			<LogMessage Message="[Pre-Requisite Check] Please complete The Ul'dahn Envoy and restart the profile." />
+			<StopBot />
+		</If>
+
+		<If Condition="IsAetheryteKnown(33) and IsAetheryteKnown(34) and IsAetheryteKnown(35) and IsAetheryteKnown(36) and IsAetheryteKnown(37) and IsAetheryteKnown(47) and IsAetheryteKnown(50) and IsAetheryteKnown(51) and IsAetheryteKnown(125)">
+			<LogMessage Message="[Aethernets - Ul'dah] You have already unlocked all of the Ul'dah Aethernet Shards!" />
+			<StopBot />
+		</If>
+
+		<While Condition="not IsAetheryteKnown(33) or not IsAetheryteKnown(34) or not IsAetheryteKnown(35) or not IsAetheryteKnown(36) or not IsAetheryteKnown(37) or not IsAetheryteKnown(47) or not IsAetheryteKnown(50) or not IsAetheryteKnown(51) or not IsAetheryteKnown(125)">
+			<GetTo ZoneId="130" XYZ="-152.032, 4.099983, -92.52749" /> <!-- Ul'dah - Steps of Nald -->
+			<GetTo ZoneId="131" XYZ="148.1966, 4, -43.52148" /> <!-- Ul'dah - Steps of Thal -->
+		</While>
+
+		<LogMessage Message="[Aethernets - Ul'dah] You have unlocked all of the Ul'dah Aethernet Shards!" />
+
+	</Order>
+	<CodeChunks>
+	</CodeChunks>
+	<GrindAreas>
+	</GrindAreas>
+</Profile>
