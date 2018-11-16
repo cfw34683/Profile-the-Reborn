@@ -1,0 +1,28 @@
+<Profile>
+    <Name>Ifrit Normal</Name>
+    <KillRadius>50</KillRadius>
+
+    <Order>
+        <While Condition="True">
+            <JoinDutyFinder />
+            <CommenceDuty />
+            <WaitWhile Condition="not GameObjectManager.GetObjectByNPCId(1185)" />
+			<MoveTo Name="Fight" XYZ="16, 0, 0" />
+            <Grind GrindRef="Fight" While="GameObjectManager.GetObjectByNPCId(1185)" />
+            <WaitWhile Condition="not GameObjectManager.GetObjectByNPCId(2000139)" />
+            <ExtendedTalkTo NpcId="2000139" While="IsOnMap(202)" XYZ="16, 0, 0" YesnoPopup="Yes" />
+        </While>
+    </Order>
+    
+    <GrindAreas>
+        <GrindArea name="Fight">
+            <Hotspots>
+                <Hotspot Radius="30" XYZ="16, 0, 0" /> <!-- ZoneId: 202 -->
+            </Hotspots>
+            <TargetMobs>
+                <TargetMob Name="Ifrit" Id="1185" />
+            </TargetMobs>
+        </GrindArea>
+    </GrindAreas>
+</Profile>
+
